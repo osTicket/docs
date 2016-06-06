@@ -1,0 +1,2 @@
+# docs
+osTicket Documentation Repo
