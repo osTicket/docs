@@ -16,7 +16,7 @@ There are two places where the Help Topic must be selected on New Tickets; the c
 
 **Help Topic Information Tab:**
 
-.. image:: ../_static/images/admin_manage_ht_htInfo.png
+.. image:: ../../_static/images/admin_manage_ht_htInfo.png
   :alt: Help Topic Info Tab
 
 **Topic:** This is the name of the Help Topic as it will appear to the end-user.
@@ -30,7 +30,7 @@ There are two places where the Help Topic must be selected on New Tickets; the c
 
 **New Ticket Options Tab:**
 
-.. image:: ../_static/images/admin_manage_ht_ntOptions.png
+.. image:: ../../_static/images/admin_manage_ht_ntOptions.png
   :alt: New Ticket Options Tab
 
 **Department:** Tickets with this help topic will be assigned to specified department. Department defaults will be associated with this ticket unless otherwise specified. You can choose the templates that will be used for autoresponse and staff alerts (which will have the department signature if the signature variable is included.)
@@ -52,7 +52,7 @@ There are two places where the Help Topic must be selected on New Tickets; the c
 
 **Forms Tab:**
 
-.. image:: ../_static/images/admin_manage_ht_forms.png
+.. image:: ../../_static/images/admin_manage_ht_forms.png
   :alt: Forms Tab
 
 **Custom Form:** Extra information for tickets associated with this help topic. Custom Forms can be created at Admin Panel > Manage > Forms. The fields of the form will appear once the Help Topic is selected.

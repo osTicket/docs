@@ -6,7 +6,7 @@ Company Settings
 Basic Information
 -----------------
 
-.. image:: ../_static/images/admin_settings_comp_basicInfo.png
+.. image:: ../../_static/images/admin_settings_comp_basicInfo.png
   :alt: Basic Information
 
 This tab contains the information that will be pulled into the email templates for the help desk company information, including Company Name, address, etc. Custom Fields can be added to the Company Information built-in form located at Admin Panel > Manage  > Forms.
@@ -15,14 +15,14 @@ This tab contains the information that will be pulled into the email templates f
 Site Pages
 ----------
 
-.. image: ../_static/images/admin_settings_comp_sitePages.png
+.. image: ../../_static/images/admin_settings_comp_sitePages.png
   :alt: Site Pages
 
 
 Logos
 -----
 
-.. image: ../_static/images/admin_settings_comp_logos.png
+.. image: ../../_static/images/admin_settings_comp_logos.png
   :alt: Logos
 
 The help desk can be branded with a company logo by uploading a company logo at Admin Panel > Settings > Company.

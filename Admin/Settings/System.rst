@@ -6,7 +6,7 @@ System Settings
 General Settings
 ----------------
 
-.. image:: ../_static/images/admin_settings_system_genSettings.png
+.. image:: ../../_static/images/admin_settings_system_genSettings.png
   :alt: General Settings
 
 **Helpdesk Status:** If the status is changed to Offline, the client interface will be disabled. This does not, however, affect any normal Agent interaction with the Agent Panel.

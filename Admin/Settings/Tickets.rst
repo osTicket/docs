@@ -6,7 +6,7 @@ Tickets Settings
 Settings
 --------
 
-.. image:: ../_static/images/admin_settings_tickets_settings.png
+.. image:: ../../_static/images/admin_settings_tickets_settings.png
   :alt: Settings
 
 In this section, you can create standards and rules for each ticket that is created. Review each setting in this tab and determine the best settings for your organization. You can also enable attachments on this tab. All default settings can be overridden at various locations in the help desk.
@@ -15,7 +15,7 @@ In this section, you can create standards and rules for each ticket that is crea
 
 **Default Ticket Number Sequence:** Choose between Random or Sequential numbers for tickets. To create new sequences, click on the Manage button to the far right of the field.
 
-.. image: ../_static/images/admin_settings_tickets_sequence.png
+.. image: ../../_static/images/admin_settings_tickets_sequence.png
   :alt: Ticket Number Sequence
 
 **Default Status:** Choose a status as the default for new tickets. This can be defined for each help topic, if desired. It can also be overridden by a ticket filter.
@@ -43,7 +43,7 @@ The configurations for this field is specific to the User attachment settings wh
 
 With the User Attachment Settings, click the grey “Config” button to configure the settings for the attachment field included in the Ticket Details Built-in Form. This field is available for each ticket opened on the client portal and also allows attachment from any channel a ticket comes into in the help desk. If disabled, this will not allow attachments included in an email sent to the help desk to be included in the ticket. **(Attachments can still be submitted to the ticket if an Attachment field is added to the Ticket Details form or any custom form with attachments disabled globally.)
 
-.. image: ../_static/images/admin_settings_tickets_attachments.png
+.. image: ../../_static/images/admin_settings_tickets_attachments.png
   :alt: Attachments
 
 **Included in the configurations box:**
