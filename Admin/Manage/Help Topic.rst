@@ -1,8 +1,7 @@
 Help Topics
 ===========
 
-Descriptive text about Help Topics.
-
+**Admin Panel > Manage > Help Topics:**
 
 Create and Assign Help Topics
 -----------------------------
@@ -13,8 +12,7 @@ Help Topics will determine what Department the ticket is routed to which will de
 
 There are two places where the Help Topic must be selected on New Tickets; the client portal and new tickets created internally by staff. When Users select the Help Topic, they are not aware of the configurations in place for that Help Topic.
 
-**Admin Panel > Manage > Help Topics:** Admin Panel > Manage > Help Topics > Add New Help Topic or click on existing topic to edit the following:
-
+**Admin Panel > Manage > Help Topics > Add New Help Topic** or click on existing topic to edit the following:
 
 **Help Topic Information Tab:**
 
