@@ -6,6 +6,8 @@
 osTicket Documentation
 ======================
 
+Descriptive text about osTicket Documentation.
+
 
 Table Of Contents
 =================
