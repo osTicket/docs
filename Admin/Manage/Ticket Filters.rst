@@ -1,9 +1,6 @@
 Ticket Filters
 ==============
 
-Descriptive text about Ticket Filters.
-
-
 **Admin Panel > Manage > Ticket Filters**
 
 How to Create Ticket Filters

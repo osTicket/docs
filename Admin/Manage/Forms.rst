@@ -1,9 +1,6 @@
 Forms
 =====
 
-Descriptive text about Forms.
-
-
 **Admin Panel > Manage > Forms**
 
 Creating and Using Forms

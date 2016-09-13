@@ -1,9 +1,6 @@
 SLA Plans
 =========
 
-Descriptive text about SLA Plans.
-
-
 **Admin Panel > Manage > SLA (Service Level Agreements)**
 
 Create A New SLA Plan

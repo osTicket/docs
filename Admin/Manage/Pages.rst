@@ -1,9 +1,6 @@
 Pages
 =====
 
-Descriptive text about Pages.
-
-
 **Admin Panel > Manage > Pages**
 
 How to Edit Site Pages
