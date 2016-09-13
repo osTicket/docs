@@ -10,7 +10,7 @@ Settings
 
 **Default Task Number Sequence:** Choose a sequence from which to derive new task numbers. The system has an incrementing sequence and a random sequence by default. To create a new sequence, click on the Manage tab to the far right of the field.
 
-.. image: _static/images/admin_settings_tasks_sequence.png
+.. image: ../_static/images/admin_settings_tasks_sequence.png
   :alt: Default Number Sequence
 
 **Default Priority:**  Choose a default Priority for tasks not assigned a priority automatically.
@@ -18,7 +18,7 @@ Settings
 **Attachments:**
 Configure settings for files attached to the **Description** field. These settings are used for all new tasks and new messages regardless of the source channel (web portal, email, api, etc.).
 
-.. image: _static/images/admin_settings_tasks_attachments.png
+.. image: ../_static/images/admin_settings_tasks_attachments.png
   :alt: Attachments
 
   **Included in the configurations box:**
