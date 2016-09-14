@@ -41,7 +41,7 @@ In this section, you can create standards and rules for each ticket that is crea
 **Attachments:**
 The configurations for this field is specific to the User attachment settings when opening a ticket on the help desk. Attachments are included by default to the Issue Details field of the built-in Ticket Details Form.
 
-With the User Attachment Settings, click the grey “Config” button to configure the settings for the attachment field included in the Ticket Details Built-in Form. This field is available for each ticket opened on the client portal and also allows attachment from any channel a ticket comes into in the help desk. If disabled, this will not allow attachments included in an email sent to the help desk to be included in the ticket. **(Attachments can still be submitted to the ticket if an Attachment field is added to the Ticket Details form or any custom form with attachments disabled globally.)
+With the User Attachment Settings, click the grey “Config” button to configure the settings for the attachment field included in the Ticket Details Built-in Form. This field is available for each ticket opened on the client portal and also allows attachment from any channel a ticket comes into in the help desk. If disabled, this will not allow attachments included in an email sent to the help desk to be included in the ticket. **(Attachments can still be submitted to the ticket if an Attachment field is added to the Ticket Details form or any custom form with attachments disabled globally.)**
 
 .. image: ../../_static/images/admin_settings_tickets_attachments.png
   :alt: Attachments
