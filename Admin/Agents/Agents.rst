@@ -1,5 +1,5 @@
-API Keys
-========
+Agents
+======
 
 **Admin Panel > Agents > Agents**
 
