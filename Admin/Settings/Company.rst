@@ -15,14 +15,22 @@ This tab contains the information that will be pulled into the email templates f
 Site Pages
 ----------
 
-.. image: ../../_static/images/admin_settings_comp_sitePages.png
+.. image:: ../../_static/images/admin_settings_comp_sitePages.png
   :alt: Site Pages
+
+This is where you choose the layout your User will see for common pages.
+
+**Landing Page:** Displayed on the front page of your website.
+
+**Offline Page:** Displayed when your helpdesk is offline.
+
+**Default Thank-You Page:** Displayed to the User when they submit a new ticket.
 
 
 Logos
 -----
 
-.. image: ../../_static/images/admin_settings_comp_logos.png
+.. image:: ../../_static/images/admin_settings_comp_logos.png
   :alt: Logos
 
 The help desk can be branded with a company logo by uploading a company logo at Admin Panel > Settings > Company.
