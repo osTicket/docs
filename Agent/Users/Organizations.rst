@@ -1,7 +1,7 @@
 Organizations
 =============
 
-**Agent Panel > Users > User Directory**
+**Agent Panel > Users > Organizations**
 
 .. image:: ../../_static/images/agent_users_org_org.png
   :alt: Organizations Tab
