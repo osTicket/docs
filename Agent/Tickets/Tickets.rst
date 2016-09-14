@@ -67,15 +67,15 @@ From the quick action buttons on the top right of the Ticket Header, Agents can 
 .. image:: ../../_static/images/agent_tickets_ticket_moreOptions.png
   :alt: More Options
 
-  **Change Owner:** this allows the Agent to change the owner of the ticket. If the owner is changed, the previous owner will no longer have access to the ticket.
+**Change Owner:** this allows the Agent to change the owner of the ticket. If the owner is changed, the previous owner will no longer have access to the ticket.
 
-  **Manage Forms:** This will allow the agent to attach any Custom Forms of the help desk to the ticket. Fields of the form can be edited once added by clicking on the “Edit” quick button. The fields of the form will not show up on the ticket header until there is information in the fields. If enabled, either the Agent or the ticket owner can edit the fields of the added forms.
+**Manage Forms:** This will allow the agent to attach any Custom Forms of the help desk to the ticket. Fields of the form can be edited once added by clicking on the “Edit” quick button. The fields of the form will not show up on the ticket header until there is information in the fields. If enabled, either the Agent or the ticket owner can edit the fields of the added forms.
 
-  Forms currently on the ticket can be removed from the Manage Form quick button. Any data in the form fields will also be deleted.
+Forms currently on the ticket can be removed from the Manage Form quick button. Any data in the form fields will also be deleted.
 
-  **Ban Email:** A email address can be ban from created tickets in the help desk by added them to the ban list. This action can be undone by the help desk administrator if necessary.  Banning an email address will not delete tickets of that user; this action will have to be done separately if necessary.
+**Ban Email:** A email address can be ban from created tickets in the help desk by added them to the ban list. This action can be undone by the help desk administrator if necessary.  Banning an email address will not delete tickets of that user; this action will have to be done separately if necessary.
 
-  **Delete Ticket:** When selected, a pop-up box will appear allowing the agent to give an optional reason for deletion. Once a ticket is deleted, it is not recoverable! If the agent types a reason in the pop-up box, that note will appear in the System Logs for the Administrator.
+**Delete Ticket:** When selected, a pop-up box will appear allowing the agent to give an optional reason for deletion. Once a ticket is deleted, it is not recoverable! If the agent types a reason in the pop-up box, that note will appear in the System Logs for the Administrator.
 
 **User Information on the Ticket Header**
 
