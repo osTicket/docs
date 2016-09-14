@@ -28,7 +28,7 @@ In this section, you can create standards and rules for each ticket that is crea
 
 **Lock Semantics:** Determine what actions taken by Agents on tickets will create a lock on the tickets. Options include: Disable, Lock on View,  and Lock on Activity.
 
-**Maximum Open Tickets:**  Ma ximum number of open tickets allowed per email/user; helps with spam and email flood control - You can enter 0 for unlimited.
+**Maximum Open Tickets:**  Maximum number of open tickets allowed per email/user; helps with spam and email flood control - You can enter 0 for unlimited.
 
 **Human Verification:** Enable CAPTCHA on the Client Portal to verify an incoming ticket is the result of human activity. Requires GDLib library.
 
