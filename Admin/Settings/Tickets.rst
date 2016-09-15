@@ -47,16 +47,17 @@ With the User Attachment Settings, click the grey “Config” button to configu
   :alt: Attachments
 
 **Included in the configurations box:**
-**Enabling of Attachments:** This is a global setting pertaining to new tickets created on the client portal or emailed into the help desk. If disabled, tickets will be created, but no attachments will be included if sent via email. If the ticket is created on the client portal and attachments are disabled, there will be no attachment field within the Ticket Details unless a custom field is added to the ticket (either on the Ticket Details built in form or a custom form associated with a help topic) to accept attachments.
 
-**Maximum File Size:** This is the size per attachment that is acceptable when tickets are created or responses are posted. If an attachment exceeds this limit, an internal note will be posted letting the agent know an attachment was not accepted.
+  **Enabling of Attachments:** This is a global setting pertaining to new tickets created on the client portal or emailed into the help desk. If disabled, tickets will be created, but no attachments will be included if sent via email. If the ticket is created on the client portal and attachments are disabled, there will be no attachment field within the Ticket Details unless a custom field is added to the ticket (either on the Ticket Details built in form or a custom form associated with a help topic) to accept attachments.
 
-**Attachment File Limitations:** Allows the configuration of specific types of attachments if necessary.
+  **Maximum File Size:** This is the size per attachment that is acceptable when tickets are created or responses are posted. If an attachment exceeds this limit, an internal note will be posted letting the agent know an attachment was not accepted.
 
-**Maximum Attachments Allowed by the end-user:** If necessary, the number of files can be limited per upload of attachments.
+  **Attachment File Limitations:** Allows the configuration of specific types of attachments if necessary.
 
-**Help Text:**
-Text that will appear under the field to help users and agents creating tickets get a better understanding of the information being gathered.
+  **Maximum Attachments Allowed by the end-user:** If necessary, the number of files can be limited per upload of attachments.
+
+  **Help Text:**
+  Text that will appear under the field to help users and agents creating tickets get a better understanding of the information being gathered.
 
 
 Autoresponder
