@@ -1,0 +1,115 @@
+@import url("theme.css");
+
+div.section#osticket>h1 {
+  text-align: center;
+}
+
+@media screen and (min-width: 1px) {
+  .wy-nav-content-wrap {
+    background: rgba(0,0,0,0.05);
+  }
+  .wy-nav-content{
+    margin: 0;
+    background: #fcfcfc;
+  }
+}
+
+h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend {
+  font-weight: 700;
+  font-family: "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
+}
+
+.rst-content .sidebar .sidebar-title {
+  font-family: "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 100%;
+}
+
+.wy-plain-list-disc li, .rst-content .section ul li, .rst-content .toctree-wrapper ul li, article ul li {
+  list-style: disc;
+}
+
+.wy-plain-list-disc li li, .rst-content .section ul li li, .rst-content .toctree-wrapper ul li li, article ul li li {
+  list-style: disc;
+}
+
+.wy-plain-list-disc li li li, .rst-content .section ul li li li, .rst-content .toctree-wrapper ul li li li, article ul li li li {
+  list-style: disc;
+}
+
+.wy-menu-vertical li.toctree-l3.current li.toctree-l4>a {
+  background: none;
+}
+
+.wy-side-nav-search {
+  background-color: #FF9016;
+}
+
+.wy-nav-side {
+  background: #F7F7F7;
+}
+
+.wy-menu-vertical a:active {
+  background-color: #FF9016;
+}
+
+.wy-menu-vertical a:hover {
+  background-color: #F0F0F0;
+}
+
+.wy-side-nav-search input[type=text] {
+  border-color: transparent;
+  border-radius: 5px;
+}
+
+.wy-menu-vertical li.on a, .wy-menu-vertical li.current>a {
+  border: none;
+}
+
+.wy-menu-vertical li.toctree-l2.current li.toctree-l3>a {
+  background: #F0F0F0;
+}
+
+.wy-menu-vertical li.toctree-l2.current>a {
+  background: #F0F0F0;
+}
+
+.wy-menu-vertical li.current a {
+  border-right: none;
+}
+
+a {
+  color: #ADADAD;
+}
+
+a:visited {
+  color: #ADADAD;
+}
+
+a:hover {
+  color: #FFB461;
+}
+
+a.icon:visited {
+  color: #FFFFFF;
+}
+
+.wy-nav-top {
+  background-color: #FF9016;
+}
+
+li.toctree-l1.a {
+  color: #737373;
+}
+
+.wy-nav-content-wrap {
+  background: #F7F7F7;
+}
+
+.wy-body-for-nav {
+  background: #F7F7F7;
+}
+
+.rst-content .highlighted {
+  background: #FFE065;
+}
