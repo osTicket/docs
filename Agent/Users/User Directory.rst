@@ -35,7 +35,7 @@ Once a user has activated their account with the help desk, Agents can administr
 .. image:: ../../_static/images/agent_users_userDir_manageUser.png
   :alt: Managing Registered Users
 
- A pop up box will appear; click on the Manage Access tab to configure these features.
+A pop up box will appear; click on the Manage Access tab to configure these features.
 
- .. image:: ../../_static/images/agent_users_userDir_manageAccess.png
+.. image:: ../../_static/images/agent_users_userDir_manageAccess.png
   :alt: Manage Access Tab
