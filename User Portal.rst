@@ -1,7 +1,7 @@
-User Guide
-==========
+User Portal
+===========
 
-Descriptive text about User Guide.
+Descriptive text about User Portal.
 
 
 .. toctree::

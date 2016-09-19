@@ -1,7 +1,7 @@
-Admin Guide
+Admin Panel
 ===========
 
-Descriptive text about Admin Guide.
+Descriptive text about Admin Panel.
 
 
 Dashboard Tab

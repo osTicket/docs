@@ -1,7 +1,7 @@
-Agent Guide
+Agent Panel
 ===========
 
-Descriptive text about Agent Guide.
+Descriptive text about Agent Panel.
 
 
 Dashboard Tab
