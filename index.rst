@@ -8,13 +8,20 @@ osTicket Documentation
 
 osTicket is a widely-used open source support ticket system. It seamlessly integrates inquiries created via email, phone and web-based forms into a simple easy-to-use multi-user web interface. Manage, organize and archive all your support requests and responses in one place while providing your customers with accountability and responsiveness they deserve.
 
+Panels:
+
+* :ref:`all-panels`
+
 
 Table Of Contents
 =================
 
-.. toctree::
-   :maxdepth: 3
+.. _all-panels:
 
-   Admin Guide
-   Agent Guide
-   User Guide
+.. toctree::
+   :maxdepth: 2
+   :caption: Panels
+
+   Admin Panel
+   Agent Panel
+   User Portal
