@@ -8,6 +8,6 @@
 ehthumbs.db
 Thumbs.db
 
-# Configuration File #
+# Other Files & Dirs #
 ######################
-conf.py
+_build
