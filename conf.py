@@ -134,7 +134,8 @@ todo_include_todos = False
 #html_theme = "sphinx_rtd_theme"
 
 # Overwrites default theme options
-html_style = '_static/css/main.css'
+# Pulled from _static directory
+html_style = 'css/main.css'
 
 html_context = {
   "display_github": True,
