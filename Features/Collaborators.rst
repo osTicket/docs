@@ -113,10 +113,12 @@ BCC’d Collaborator Responses:
 Deciding to BCC a Collaborator means that you do not want the end user to see that this Collaborator is included on the ticket. An agent could decide to include fellow agents in the communication or maybe even an external Collaborator that should receive communications. For this reason, if a BCC Collaborator responds to the ticket, their responses are only visible to agents as an internal communication. Agents are able to differentiate the type of response by looking at the label next to each message.
 
 Cc Response:
+
 .. image:: ../../_static/images/collabs_cc_response.png
   :alt: Cc Response
 
 Bcc Response:
+
 .. image:: ../../_static/images/collabs_bcc_response.png
   :alt: Bcc Response
 
