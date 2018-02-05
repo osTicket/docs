@@ -30,10 +30,6 @@ div.section#osticket>h1 {
     max-width: 100%;
 }
 
-.wy-side-scroll .caption {
-    margin-top: -8px;
-}
-
 .wy-side-scroll .caption-text {
     color: lightgray;
 }
