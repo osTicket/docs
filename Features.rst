@@ -9,5 +9,6 @@ Descriptive text about what a Feature is.
 
    Features/Collaborators
    Features/Inline Edit
+   Features/Ticket Referral
    Features/Custom Columns & Custom Queues (Admin)
    Features/Custom Columns & Custom Queues (Agent)
