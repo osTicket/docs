@@ -12,7 +12,7 @@ Agent & Team Referral
 
 Referring a ticket to an Agent or a Team is just like assignment without actually assigning. The referee will only have a view Role and current assignees retain the responsibility of the ticket.
 
-.. image:: ../../_static/images/referral_agent_and_team.png
+.. image:: ../_static/images/referral_agent_and_team.png
   :alt: Agent & Team Referral
 
 Department Referral
@@ -20,7 +20,7 @@ Department Referral
 
 Department referral, unlike ticket transfer, is like assigning a ticket  to the entire department. Meaning agents who have access to the referred department will be able see the ticket. What they can do with the ticket will depend on the their individual assigned role in the ticket’s department, otherwise they’ll have a “view only” Role.
 
-.. image:: ../../_static/images/referral_department.png
+.. image:: ../_static/images/referral_department.png
   :alt: Department Transfer
 
 Managing Referrals
@@ -28,5 +28,5 @@ Managing Referrals
 
 Ticket referrals can also be done independent of ticket transfer or assignments. This includes the ability to add new or remove prior referrals.
 
-.. image:: ../../_static/images/referral_managing.png
+.. image:: ../_static/images/referral_managing.png
   :alt: Managing Referrals

@@ -26,7 +26,7 @@ Collaborators on Ticket Open:
 
 When an agent creates a ticket on behalf of a user, they now have the option to add Collaborators. Checking the box beside ‘Collaborators’ gives Agents the ability to CC or BCC other users when opening a ticket.
 
-.. image:: ../../_static/images/collabs_open_ticket.png
+.. image:: ../_static/images/collabs_open_ticket.png
   :alt: Collaborators Open Ticket
 
 Collaborators on Ticket Reply:
@@ -34,17 +34,17 @@ Collaborators on Ticket Reply:
 
 Similarly, an agent can add collaborators or choose which collaborators receive an email when replying to a ticket. All users listed in CC or BCC will receive an email with the agent’s response. If a user is chosen that was not previously a collaborator on the ticket, they will be added as a collaborator upon sending the message. Collaborators that are removed by clicking the ‘x’ in the left corner of the user’s name will not receive the agent’s response, however, they will still be listed as collaborators for the ticket. To completely remove a Collaborator, the agent must go to ‘Manage Collaborators’.
 
-.. image:: ../../_static/images/collabs_ticket_reply.png
+.. image:: ../_static/images/collabs_ticket_reply.png
   :alt: Collaborators Ticket Reply
 
 Removing a Collaborator Recipient:
 
-.. image:: ../../_static/images/collabs_remove_recipient.png
+.. image:: ../_static/images/collabs_remove_recipient.png
   :alt: Remove Collaborator Recipient
 
 Click Ok:
 
-.. image:: ../../_static/images/collabs_confirm_removal.png
+.. image:: ../_static/images/collabs_confirm_removal.png
   :alt: Collaborator Removal Confirmed
 
 Manage Collaborators:
@@ -52,40 +52,40 @@ Manage Collaborators:
 
 There are two places where an agent can go to manage collaborators. The first is beside the User’s name on the ticket. There is a group icon with the number of collaborators the ticket has.
 
-.. image:: ../../_static/images/collabs_user_manage.png
+.. image:: ../_static/images/collabs_user_manage.png
   :alt: Manage Collaborators Users
 
 The second place is in the drop down menu next to the ticket settings icon. There is an item to ‘Manage Collaborators’.
 
-.. image:: ../../_static/images/collabs_dropdown_manage.png
+.. image:: ../_static/images/collabs_dropdown_manage.png
   :alt: Manage Collaborators Dropdown
 
 After clicking either of these two options, the menu appears to manage the collaborators. The trash can to the far right of the row allows you to remove collaborators from a ticket. You can also add new collaborators as well as change whether the collaborator will be CC’d or BCC’d in communications.
 
 Standard View:
 
-.. image:: ../../_static/images/collabs_standard_view.png
+.. image:: ../_static/images/collabs_standard_view.png
   :alt: Collaborators Standard View
 
 Changing between CC and BCC:
 
-.. image:: ../../_static/images/collabs_switch_type.png
+.. image:: ../_static/images/collabs_switch_type.png
   :alt: Collaborators Change Type
 
 Remove:
 
-.. image:: ../../_static/images/collabs_remove.png
+.. image:: ../_static/images/collabs_remove.png
   :alt: Remove Collaborator Completely
 
 Add:
 
-.. image:: ../../_static/images/collabs_add1.png
+.. image:: ../_static/images/collabs_add1.png
   :alt: Add Collaborator
 
-.. image:: ../../_static/images/collabs_add2.png
+.. image:: ../_static/images/collabs_add2.png
   :alt: Collaborator User Selected
 
-.. image:: ../../_static/images/collabs_add3.png
+.. image:: ../_static/images/collabs_add3.png
   :alt: Collaborator Added
 
 ***Note:** By default, collaborators are added as CC Collaborators. Once added, the agent can change the Collaborator to be BCC’d by using the dropdown beside the Collaborator’s name.
@@ -97,14 +97,14 @@ Add:
 
 In the past, tickets were always sent out using the email address belonging to the Ticket’s Department. Agents are now able to choose which email address a ticket is sent out from if your system has more than one email configured.
 
-.. image:: ../../_static/images/collabs_from_email.png
+.. image:: ../_static/images/collabs_from_email.png
   :alt: From Email
 
 By default, tickets are sent out from the email address chosen for the department’s Outgoing Email. The department’s default address can be modified by going to:
 
 **Admin Panel | Agents Tab | Departments | Choose a Department | Outgoing Email**
 
-.. image:: ../../_static/images/collabs_outgoing_email.png
+.. image:: ../_static/images/collabs_outgoing_email.png
   :alt: Outgoing Email
 
 BCC’d Collaborator Responses:
@@ -114,12 +114,12 @@ Deciding to BCC a Collaborator means that you do not want the end user to see th
 
 Cc Response:
 
-.. image:: ../../_static/images/collabs_cc_response.png
+.. image:: ../_static/images/collabs_cc_response.png
   :alt: Cc Response
 
 Bcc Response:
 
-.. image:: ../../_static/images/collabs_bcc_response.png
+.. image:: ../_static/images/collabs_bcc_response.png
   :alt: Bcc Response
 
 In rare occasions, a user may create a ticket and Bcc someone in the email sent in for the ticket. If the person that was Bcc’d responds to the email as a ‘Reply All’, they will be added as a Cc collaborator and their message will be seen by the user and all collaborators. If they only reply to the helpdesk, they will be added as a Bcc collaborator and only agents will see their messages.
@@ -131,18 +131,18 @@ Any time an email is sent out whether it is from the Agent or the User, there is
 
 User Response:
 
-.. image:: ../../_static/images/collabs_user_response.png
+.. image:: ../_static/images/collabs_user_response.png
   :alt: User Response
 
-.. image:: ../../_static/images/collabs_user_recips.png
+.. image:: ../_static/images/collabs_user_recips.png
   :alt: User Recipients
 
 Agent Response:
 
-.. image:: ../../_static/images/collabs_agent_response.png
+.. image:: ../_static/images/collabs_agent_response.png
   :alt: Agent Response
 
-.. image:: ../../_static/images/collabs_agent_recips.png
+.. image:: ../_static/images/collabs_agent_recips.png
   :alt: Agent Recipients
 
 BCC Collaborator Visibility:
@@ -155,7 +155,7 @@ Collaborator Icon:
 
 When end users log into the system and view the list of tickets they have access to, they will now see an icon beside the ticket name if they are a Collaborator on the ticket. If there is no icon, they are the ticket owner.
 
-.. image:: ../../_static/images/collabs_icon.png
+.. image:: ../_static/images/collabs_icon.png
   :alt: Collaborator Icon
 
 Email Template Variables:
