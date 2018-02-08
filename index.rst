@@ -22,17 +22,6 @@ osTicket is a widely-used open source support ticket system. It seamlessly integ
    Getting Started/Upgrade and Migration
 
 
-Quickly jump to Panels or Features:
-
-* :ref:`all-panels`
-* :ref:`all-features`
-
-
-Table Of Contents
-=================
-
-.. _all-panels:
-
 .. toctree::
    :maxdepth: 2
    :caption: Panels
@@ -41,8 +30,6 @@ Table Of Contents
    Agent Panel
    User Portal
 
-
-.. _all-features:
 
 .. toctree::
    :maxdepth: 1
