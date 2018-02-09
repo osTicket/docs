@@ -1,5 +1,3 @@
-.. _email-piping::
-
 Email Piping
 ============
 
@@ -104,4 +102,4 @@ Remote piping is useful when osTicket installation and the mail server are on tw
 #. Valid API key required
 #. Follow local piping instructions above to pipe emails to remote script which will in turn post to osTicket
 
-For technical details, please refer to `API Docs <https://github.com/osTicket/osTicket-1.7/blob/develop/setup/doc/api.md>`_.
+For technical details, please refer to :doc:`API Docs <../Dev Guide/API Docs>`.
