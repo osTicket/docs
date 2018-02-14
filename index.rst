@@ -26,7 +26,7 @@ osTicket is a widely-used open source support ticket system. It seamlessly integ
    :maxdepth: 2
    :caption: Guides
 
-   Dev Guide
+   Developer Guide
 
 
 .. toctree::
