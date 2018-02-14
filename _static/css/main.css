@@ -4,70 +4,41 @@
     font-family: Helvetica, Calibri, Arial;
 }
 
-.wy-nav-side {
-    background: #414242;
-}
-
 footer {
-  color: lightgray;
+    color: lightgray;
 }
 
 div.section#osticket>h1 {
-  text-align: center;
+    text-align: center;
 }
 
 @media screen and (min-width: 1px) {
-  .wy-nav-content-wrap {
-    background: rgba(0,0,0,0.05);
-  }
-  .wy-nav-content{
-    margin: 0;
-    background: white;
-  }
+    .wy-nav-content-wrap {
+        background: rgba(0,0,0,0.05);
+    }
+    .wy-nav-content{
+        margin: 0;
+        background: white;
+    }
+}
+
+.wy-menu-vertical p.caption {
+    background-color: #404040;
 }
 
 .wy-nav-content {
     max-width: 100%;
 }
 
-.wy-side-scroll .caption-text {
-    color: lightgray;
-}
-
 h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend {
-  font-weight: 700;
-  font-family: "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
+    font-weight: 700;
+    font-family: "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
 }
 
 .rst-content .sidebar .sidebar-title {
-  font-family: "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
-  font-weight: bold;
-  font-size: 100%;
-}
-
-.wy-nav-side .current a {
-    color: lightgray !important;
-}
-
-.wy-nav-side .toctree-l1 a {
-    background: #262626 !important;
-}
-
-.wy-nav-side .toctree-l1 a:hover {
-    background: orange !important;
-    color: white !important;
-}
-
-.wy-nav-side .toctree-l2 a {
-    background: #1A1A1A !important;
-}
-
-.wy-nav-side .toctree-l3 a {
-    background: #0F0F0F !important;
-}
-
-.wy-nav-side .toctree-l4 a {
-    background: black !important;
+    font-family: "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
+    font-weight: bold;
+    font-size: 100%;
 }
 
 .wy-nav-side .reference.internal {
@@ -75,43 +46,24 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend {
     padding-bottom: 10px !important;
 }
 
-.toctree-expand {
-    color: white !important;
-}
-/*
 .wy-nav-side .toctree-l1.current a.current {
     padding: 10px 10px 10px 30px;
-    background: orange !important;
-    color: white;
 }
-
-.wy-nav-side .toctree-l1.current .toctree-l2 a {
-    padding: 10px 10px 10px 40px;
-}
-
-.wy-nav-side .toctree-l1.current .toctree-l2.current .toctree-l3 a {
-    padding: 10px 10px 10px 50px;
-}
-
-.wy-nav-side .toctree-l1.current .toctree-l2.current .toctree-l3.current .toctree-l4 a {
-    padding: 10px 10px 10px 60px;
-}
-*/
 
 .wy-plain-list-disc li, .rst-content .section ul li, .rst-content .toctree-wrapper ul li, article ul li {
-  list-style: disc;
+    list-style: disc;
 }
 
 .wy-plain-list-disc li li, .rst-content .section ul li li, .rst-content .toctree-wrapper ul li li, article ul li li {
-  list-style: disc;
+    list-style: disc;
 }
 
 .wy-plain-list-disc li li li, .rst-content .section ul li li li, .rst-content .toctree-wrapper ul li li li, article ul li li li {
-  list-style: disc;
+    list-style: disc;
 }
 
 .wy-side-nav-search {
-  background-color: #FF9016;
+    background-color: #FF9016;
 }
 
 .wy-side-nav-search a {
@@ -128,7 +80,7 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend {
 }
 
 .wy-menu-vertical a:active {
-  background-color: #FF9016;
+    background-color: #FF9016;
 }
 
 .wy-side-nav-search .version {
@@ -136,27 +88,27 @@ h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend {
 }
 
 .wy-menu-vertical li.current a {
-  border-right: none;
+    border-right: none;
 }
 
 a {
-  color: #FF9016;
+    color: #FF9016;
 }
 
 a:visited {
-  color: #FF9016;
+    color: #FF9016;
 }
 
 a:hover {
-  color: #F8A348;
+    color: #F8A348;
 }
 
 a.icon:visited {
-  color: #FFFFFF;
+    color: #FFFFFF;
 }
 
 .wy-nav-top {
-  background-color: #FF9016;
+    background-color: #FF9016;
 }
 
 .wy-nav-top i {
@@ -164,102 +116,78 @@ a.icon:visited {
 }
 
 li.toctree-l1.a {
-  color: #737373;
+    color: #737373;
 }
 
 .wy-nav-content-wrap {
-  background: #F7F7F7;
+    background: #F7F7F7;
 }
 
 .wy-body-for-nav {
-  background: #F7F7F7;
+    background: #F7F7F7;
 }
 
 .rst-content .highlighted {
-  background: #FFE065;
+    background: #FFE065;
 }
 
 .rst-versions {
-  border-top: none;
+    border-top: none;
 }
 
 .wy-menu.wy-menu-vertical>a:hover {
-  color: inherit;
+    color: inherit;
 }
 
 a.icon.icon-home:hover {
-  color: #F4F4F4;
+    color: #F4F4F4;
 }
 
 .wy-menu-vertical a {
-  color: #B3B3B3;
+    color: #B3B3B3;
 }
 
 .wy-menu-vertical li.on a, .wy-menu-vertical li.current>a {
-  border: none;
-  color: #404040;
+    border: none;
 }
 
 img {
-   width: 100% !important;
-   max-width: 600px !important;
+    width: 100% !important;
+    max-width: 600px !important;
 }
 
 #rtd-search-form input {
-    background: none;
-    border: none;
-    border-bottom: 2px solid #D66F00;
-    box-shadow: inset 0px 0px 0px 0px red;
-    border-radius: 0;
-    height: 30px;
-    color: #F2F2F2;
-    font-size: 15px;
-    font-weight: normal;
+    border-color: #E67700 !important;
 }
 
-#rtd-search-form input:focus {
-    border-bottom: 2px solid #F2F2F2;
-    color: #F2F2F2;
-}
-
-#rtd-search-form ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-    color: #D66F00;
-}
 #rtd-search-form input:focus::-webkit-input-placeholder { /* WebKit, Blink, Edge */
     color: #F2F2F2;
 }
 
 #rtd-search-form :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-   color: #D66F00;
-   opacity: 1;
+    opacity: 1;
 }
+
 #rtd-search-form input:focus:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-   color: #F2F2F2;
-   opacity: 1;
+    color: #F2F2F2;
+    opacity: 1;
 }
 
 #rtd-search-form ::-moz-placeholder { /* Mozilla Firefox 19+ */
-   color: #D66F00;
-   opacity: 1;
+    opacity: 1;
 }
+
 #rtd-search-form input:focus::-moz-placeholder { /* Mozilla Firefox 19+ */
-   color: #F2F2F2;
-   opacity: 1;
+    color: #F2F2F2;
+    opacity: 1;
 }
 
-#rtd-search-form :-ms-input-placeholder { /* Internet Explorer 10-11 */
-   color: #D66F00;
-}
 #rtd-search-form input:focus:-ms-input-placeholder { /* Internet Explorer 10-11 */
-   color: #F2F2F2;
-}
-
-#rtd-search-form ::-ms-input-placeholder { /* Microsoft Edge */
-   color: #D66F00;
+    color: #F2F2F2;
 }
 
 #rtd-search-form input:focus::-ms-input-placeholder { /* Microsoft Edge */
-   color: #F2F2F2;
+    color: #F2F2F2;
 }
 
 .wy-breadcrumbs-aside {
