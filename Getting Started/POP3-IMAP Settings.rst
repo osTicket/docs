@@ -47,7 +47,7 @@ First add an API key and IP to :code:`Settings => API => API Keys`.
 #. Click submit
 #. A hash will be generated
 
-Then, setup a cron job to run wget ::`*/5 * * * * nobody wget -q -O /dev/null --user-agent=<API key here> http://<host & path goes here>/api/cron.php`
+Then, setup a cron job to run wget :code:`*/5 * * * * nobody wget -q -O /dev/null --user-agent=<API key here> http://<host & path goes here>/api/cron.php`
 
 See `forum post <http://osticket.com/forums/showthread.php?t=3158>`_.
 
