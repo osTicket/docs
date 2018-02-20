@@ -1,8 +1,6 @@
 Admin Panel
 ===========
 
-Descriptive text about Admin Panel.
-
 
 Dashboard Tab
 -------------

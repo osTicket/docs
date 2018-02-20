@@ -1,8 +1,6 @@
 Agent Panel
 ===========
 
-Descriptive text about Agent Panel.
-
 
 Dashboard Tab
 -------------

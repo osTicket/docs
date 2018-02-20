@@ -1,8 +1,6 @@
 User Portal
 ===========
 
-Descriptive text about User Portal.
-
 
 .. toctree::
    :maxdepth: 2
