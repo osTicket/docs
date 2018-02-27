@@ -1,25 +1,44 @@
-Emails
-======
+Email
+=====
 
-**Admin Panel > Emails > Emails**
+An unlimited number of email addresses can be routed through the help desk. You can configure IMAP or POP settings for an email so the system can fetch mail from the mailbox and create tickets. You can also configure SMTP settings for an email so the system can send mail from the address. Additional settings can be configured to change certain things on New Tickets that are fetched from the address.
 
-Adding Email Addresses
-----------------------
+Add New Email
+-------------
 
-An unlimited number of email addresses can be routed through the help desk. With osTicket, an external email inbox can be forwarded to an osTicket subdomain email addresses within the help desk (@yourcompany.osticket.com). There are 3 examples of email addresses in the system, but they can be edited/deleted if necessary. With the osTicket subdomain, an unlimited number of addresses can be added by adding a new email address and typing anything before the "@" symbol of the subdomain.
+**Admin Panel > Emails > Emails > Add New Email**
 
-.. image:: ../../_static/images/admin_emails_emails_account.png
-  :alt: Adding Emails
+First, click the **Add New Email** button on the right-hand side of the screen. Once on the Add New Email page you can start by inputting the email address and the name you want the end Users to see as whom the email is from.
 
-When adding any email address (external mailbox or osTicket subdomain email), the New Ticket Settings can be configured to be different than the System Default. These settings help determine the workflow for tickets that are created from a User emailing this email address.
+.. image:: ../../_static/images/admin_emails_emails_address.png
+  :alt: Email Address and Name
 
-An external email address can also be added to the help desk and configured to have the mail in the inbox fetched into the Help Desk to create tickets. The SMTP settings for this same email or any other can be enabled for outgoing emails as well. You can easily do this by adding the preferred email address to the system and setting up the SMTP for that email.
+Optionally, configurations such as the Department the ticket will be routed to as well as assigning a Help Topic can be determined for this email address.
 
-.. image:: ../../_static/images/admin_emails_emails_remote.png
-  :alt: Remote Mailbox
+.. image:: ../../_static/images/admin_emails_emails_ticket_settings.png
+  :alt: New Ticket Settings
 
-Fetching with IMAP/POP can be configured by clicking "Enable" and filling in the information for the email address; the same goes for SMTP for outgoing email. Once the information has been entered, click “Save Changes” at the bottom of the configurations page. If configured correctly, a green banner will appear stating that the address has been successfully added and configured. If a red banner appears, please review the error and make configuration adjustments.
+You can setup IMAP/POP by clicking **Enable** and filling in the information for the email address.
 
-After the email address has been configured in the Email Tab, be sure to enable fetching for the system at Admin Panel > Settings > Emails. On this tab, the System Default Outgoing email address can also be set from any emails in the Help Desk configured with SMTP.
+.. image:: ../../_static/images/admin_emails_emails_imap.png
+  :alt: IMAP/POP Settings
 
-Email Addresses can be set for each Department for routing, Outgoing Emails (Agent Responses to tickets routed to that Department), and/or Auto Responses for tickets assigned to that Department. All of these configurations can be done at the Department configurations located in Admin Panel > Agents.
+After you have configured the Mail Account Settings, be sure to enable fetching for the system at **Admin Panel > Emails > Settings**.
+
+.. image:: ../../_static/images/admin_emails_emails_enable_fetching.png
+  :alt: Enable Fetching
+
+Next, you will need to setup the SMTP configurations for the email address in the last section. Click **Enable** and fill in the information for the email address.
+
+.. image:: ../../_static/images/admin_emails_emails_smtp.png
+  :alt: SMTP Settings
+
+Once you have the email's SMTP setup, you will need to make it your System Default Outgoing email address by going to **Admin Panel > Emails > Settings** and changing the second to last box to the email address you just configured SMTP for.
+
+.. image:: ../../_static/images/admin_emails_emails_enable_outgoing.png
+  :alt: Set Default Mail Transfer Agent (MTA)
+
+If you would like this same address used for each department, you will need to assign the email address as the outgoing email address for each department individually. You can do this by going to **Admin Panel > Staff > Department > (click on department name)**, go to the **Autoresponder Settings** section, and change the **Auto-Response Email**.
+
+.. image:: ../../_static/images/admin_emails_emails_autoresponse_email.png
+  :alt: Set Department’s Autoresponse Email
