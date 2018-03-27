@@ -151,6 +151,10 @@ a.icon.icon-home:hover {
     border: none;
 }
 
+.current>a {
+    background-color: #FFFFFF !important;
+}
+
 img {
     width: 100% !important;
     max-width: 600px !important;
