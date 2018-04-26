@@ -38,6 +38,7 @@ Tickets Tab
 .. toctree::
    :maxdepth: 2
 
+   Agent/Tickets/Advanced Search
    Agent/Tickets/Tickets
 
 
