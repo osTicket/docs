@@ -4,7 +4,7 @@ Custom Columns & Custom Queues (Agent)
 What is a Custom Queue?
 -----------------------
 
-A custom queue is a view of tickets based on a custom criteria that you specify. It allows you to create your own personal views of tickets and specify what information you would like to see. 
+A custom queue is a view of tickets based on a custom criteria that you specify. It allows you to create your own personal views of tickets and specify what information you would like to see.
 
 What is a Custom Column?
 ------------------------
@@ -23,6 +23,11 @@ You are then prompted to specify what criteria of you would like to see in regar
 
 .. image:: ../_static/images/cccc_new_personal_queue.png
   :alt: New Personal Queue
+
+|
+
+.. image:: ../_static/images/cccc_new_personal_queuesave.png
+  :alt: Save New Personal Queues
 
 Once you have saved your changes, the new queue will appear in the list:
 
@@ -45,7 +50,7 @@ From there, you are able to change the criteria options originally chosen:
 .. image:: ../_static/images/cccc_change_queue_criteria.png
   :alt: Change Queue Criteria
 
-How do I add modify columns to a personal queue?
+How do I add/modify columns to a personal queue?
 ------------------------------------------------
 
 Within the same edit menu, select the 'Columns' tab:
@@ -87,3 +92,33 @@ Now the 'Due Date' field can be seen in the Personal Queue.
 
 .. image:: ../_static/images/cccc_due_date_field.png
   :alt: Due Date Field
+
+Adding Quick Filters
+--------------------
+
+Quick Filters add an option to the top of the page to quickly filter by a specified field. Agents can add Quick Filters to Custom Queues by editing the Queue and going to the Settings tab.
+
+.. image:: ../_static/images/cccc_personalqf1.png
+  :alt: Personal Quick Filter 1
+
+|
+
+.. image:: ../_static/images/cccc_personalqf2.png
+  :alt: Personal Quick Filter 2
+
+Once saved, an Agent can quickly filter tickets by the field of their choice
+
+.. image:: ../_static/images/cccc_personalqf3.png
+  :alt: Personal Quick Filter 3
+
+In addition to being able to create personal queues, Agents can also modify how existing queues show up specifically to them by editing the existing queues.
+
+For example, editing the Open queue:
+
+.. image:: ../_static/images/cccc_edit_existing_queue.png
+  :alt: Edit Existing Queue
+
+From here, Agents can customize existing queues in the same way they can customize their own personal queues.
+
+.. image:: ../_static/images/cccc_edit_existing_queue2.png
+  :alt: Edit Existing Queue 2
