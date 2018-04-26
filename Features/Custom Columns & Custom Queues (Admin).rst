@@ -4,7 +4,7 @@ Custom Columns & Custom Queues (Admin)
 What is a Custom Queue?
 -----------------------
 
-A custom queue is a view of tickets based on a custom criteria that you specify. It allows you to create your own personal views of tickets and specify what information you would like to see. 
+A custom queue is a view of tickets based on a custom criteria that you specify. It allows you to create your own personal views of tickets and specify what information you would like to see.
 
 What is a Custom Column?
 ------------------------
@@ -30,7 +30,7 @@ Admin Panel | Settings Tab | Tickets | Queues Tab | Add New Queue
 .. image:: ../_static/images/cccc_add_global_queue.png
   :alt: Add Global Queue
 
-From here, you can configure the new queue by selecting the criteria of tickets for the queue: 
+From here, you can configure the new queue by selecting the criteria of tickets for the queue:
 
 .. image:: ../_static/images/cccc_configure_global_queue.png
   :alt: Configure Global Queue
@@ -45,22 +45,15 @@ Once the queue is created:
 Where can I edit the default columns and queues?
 ------------------------------------------------
 
-There are two places where you can edit the default columns and queues:
-
-1. Admin Panel | Settings | Tickets | Queues 
+Admin Panel | Settings | Tickets | Queues
 
 .. image:: ../_static/images/cccc_edit_default_queues.png
   :alt: Edit Default Queues
 
-2. By simply clicking on the queue, selecting the Settings button that appears beside the title, and choosing Edit.
-
-.. image:: ../_static/images/cccc_edit_queue_button.png
-  :alt: Edit Queue Button
-
 How do I add more columns to a queue?
 -------------------------------------
 
-Admin Panel | Settings | Tickets | Queues 
+Admin Panel | Settings | Tickets | Queues
 
 .. image:: ../_static/images/cccc_edit_default_queues.png
   :alt: Add More Columns To Queue
@@ -85,6 +78,8 @@ For example, what is shown when hovering over a link or what format dates displa
 
 .. image:: ../_static/images/cccc_queue_column_manage.png
   :alt: Queue Column Manage
+
+|
 
 .. image:: ../_static/images/cccc_queue_column_manage2.png
   :alt: Queue Column Manage 2
@@ -172,8 +167,8 @@ Once saved, tickets where the Department is 'Support' will have the style added 
 How can I customize how tickets are sorted in queues?
 -----------------------------------------------------
 
-Sorting options can be found by going to: 
-Admin Panel | Settings | Tickets | Queues 
+Sorting options can be found by going to:
+Admin Panel | Settings | Tickets | Queues
 
 .. image:: ../_static/images/cccc_edit_default_queues.png
   :alt: Customize Ticket Sorting
@@ -183,7 +178,7 @@ From there, you will need to select the queue you want to add column sorting to.
 .. image:: ../_static/images/cccc_open_queue.png
   :alt: Open Queue
 
-There are two ways to control how tickets are sorted, and both options can be found from this menu. 
+There are two ways to control how tickets are sorted, and both options can be found from this menu.
 
 1. By enabling column sort which will let you sort by a column that is clicked
 
@@ -225,7 +220,7 @@ When viewing the 'Open' tab, each of these queues are visible.
 What are Quick Filters?
 -----------------------
 
-When editing a queue, there is an option to add a Quick Filter. This adds an option at the top of the page to quickly filter by a specified field. 
+When editing a queue, there is an option to add a Quick Filter. This adds an option at the top of the page to quickly filter by a specified field.
 
 .. image:: ../_static/images/cccc_quick_filter.png
   :alt: Quick Filter
