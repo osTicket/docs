@@ -25,13 +25,6 @@ osTicket is a widely-used open source support ticket system. It seamlessly integ
 
 .. toctree::
    :maxdepth: 2
-   :caption: Guides
-
-   Developer Guide
-
-
-.. toctree::
-   :maxdepth: 2
    :caption: Panels
 
    Admin Panel
@@ -53,3 +46,11 @@ osTicket is a widely-used open source support ticket system. It seamlessly integ
    Features/Nested Knowledgebase Categories
    Features/Task Revamp
    Features/Ticket Referral
+
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Developer Documentation
+
+   Developer Documentation/Changelog
+   Developer Documentation/API Docs
