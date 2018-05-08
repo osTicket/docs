@@ -118,7 +118,7 @@ Additionally, collaborators can now be added upon ticket creation.
 
 Links to Documentation:
 |br|
-:doc:`Ticket Referral <../Features/Ticket Referral>`
+:doc:`Collaborators <../Features/Collaborators>`
 
 It is important to understand which email templates can be expected to go out for each scenario of this feature. The templates will determine what users will see in Alert emails that are sent out by the system. In order to see the titles of the email templates have your administrator go to:
 
