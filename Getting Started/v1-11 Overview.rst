@@ -2,8 +2,8 @@
 
     <br>
 
-Upgrade Overview: v1.11
-=======================
+Upgrade Overview (v1.11)
+========================
 
 Features Outlined in this Document
 ----------------------------------

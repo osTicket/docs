@@ -1,5 +1,5 @@
-osTicket API
-============
+API
+===
 
 The osTicket API is implemented as (somewhat) simple XML or JSON over HTTP. For now, only ticket creation is supported, but eventually, all resources inside osTicket will be accessible and modifiable via the API.
 
