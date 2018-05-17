@@ -3,26 +3,9 @@ Task Revamp
 
 The Task Revamp improves upon the current functionality of tasks by adding the following:
 
-#. Ability to create a Task from a ticket thread
 #. Task due date must be before ticket due date
 #. Add an Internal Note to the Ticket when a Task is completed
 #. Send an Alert to the Assigned Agent/Team when task is complete
-
-Create Task From Thread
--------------------------
-
-.. image:: ../_static/images/trevamp_taskfromthread1.png
-  :alt: Task From Thread 1
-
-|
-
-.. image:: ../_static/images/trevamp_taskfromthread2.png
-  :alt: Task From Thread 2
-
-Once saved, you can see that the Task is now attached to the Ticket.
-
-.. image:: ../_static/images/trevamp_attachtask.png
-  :alt: Attach Task
 
 Task Due Date
 -------------

@@ -39,6 +39,7 @@ osTicket is a widely-used open source support ticket system. It seamlessly integ
    Features/Agent CSV Export
    Features/Department Help Topic Archiving
    Features/Collaborators
+   Features/Create Ticket or Task from Thread Entry
    Features/Custom Columns & Custom Queues (Admin)
    Features/Custom Columns & Custom Queues (Agent)
    Features/Department CSV Export
