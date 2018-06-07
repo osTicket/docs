@@ -8,7 +8,7 @@ Version 1.11
 * `@protich <https://github.com/protich>`_: Custom Columns/Custom Queues
 * `@aydreeihn <https://github.com/aydreeihn>`_: Inline Edit
 * `@protich <https://github.com/protich>`_: Ticket Referral
-* `@aydreeihn <https://github.com/aydreeihn>`_: CC/BCC
+* `@aydreeihn <https://github.com/aydreeihn>`_: Collaborators
 * `@aydreeihn <https://github.com/aydreeihn>`_: Export Agent CSV
 * `@aydreeihn <https://github.com/aydreeihn>`_: Department Access CSV
 * `@protich <https://github.com/protich>`_: Archive Help Topics/Departments

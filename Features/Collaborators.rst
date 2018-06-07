@@ -116,7 +116,7 @@ Collaborator Response:
 User Response:
 
 .. image:: ../_static/images/collabs_user_response2.png
-  :alt: Bcc Response
+  :alt: User Response
 
 View Email Recipients:
 -----------------------------------
