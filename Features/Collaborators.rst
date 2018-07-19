@@ -17,6 +17,7 @@ New Features:
 #. View recipients that receive a reply from an agent.
 #. As an end user, there is now an icon on the ticket list view to determine if you are a collaborator.
 #. New Email Template variables.
+#. New setting to hide Tickets where the User is a Collaborator in the Web Portal.
 
 Collaborators on Ticket Open:
 -----------------------------------
@@ -31,25 +32,39 @@ When an Agent creates a Ticket on behalf of a User, they now have the option to 
 Collaborators on Ticket Reply:
 -----------------------------------
 
-Similarly, an Agent can add Collaborators or choose which Collaborators receive an email when replying to a Ticket. Everyone listed in the CC field will receive an email with the Agent’s response. Anyone added to the CC field will be added as a Collaborator upon sending the message. Collaborators that are removed by clicking the ‘x’ in the left corner of the their name will not receive the Agent’s response, however, they will still be listed as Collaborators for the Ticket. To completely remove a Collaborator, the Agent must go to ‘Manage Collaborators’.
+Similarly, an Agent can add Collaborators or choose which Collaborators receive an email when replying to a Ticket. Initially upon viewing a Ticket, the Agent can see how many Collaborators
+the Ticket has.
 
 .. image:: ../_static/images/collabs_ticket_reply.png
   :alt: Collaborators Ticket Reply
 
-Removing a Collaborator Recipient:
+By clicking the arrow beside Collaborators, the Agent is given more options for how to handle Collaborators in their reply like adding new Collaborators or managing existing Collaborators.
 
-.. image:: ../_static/images/collabs_remove_recipient.png
-  :alt: Remove Collaborator Recipient
+.. image:: ../_static/images/collabs_ticket_reply2.png
+  :alt: Collaborators Ticket Reply Expanded
 
-Click Ok:
+Collaborators that are removed by clicking the ‘x’ in the left corner of the their name will be disabled in the Ticket, meaning they will no longer receive any of the
+Agent's responses.
 
-.. image:: ../_static/images/collabs_confirm_removal.png
-  :alt: Collaborator Removal Confirmed
+.. image:: ../_static/images/collabs_xuser.png
+  :alt: Collaborators Ticket Reply Expanded
+
+Disabled Collaborators can easily be Enabled again by reselecting and enabling them.
+
+.. image:: ../_static/images/collabs_reenable.png
+  :alt: Collaborators Ticket Reply Expanded
+
+|
+
+.. image:: ../_static/images/collabs_reenable2.png
+  :alt: Collaborators Ticket Reply Expanded
+
+To completely remove a Collaborator, the Agent must go to ‘Manage Collaborators’.
 
 Manage Collaborators:
 -----------------------------------
 
-There are two places where an agent can go to manage collaborators. The first is beside the User’s name on the ticket. There is a group icon with the number of collaborators the ticket has.
+There are several places where an agent can go to manage collaborators. The first is beside the User’s name on the ticket. There is a group icon with the number of collaborators the ticket has.
 
 .. image:: ../_static/images/collabs_user_manage.png
   :alt: Manage Collaborators Users
@@ -59,7 +74,17 @@ The second place is in the drop down menu next to the ticket settings icon. Ther
 .. image:: ../_static/images/collabs_dropdown_manage.png
   :alt: Manage Collaborators Dropdown
 
-After clicking either of these two options, the menu appears to manage the collaborators. The trash can to the far right of the row allows you to remove collaborators from a ticket. You can also add new collaborators.
+Finally, you can manage collaborators by clicking the Collaborator listing at the bottom of the Ticket or by clicking in the expanded Collaborators menu.
+
+.. image:: ../_static/images/collabs_user_manage3.png
+  :alt: Manage Collaborators Users
+
+|
+
+.. image:: ../_static/images/collabs_user_manage4.png
+  :alt: Manage Collaborators Users
+
+After clicking one of these options, the menu appears to manage the collaborators. The trash can to the far right of the row allows you to remove collaborators from a ticket. You can also add new collaborators.
 
 Standard View:
 
@@ -143,7 +168,7 @@ Agent Response:
 .. image:: ../_static/images/collabs_agent_recips.png
   :alt: Agent Recipients
 
-Additionally, an Agent is able to see if a response was a Reply All or Reply to User by looking at the tag in the corner of the Thread Entry.
+Additionally, an Agent is able to see if a response was a Reply All, Reply to User, or reply to no one by looking at the tag in the corner of the Thread Entry.
 |br|
 ***Note:** When a Ticket is created on behalf of a User, the initial message entered by the Agent will have the appropriate tag as well.
 
@@ -165,3 +190,27 @@ Email Template Variables:
 
 **Format:** %{ticket.recipients}
 This variable displays a list of visible/active users that are collaborating on a ticket.
+
+Hide Collaborator Tickets:
+-----------------------------------
+
+In some instances, Agents may only want their Users to see their own Tickets if they log into the Web Portal rather than every Ticket they participate in.
+We now have a setting to control this.
+
+If the Agent would like to disable Users from seeing their Collaborator Tickets, they can configure the setting here:|br|
+Admin Panel | Tickets | Settings | Collaborator Tickets Visibility
+
+.. image:: ../_static/images/collabs_tickets_visibility.png
+  :alt: Tickets Visibility
+
+By default, Users are able to see all Tickets they take participate in.
+
+View of All Tickets:
+
+.. image:: ../_static/images/collabs_all_tickets.png
+  :alt: All Tickets
+
+View of only the User's Tickets:
+
+.. image:: ../_static/images/collabs_user_tickets.png
+  :alt: User Tickets
