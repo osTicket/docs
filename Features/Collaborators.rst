@@ -5,7 +5,9 @@
 Collaborators
 ===================
 
-Collaborators are additional participants that may be included in a Ticket’s communications. This document will outline changes that have been made to how this feature works.
+Collaborators are additional participants that may be included in a Ticket’s communications.
+|br|
+This document will outline changes that have been made to how this feature works.
 
 New Features:
 -------------
@@ -22,8 +24,10 @@ New Features:
 Collaborators on Ticket Open:
 -----------------------------------
 
-When an Agent creates a Ticket on behalf of a User, they now have the option to add Collaborators. They also have the option to alert all (User and Collaborators), alert only the User, or do not send an email alert.
+When an Agent creates a Ticket on behalf of a User, they now have the option to add Collaborators.
 |br|
+They also have the option to alert all (User and Collaborators), alert only the User, or do not send an email alert.
+
 ***Note:** If the 'New Ticket by Agent' autoresponse is disabled Agents to not have the Ticket Notice options.
 
 .. image:: ../_static/images/collabs_open_ticket.png
@@ -32,18 +36,23 @@ When an Agent creates a Ticket on behalf of a User, they now have the option to 
 Collaborators on Ticket Reply:
 -----------------------------------
 
-Similarly, an Agent can add Collaborators or choose which Collaborators receive an email when replying to a Ticket. Initially upon viewing a Ticket, the Agent can see how many Collaborators
-the Ticket has.
+Similarly, an Agent can add Collaborators or choose which Collaborators receive an email when replying to a Ticket.
+|br|
+Initially upon viewing a Ticket, the Agent can see how many Collaborators the Ticket has.
 
 .. image:: ../_static/images/collabs_ticket_reply.png
   :alt: Collaborators Ticket Reply
 
-By clicking the arrow beside Collaborators, the Agent is given more options for how to handle Collaborators in their reply like adding new Collaborators or managing existing Collaborators.
+By clicking the arrow beside Collaborators, the Agent is given more options for how to handle Collaborators in their reply like
+|br|
+adding new Collaborators or managing existing Collaborators.
 
 .. image:: ../_static/images/collabs_ticket_reply2.png
   :alt: Collaborators Ticket Reply Expanded
 
-Collaborators that are removed by clicking the ‘x’ in the left corner of the their name will be disabled in the Ticket, meaning they will no longer receive any of the
+Collaborators that are removed by clicking the ‘x’ in the left corner of the their name will be disabled in the Ticket,
+|br|
+meaning they will no longer receive any of the
 Agent's responses.
 
 .. image:: ../_static/images/collabs_xuser.png
@@ -64,7 +73,9 @@ To completely remove a Collaborator, the Agent must go to ‘Manage Collaborator
 Manage Collaborators:
 -----------------------------------
 
-There are several places where an agent can go to manage collaborators. The first is beside the User’s name on the ticket. There is a group icon with the number of collaborators the ticket has.
+There are several places where an agent can go to manage collaborators. The first is beside the User’s name on the ticket.
+|br|
+There is a group icon with the number of collaborators the ticket has.
 
 .. image:: ../_static/images/collabs_user_manage.png
   :alt: Manage Collaborators Users
@@ -74,7 +85,9 @@ The second place is in the drop down menu next to the ticket settings icon. Ther
 .. image:: ../_static/images/collabs_dropdown_manage.png
   :alt: Manage Collaborators Dropdown
 
-Finally, you can manage collaborators by clicking the Collaborator listing at the bottom of the Ticket or by clicking in the expanded Collaborators menu.
+Finally, you can manage collaborators by clicking the Collaborator listing at the bottom of the Ticket or by
+|br|
+clicking in the expanded Collaborators menu.
 
 .. image:: ../_static/images/collabs_user_manage3.png
   :alt: Manage Collaborators Users
@@ -84,7 +97,11 @@ Finally, you can manage collaborators by clicking the Collaborator listing at th
 .. image:: ../_static/images/collabs_user_manage4.png
   :alt: Manage Collaborators Users
 
-After clicking one of these options, the menu appears to manage the collaborators. The trash can to the far right of the row allows you to remove collaborators from a ticket. You can also add new collaborators.
+After clicking one of these options, the menu appears to manage the collaborators.
+|br|
+The trash can to the far right of the row allows you to remove collaborators from a ticket.
+|br|
+You can also add new collaborators.
 
 Standard View:
 
@@ -111,17 +128,23 @@ Add:
 .. image:: ../_static/images/collabs_add3.png
   :alt: Collaborator Added
 
-***Note:** The checkbox to the left of the Collaborator’s name indicates if the Collaborator is active or inactive. Inactive Collaborators will not receive Ticket responses.
+***Note:** The checkbox to the left of the Collaborator’s name indicates if the Collaborator is Enabled or Disabled. Disabled Collaborators will not receive Ticket responses.
+|br|
+This action is the same as clicking the 'x' in the left corner of a Colalborator's name in the expanded Collaborator menu at the bottom of the Ticket.
 
 ‘From’ Email:
 -----------------------------------
 
-In the past, tickets were always sent out using the email address belonging to the Ticket’s Department. Agents are now able to choose which email address a ticket is sent out from if your system has more than one email configured.
+In the past, tickets were always sent out using the email address belonging to the Ticket’s Department.
+|br|
+Agents are now able to choose which email address a ticket is sent out from if your system has more than one email configured.
 
 .. image:: ../_static/images/collabs_from_email.png
   :alt: From Email
 
-By default, tickets are sent out from the email address chosen for the department’s Outgoing Email. The department’s default address can be modified by going to:
+By default, tickets are sent out from the email address chosen for the department’s Outgoing Email.
+|br|
+The department’s default address can be modified by going to:
 
 **Admin Panel | Agents Tab | Departments | Choose a Department | Outgoing Email**
 
@@ -146,7 +169,9 @@ User Response:
 View Email Recipients:
 -----------------------------------
 
-Any time an email is sent out whether it is from the Agent or the User, there is now an option to see who the email was sent out to. This can be done by clicking the drop down arrow beside a Ticket thread and selecting ‘View Email Recipients’.
+Any time an email is sent out whether it is from the Agent or the User, there is now an option to see who the email was sent out to.
+|br|
+This can be done by clicking the drop down arrow beside a Ticket thread and selecting ‘View Email Recipients’.
 
 User Response:
 
@@ -178,7 +203,9 @@ Additionally, an Agent is able to see if a response was a Reply All, Reply to Us
 Collaborator Icon:
 -----------------------------------
 
-When end users log into the system and view the list of tickets they have access to, they will now see an icon beside the ticket name if they are a Collaborator on the ticket. If there is no icon, they are the ticket owner.
+When end users log into the system and view the list of tickets they have access to, they will now see an icon beside the ticket name if they are a
+|br|
+Collaborator on the ticket. If there is no icon, they are the ticket owner.
 
 .. image:: ../_static/images/collabs_icon.png
   :alt: Collaborator Icon
@@ -195,6 +222,7 @@ Hide Collaborator Tickets:
 -----------------------------------
 
 In some instances, Agents may only want their Users to see their own Tickets if they log into the Web Portal rather than every Ticket they participate in.
+|br|
 We now have a setting to control this.
 
 If the Agent would like to disable Users from seeing their Collaborator Tickets, they can configure the setting here:|br|
@@ -203,7 +231,7 @@ Admin Panel | Tickets | Settings | Collaborator Tickets Visibility
 .. image:: ../_static/images/collabs_tickets_visibility.png
   :alt: Tickets Visibility
 
-By default, Users are able to see all Tickets they take participate in.
+By default, Users are able to see all Tickets they participate in.
 
 View of All Tickets:
 
