@@ -18,6 +18,7 @@ Features Outlined in this Document
 * Archive Help Topics/Departments
 * Nested Knowledgebase Categories
 * Task Revamp
+* Release Assignment
 * Dashboard Statistics
 * Fix Most Redactor Issues
 * Ticket Preview Custom Fields
@@ -273,6 +274,24 @@ Links to Documentation:
 |br|
 :doc:`Task Revamp <../Features/Task Revamp>`
 
+
+
+
+Release Assignment
+------------------
+
+**Summary:**
+|br|
+The Release Assignment feature has been with us for a while but only Department Managers can utilize it. We thought this was bogus so we improved upon the current functionality by adding the following:
+
+* Release Role Permission (any agent with this permission can release assignment)
+* Updated Release modal that gives the option to chose whom to release assignment from
+* TextBox to optionally input a reason for releasing the assignment (saves as Internal Note)
+* Thread Event for showing who released whose assignment along with a date and time stamp
+
+Links to Documentation:
+|br|
+:doc:`Release Assignment <../Features/Release Assignment>`
 
 
 
