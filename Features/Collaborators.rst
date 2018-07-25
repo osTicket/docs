@@ -166,6 +166,12 @@ User Response:
 .. image:: ../_static/images/collabs_user_response2.png
   :alt: User Response
 
+***Note:** When a User or Collaborator replies to an email, Alerts are NOT sent out to other participants,
+|br|
+while Alerts ARE sent out when a User or Collaborator replies using the Web Portal.
+|br|
+This is simply because the User or Collaborator has the option to reply to all recipients or to reply only to the helpdesk when replying to the email.
+
 View Email Recipients:
 -----------------------------------
 

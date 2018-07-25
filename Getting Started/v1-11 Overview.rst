@@ -8,7 +8,7 @@ Upgrade Overview (v1.11)
 Features Outlined in this Document
 ----------------------------------
 
-* Custom Columns/Custom Queues
+* Custom Queues and Columns
 * Advanced Search
 * Inline Edit
 * Ticket Referral
@@ -31,12 +31,12 @@ Features Outlined in this Document
 
 
 
-Custom Columns/Custom Queues
+Custom Queues and Columns
 ----------------------------
 
 **Summary:**
 |br|
-With Custom Columns and Queues, Agents can completely customize the way they view tickets in the help desk. This feature gives the freedom to create personal queues that only a specific agent can see where they can specify what the criteria is for the queue, what columns are displayed for the queue, and what filters the Agent would like to see for the queue.
+With Custom Queues and Columns, Agents can completely customize the way they view tickets in the help desk. This feature gives Agents the freedom to create personal queues that only they can see.  They can specify what the criteria is for the queue, what columns are displayed for the queue, and what quick filters they would like to see for the queue.
 
 In addition to being able to create personal queues, Agents can also modify how existing queues show up specifically to them by editing the existing queues.
 
@@ -70,7 +70,7 @@ Inline Edit
 
 **Summary:**
 |br|
-With Inline Editing, an Agent can modify an individual field on a ticket without having to go to the ticket’s edit page. Within the ticket view, each field that can be edited inline is selectable (highlighted in blue) and can be changed by simply clicking the field value. Inline editing can be done on a ticket’s standard fields as well as custom fields.
+With Inline Edit, an Agent can modify an individual field on a ticket without having to edit the entire ticket. Within the ticket header, each field that can be edited inline is selectable (highlighted in blue) and can be changed by simply clicking the field value. Inline editing can be done on a ticket’s standard fields as well as custom fields.
 
 Links to Documentation:
 |br|
@@ -85,7 +85,7 @@ Ticket Referral
 
 **Summary:**
 |br|
-The ticket referral feature allows for the ability to refer tickets (& any associated tasks) to an Agent, Team or Department. Referrals can also be used to retain view only access to the thread for current assignees on outgoing ticket transfer or assignment.
+The ticket referral feature allows for the ability to refer tickets (& any associated tasks) to an Agent, Team or Department who otherwise do not have access. Referrals can also be used to retain view only access to the ticket once referred rather than losing access to the ticket.​
 
 Links to Documentation:
 |br|
@@ -149,10 +149,10 @@ Tests:
    "User opens ticket from front end", "\1. Go to helpdesk url |br| 2. Sign in as a User |br| 3. Create a new ticket", "\- Admin: New Ticket Alert |br| - User: New Ticket Auto Response |br| - Cc: Not an option"
    "Agent opens ticket on behalf of user from front end", "\1. Go to helpdesk url/scp |br| 2. Log in as an Agent |br| 3. Click New Ticket |br| 4. Choose a User for the ticket |br| 5. Save", "\- Admin: New Ticket Alert |br| - User: New Ticket Notice |br| - Cc: New Ticket Notice (copied on user email) |br| - Agent: Ticket Assignment Alert |br| (if agent assigns to someone else while creating)"
    "User replies to ticket from front end", "\1. Go to helpdesk url |br| 2. Sign in as a User that has been assigned to a ticket |br| 3. Click one of the User's ticket |br| 4. Reply to the ticket", "\- User: New Message Auto-Response |br| - Cc: New Activity Notice (copied) |br| - Agent: New Message Alert"
-   "User replies to ticket from email", "\1. Go to your email inbox and look for an email template that |br| was sent to a user when a ticket was created for them |br| 2. Reply to that email", "\- User: New Message Auto-Response |br| - Cc: New Activity Notice (copied) |br| - Agent: New Message Alert"
+   "User replies to ticket from email", "\1. Go to your email inbox and look for an email template that |br| was sent to a user when a ticket was created for them |br| 2. Reply to that email", "\- User: New Message Auto-Response |br| - Cc: None |br| - Agent: New Message Alert"
    "Agent replies to user (front end only option)", "\1. Go to helpdesk url/scp |br| 2. Log in as an Agent |br| 3. Click on one of the Tickets that have already been created |br| 4. Reply to the ticket", "\- User: Response/Reply Template |br| - Cc: Response/Reply Template (copied on user email) |br| - Agent: None"
    "Cc reply from front end", "\1. Go to helpdesk url |br| 2. Sign in as a User that has been added as a Cc collaborator to a ticket |br| 3. Click one of the Collaborator's tickets |br| 4. Reply to the ticket", "\- User: New Activity Notice (Cc'd) |br| - Cc Poster: New Message Auto-Response |br| - Cc: New Activity Notice (copied on user email) |br| - Agent: New Message Alert"
-   "Cc reply from email", "\1. Go to your email inbox and look for an email template that |br| was sent to a Cc'd Collaborator when a ticket was responded to |br| 2. Reply to that email", "\- User: New Activity Notice (Cc'd) |br| - Cc Poster: New Message Auto-Response |br| - Cc: New Activity Notice (copied on user email) |br| - Agent: New Message Alert"
+   "Cc reply from email", "\1. Go to your email inbox and look for an email template that |br| was sent to a Cc'd Collaborator when a ticket was responded to |br| 2. Reply to that email", "\- User: None |br| - Cc Poster: New Message Auto-Response |br| - Cc: None |br| - Agent: New Message Alert"
    "Agent writes an internal note", "\1. Go to helpdesk url/scp |br| 2. Log in as an Agent |br| 3. Click a ticket |br| 4. Click the Post Internal Note tab |br| 5. Post the internal note", "\- User: None |br| - Cc: None |br| - Agent: Internal Activity Alert"
 
 Email template that was sent to a user when a ticket was created for them:

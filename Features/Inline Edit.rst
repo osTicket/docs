@@ -1,7 +1,7 @@
 Inline Edit
 ===========
 
-With Inline Editing, an Agent can modify an individual field on a ticket without having to go to the ticket’s edit page. Within the ticket view, each field that can be edited inline is selectable (highlighted in blue) and can be changed by simply clicking the field value. Inline editing can be done on a ticket’s standard fields as well as custom fields.
+With Inline Edit, an Agent can modify an individual field on a ticket without having to edit the entire ticket. Within the ticket header, each field that can be edited inline is selectable (highlighted in blue) and can be changed by simply clicking the field value. Inline editing can be done on a ticket’s standard fields as well as custom fields.
 
 Standard Fields
 ---------------

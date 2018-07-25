@@ -1,7 +1,7 @@
 Ticket Referral
 ===============
 
-The ticket referral feature allows for the ability to refer tickets (& any associated tasks) to an Agent, Team or Department. Referrals can also be used to retain view only access to the thread for current assignees on outgoing ticket transfer or assignment.
+The ticket referral feature allows for the ability to refer tickets (& any associated tasks) to an Agent, Team or Department who otherwise do not have access. Referrals can also be used to retain view only access to the ticket once referred rather than losing access to the ticket.​
 
 The referred party only has view Role for the thread with the ability to post internal notes. It's important to note the ticket will technically still be the responsibility of the primary department and/or assignee. Transferring or assigning a ticket and unchecking the “maintain referral access” box in the pop-up is how an agent can relinquish the responsibility.
 
