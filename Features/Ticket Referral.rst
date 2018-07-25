@@ -26,6 +26,11 @@ Department referral, unlike ticket transfer, is like assigning a ticket  to the 
 Managing Referrals
 ------------------
 
+To Manage Referrals an Agent must have the Refer permission enabled in the Role for the Department they are referring from.
+
+.. image:: ../_static/images/referral_role_permission.png
+  :alt: Referral Role Permission
+
 Ticket referrals can also be done independent of ticket transfer or assignments. This includes the ability to add new or remove prior referrals.
 
 .. image:: ../_static/images/referral_managing.png
