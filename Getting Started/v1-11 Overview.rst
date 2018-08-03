@@ -19,6 +19,7 @@ Features Outlined in this Document
 * Nested Knowledgebase Categories
 * Task Revamp
 * Release Assignment
+* Require Help Topic
 * Dashboard Statistics
 * Fix Most Redactor Issues
 * Ticket Preview Custom Fields
@@ -292,6 +293,22 @@ The Release Assignment feature has been with us for a while but only Department 
 Links to Documentation:
 |br|
 :doc:`Release Assignment <../Features/Release Assignment>`
+
+
+
+
+
+Require Help Topic
+------------------
+
+**Summary:**
+|br|
+Admins now have the option to require a Help Topic before a Ticket can be closed.
+
+Links to Documentation:
+|br|
+:doc:`Require Help Topic <../Features/Require Help Topic>`
+
 
 
 
