@@ -19,7 +19,7 @@ You will need one MySQL database with valid user, password and hostname handy du
 Getting Started
 ---------------
 
-At this point you should have downloaded `latest version <http://osticket.com/downloads>`_ of osTicket. Uncompress the files and upload files and directories in :code:`upload` folder to a directory of your choice on your server. For example :code:`/osticket/`, :code:`/helpdesk/` or :code:`/support/` depending on your preference. Basic knowledge of using FTP is a plus at this stage. If you don't know how to use FTP, we would recommend you read the documentation supplied with your FTP client and learn the basics of uploading and setting permissions on files.
+At this point you should have downloaded `latest version <https://osticket.com/download>`_ of osTicket. Uncompress the files and upload files and directories in :code:`upload` folder to a directory of your choice on your server. For example :code:`/osticket/`, :code:`/helpdesk/` or :code:`/support/` depending on your preference. Basic knowledge of using FTP is a plus at this stage. If you don't know how to use FTP, we would recommend you read the documentation supplied with your FTP client and learn the basics of uploading and setting permissions on files.
 
 osTicket installer needs to be able to write and modify :code:`ost-config.php` found in the include directory. Please follow the instructions given by the installer.
 
