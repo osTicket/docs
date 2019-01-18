@@ -12,6 +12,14 @@ Since tickets are routed through Departments in the help desk, there are many se
 
   **Parent:**  If nesting departments, this is the Parent Department to nest the department under. Please note: If an agent has access to the Parent Department, they will see the tickets of nested or child departments also, but access does not extend from child departments to Parent Departments.
 
+  **Status:** The status of the department will determine its visibility as well as if tickets can be routed to that department.
+
+    **Active:** The department is available when transferring tickets.
+
+    **Archived:** The department is no longer in use and cannot be selected to transfer any ticket. Also, if tickets in that department are reopened via an End-User response it will create a new ticket referencing the original ticket number and subject line but the department will be the system default.
+
+    **Disabled:** Tickets can no longer be transferred to this department and any tickets set up to be auto routed to this department will now be routed to the default department in the Helpdesk. Closed tickets in this department will reopen if the End-User responds.
+
   **Name:** Department name as it will be displayed throughout the helpdesk.
 
   **Type:** Select Private if you wish to mask assignments to this Department in the Client Portal. Additionally, when labeled as Private, the **Department Signature** will not be displayed in email replies. At least one department of the help desk must be Public.
