@@ -22,7 +22,7 @@ After adding custom columns:
 .. image:: ../_static/images/cccc_after_adding.png
   :alt: After Adding Custom Columns
 
-How can I add a queue that everyone can see?
+How can I add a global queue that everyone can see?
 --------------------------------------------
 
 Admin Panel | Settings Tab | Tickets | Queues Tab | Add New Queue
