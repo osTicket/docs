@@ -7,7 +7,7 @@ Changelog
 Previous Releases
 -----------------
 
-This documentation starts with osTicket version 1.11 and therefore does not contain the CHANGELOG from previous releases. If you would like to view the changes from previous releases please visit our `Releases Page on Github <https://github.com/osTicket/osTicket/releases>`_.
+This documentation starts with osTicket version 1.12 ST and therefore does not contain the CHANGELOG from previous releases. If you would like to view the changes from previous releases please visit our `Releases Page on Github <https://github.com/osTicket/osTicket/releases>`_.
 
 
 Notes
