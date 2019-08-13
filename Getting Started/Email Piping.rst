@@ -22,7 +22,7 @@ CPANEL X INSTRUCTIONS
 CPANEL -> Email -> Forwarders -> Add Forwarder
 
 1. Address to a forwarder: @domain
-2. Advanced Options -> Pipe to a Program:  <code>"public_html/osticket/api/pipe.php"</code>
+2. Advanced Options -> Pipe to a Program:  :code:`public_html/osticket/api/pipe.php`
 3. Click 'Add Forwarder' button
 
 When complete you will see:
@@ -82,7 +82,7 @@ Create/Edit your :code:`.qmail-*` for the domain you wish to forward and add a f
 Modify your aliases file by adding :code:`support: root, |/path/to/api/pipe.php` and run newaliases.
 
 **SETTING UP ALIASES IN .PROCMAILRC**
-  
+
 .. code-block:: bash
 
   :0 c
