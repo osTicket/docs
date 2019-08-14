@@ -62,12 +62,14 @@ From the quick action buttons on the top right of the Ticket Header, Agents can 
 
 **Change Status:** Agents can change the status of the ticket with no response required. If changed, a pop up box will appear allowing agents to include notes with the status change.
 
-**More:**  Depending on the Agent’s Role permissions, they can see theses functions.
+**More:**  Depending on the Agent’s Role permissions, they can see these functions.
 
 .. image:: ../../_static/images/agent_tickets_ticket_moreOptions.png
   :alt: More Options
 
 **Change Owner:** this allows the Agent to change the owner of the ticket. If the owner is changed, the previous owner will no longer have access to the ticket.
+
+**Mark as Answered/Unanswered:** This allows the Agent to mark the ticket as Answered or Unanswered (depending on it's current state). The Agent has to have the Post Reply permission for the Ticket's Department in order to utilize this feature. When marking a ticket as Answered/Unanswered the Agent gets a popup to optionally put a reason why they marked it as such. If a reason is provided it will be added as an Internal Note with the title :code:`Ticket Marked (Un)Answered` (depending on what it was marked as). Regardless of if they put a reason or not the system will always put a SYSTEM Note saying the ticket was flagged as (Un)Answered by the Agent along with a timestamp.
 
 **Manage Forms:** This will allow the agent to attach any Custom Forms of the help desk to the ticket. Fields of the form can be edited once added by clicking on the “Edit” quick button. The fields of the form will not show up on the ticket header until there is information in the fields. If enabled, either the Agent or the ticket owner can edit the fields of the added forms.
 
