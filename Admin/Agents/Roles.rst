@@ -10,37 +10,41 @@ Roles are the permissions granted to Agents per Department that they have access
 
 **Role Permissions for Tickets include:**
 
-  **Create:** Ability to open tickets on behalf of users
-
-  **Edit:** Ability to edit tickets
-
   **Assign:** Ability to assign tickets to agents or teams
-
-  **Transfer:** Ability to transfer tickets between departments
-
-  **Post Reply:** Ability to post a ticket reply
 
   **Close:** Ability to close tickets
 
+  **Create:** Ability to open tickets on behalf of users
+
   **Delete:** Ability to delete tickets
+
+  **Edit:**  Ability to edit tickets
 
   **Edit Thread:** Ability to edit thread items of other agents
 
+  **Post Reply:**  Ability to post a ticket reply
+
+  **Refer:**  Ability to manage ticket referrals
+
+  **Release:** Ability to release ticket assignment
+
+  **Transfer** Ability to transfer tickets between departments
+
 **Role Permissions for Tasks include:**
-
-  **Create:** Ability to create tasks
-
-  **Edit:** Ability to edit tasks
 
   **Assign:** Ability to assign tasks to agents or teams
 
-  **Transfer:** Ability to transfer tasks between departments
+  **Close:** Ability to close tasks
+
+  **Create:** Ability to create tasks
+
+  **Delete:** Ability to delete tasks
+
+  **Edit:** Ability to edit tasks
 
   **Post Reply:** Ability to post task update
 
-  **Close:** Ability to close tasks
-
-  **Delete:** Ability to delete tasks
+  **Transfer:** Ability to transfer tasks between departments
 
 **Role Permissions for the Knowledge Base include:**
 
