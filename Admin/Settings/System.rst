@@ -29,6 +29,8 @@ General Settings
 
 **Enable HTML/Rich Text:** If enabled, this will permit the use of rich text formatting between Clients and Agents.
 
+**ACL:** ACL (or Access Control List) is a feature allowing you to limit access to your entire helpdesk (or specific panels) to a list of IP addresses. See full documentation :doc:`here <../../Features/ACL (Access Control List)>`.
+
 
 Date & Time Settings
 --------------------
