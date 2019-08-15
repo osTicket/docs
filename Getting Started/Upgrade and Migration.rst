@@ -25,8 +25,9 @@ After you have successfully downloaded the osTicket package to your computer you
 #. Upload folder contains the osTicket files that need to be uploaded to your web server.
 #. Do not overwrite your ost-config.php file (in the include directory) or else you will lose your MySQL admin settings.
 #. Do not upload files in scripts folder. Only useful for remote piping
-#. For versions 1.6 RC1-RC2 Only
-#. Once you've overwritten the files, rename config.php to ostconfig.php (config.php is found in root osTicket directory).
+#. For versions 1.6 RC1-RC2 Only: Once you've overwritten the files, rename config.php to ostconfig.php (config.php is found in root osTicket directory).  
+#. For newer versions the config.php or ostconfig.php file should be renamed to ost-config.php and moved to the /include folder.
+
 
 **Note:** If you've customized your osTicket installation, you will need to port the changes to the new version following a successful upgrade. Database changes might cause conflicts.
 
