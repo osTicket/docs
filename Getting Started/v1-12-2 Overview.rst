@@ -8,6 +8,7 @@ Upgrade Overview (v1.12.2)
 Features Outlined in this Document
 ----------------------------------
 
+* Bug Fix: Recipients Field for Departments
 * ACL (Access Control List)
 * Allow iFrames
 * Complete Thread Variable
@@ -36,6 +37,20 @@ Features Outlined in this Document
 * Fix DatePicker on client side
 * Add Custom Forms to Ticket Filter Data
 
+Recipients Field for Departments
+--------------------------------
+
+Please note, we had a bug fix in this release that corrected the behavior of the Recipients field for Departments. It was incorrectly sending out alerts even if Recipients was set to ‘No one’. If you want to change the behavior of this field, you can change it by going to:
+
+Admin Panel | Agents Tab | Departments | Select the desired department
+
+.. image:: ../_static/images/111overview_dept_recip1.png
+  :alt: Recipients Field for Departments
+
+The Recipients field is under Alerts and Notices on the form. If it is set to ‘No one (disable Alerts and Notices)’, Agents will NOT receive an alert when a Ticket is created in this Department. If it is set to ‘Department members only’, only Agents with this Department as a primary Department will receive the alert. If it is set to ‘Department and extended access members’, all Agents with access to this Department will receive the alert.
+
+.. image:: ../_static/images/111overview_dept_recip2.png
+  :alt: Recipients Field for Departments
 
 ACL (Access Control List)
 -------------------------
