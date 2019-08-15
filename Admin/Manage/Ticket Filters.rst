@@ -50,7 +50,7 @@ The rules criteria selection is from any field available in the ticket including
 Filter Action Section
 ---------------------
 
-**Reject Email:** If this is selected, no ticket will be created, therefore, save changes because all other actions below this action are invalid.
+**Reject Ticket:** If this is selected, no ticket will be created, therefore, save changes because all other actions below this action are invalid.
 
 **Use Reply-To Email:** Reply to the specified Reply-To email address in the header of the ticket.
 
@@ -69,3 +69,5 @@ Filter Action Section
 **Auto-Assign To:** Auto-assign to specific Staff or Team when rules are matched.
 
 **Set Help Topic:** Ticket can be assigned a specific help topic, which, if applicable, will also add any custom form associated with that Help Topic.
+
+**Send Email:** Send an email to the client if the filter rules are met.
