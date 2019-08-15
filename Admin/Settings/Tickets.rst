@@ -28,15 +28,17 @@ In this section, you can create standards and rules for each ticket that is crea
 
 **Lock Semantics:** Determine what actions taken by Agents on tickets will create a lock on the tickets. Options include: Disable, Lock on View,  and Lock on Activity.
 
+**Default Ticket Queue:** Setting to determine the default queue for agents upon log-in. Agents can also set their default queue in their Profile tab to override this setting.
+
 **Maximum Open Tickets:**  Maximum number of open tickets allowed per email/user; helps with spam and email flood control - You can enter 0 for unlimited.
 
 **Human Verification:** Enable CAPTCHA on the Client Portal to verify an incoming ticket is the result of human activity. Requires GDLib library.
 
 **Claim on Response:** Enable this to auto-assign unassigned tickets to the responding Agent. Reopened tickets are always assigned to the last respondent.
 
-**Assigned Tickets:** Exclude tickets that are assigned to other agents from the Open ticket queue.  All tickets in the Open queue will be open for self-assignment (claim) or to be manually assigned to other agents.
+**Collaborator Ticket Visibility:** If Enabled, Users will have visibility to ALL Tickets they participate in when signing into the Web Portal. If Disabled, Users will only be able to see their own Tickets when signing into the Web Portal.
 
-**Answered Tickets:** Exclude answered tickets on Open queue; this will create a separate Answered ticket queue. If the User responds to an answered ticket, it will automatically move from the Answered queue back to the Open queue. All Answered ticket numbers are not bold for a visual difference if the tickets are not separated.
+**Require Help Topic:** If Enabled, a Ticket must have a Help Topic in order to be Closed by an Agent. This setting is useful if tickets are being created via email and you would like email tickets to have a Help Topic assigned to them.
 
 **Attachments:**
 The configurations for this field is specific to the User attachment settings when opening a ticket on the help desk. Attachments are included by default to the Issue Details field of the built-in Ticket Details Form.
