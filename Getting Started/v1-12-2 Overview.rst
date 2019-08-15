@@ -2,12 +2,19 @@
 
     <br>
 
-Upgrade Overview (v1.11)
-========================
+Upgrade Overview (v1.12.2)
+==========================
 
 Features Outlined in this Document
 ----------------------------------
 
+* ACL (Access Control List)
+* Allow iFrames
+* Complete Thread Variable
+* jQueryUI DateTime Picker
+* Mark As Answered/Unasnwered
+* Reply Redirect
+* Top-Level Queue Counts
 * Custom Queues and Columns
 * Advanced Search
 * Inline Edit
@@ -30,7 +37,80 @@ Features Outlined in this Document
 * Add Custom Forms to Ticket Filter Data
 
 
+ACL (Access Control List)
+-------------------------
 
+**Summary:**
+|br|
+The Access Control List (ACL) feature allows you to enter a single IP address or a comma separated list of IP addresses to allow access to the system. Essentially, this means whatever IP address is in the ACL field will have access to the specified Panels of the software. If the field is left blank your helpdesk is open to the world. This feature is useful for those who wish to lock down their helpdesk to certain clients, to just their internal network or just to list of IP addresses.
+
+Links to Documentation:
+|br|
+:doc:`ACL (Access Control List) <../Features/ACL (Access Control List)>`
+
+
+Allow iFrames
+-------------
+
+**Summary:**
+|br|
+This is a setting to allow specified domains to use your helpdesk in an iFrame. By default no one is allowed to use your helpdesk in an iFrame for security purposes. If however you'd like to use your helpdesk in an iFrame on your company website/forum/etc you can enter the site domain in the Allow iFrames textbox and the site will be able to use your helpdesk in an iFrame.
+
+Links to Documentation:
+|br|
+:doc:`Allow iFrames <../Admin/Settings/System>`
+
+
+Complete Thread Variable
+------------------------
+
+**Summary:**
+|br|
+This includes two new Email Template variables called :code:`%{ticket.thread.complete}` and :code:`%{ticket.thread.complete.reversed}`. These variables will include the entire Thread Correspondance between all Ticket participants. In lamemans terms this is the full thread history. :code:`%{ticket.thread.complete}` will show the thread correspondance in DESC format (latest message on top and oldest message on bottom) whereas :code:`%{ticket.thread.complete.reversed}` will show the thread correspondance in ASC format (oldest message on top and latest message on bottom).
+
+
+jQueryUI DateTime Picker
+------------------------
+
+**Summary:**
+|br|
+We have upgraded the measly old DatePicker to a flashy new DateTime Picker that allows you to choose the date and time all in one popup. Previously, if you had a field that collected date and times there would be one box for the DatePicker calendar and a completely separate dropdown for times. Also, with the old time selection dropdown you had to scroll through *so many* different values to find the exact time you're looking for and you couldn't just type it in. With the new DateTime picker you get one inline popup that includes a calendar for date selections, a time input box that allows you to simply type out the time you want, and two dropdowns for selecting the exact Hour and Minute (in case you didn't want to type it out).
+
+
+Mark As Answered/Unasnwered
+---------------------------
+
+**Summary:**
+|br|
+This allows the Agent to mark the ticket as Answered or Unanswered (depending on it's current state). The Agent has to have the Post Reply permission for the Ticket's Department in order to utilize this feature.
+
+Links to Documentation:
+|br|
+:doc:`Mark As Answered/Unasnwered <../Agent/Tickets/Tickets>`
+
+
+Reply Redirect
+---------------
+
+**Summary:**
+|br|
+This setting defines where the system will redirect you after posting a Reply on a ticket. There are two options, :code:`Queue` and :code:`Ticket`. The default value for this setting is :code:`Ticket`.
+
+Links to Documentation:
+|br|
+:doc:`Reply Redirect <../Agent/Dashboard/My Profile>`
+
+
+Top-Level Queue Counts
+----------------------
+
+**Summary:**
+|br|
+If enabled, this will show the Ticket Counts for Top-Level Queues. By default Top-Level Queues do not show their counts.
+
+Links to Documentation:
+|br|
+:doc:`Top-Level Queue Counts <../Admin/Settings/Tickets>`
 
 
 Custom Queues and Columns
@@ -49,9 +129,6 @@ Links to Documentation:
 :doc:`Custom Columns & Custom Queues (Agent) <../Features/Custom Columns & Custom Queues (Agent)>`
 
 
-
-
-
 Advanced Search
 ---------------
 
@@ -64,9 +141,6 @@ Links to Documentation:
 :doc:`Advanced Search <../Agent/Tickets/Advanced Search>`
 
 
-
-
-
 Inline Edit
 -----------
 
@@ -77,9 +151,6 @@ With Inline Edit, an Agent can modify an individual field on a ticket without ha
 Links to Documentation:
 |br|
 :doc:`Inline Edit <../Features/Inline Edit>`
-
-
-
 
 
 Ticket Referral
@@ -105,8 +176,6 @@ Tests:
    "Refer a ticket to a Department", "\1. Within the same ticket or a new ticket, click 'Manage Referrals' on the More dropdown |br| 2. Click the 'Refer' tab |br| 3. Select 'Department' in the Referee list |br| 4. Select a Department |br| 5. Click Refer |br| 6. Have an Agent from the referred Department who can not currently access the ticket's |br| Department check to make sure the referred ticket is in their Queue", "The referred ticket will show up in the queue of every Agent |br| in the assigned Department"
    "Refer a ticket to a Team of Agents who do not currently have |br| access to the ticket's Department", "\1. Within the same ticket or a new ticket, click 'Manage Referrals' on the More dropdown |br| 2. Click the 'Refer' tab |br| 3. Select 'Team' in the Referee list |br| 4. Select a Team |br| 5. Click Refer |br| 6. Have an Agent from the referred Team who can not currently access the ticket's |br| Department check to make sure the referred ticket is in their Queue", "The referred ticket will show up in the queue of every Agent |br| in the Team"
    "As a User, reply to a ticket through email adding another |br| Department's email to the recipients of the email", "\1. Within the same ticket or a new ticket, reply as an Agent so |br| that an email will go to the ticket User (be sure that you have a way |br| to access the User's email inbox) |br| 2. Go to the User's email inbox and find the email Alert |br| 3. Reply to the email and add the address for another Department in the |br| email recipients list |br| 4. As the Agent, go back to the ticket |br| and click 'Manage Referrals' to ensure the Department has been referred", "Any Departments that were included will now be |br| listed as referred Departments in the ticket"
-
-
 
 
 Collaborators
@@ -170,9 +239,6 @@ Email template that was sent to a Cc'd Collaborator when a ticket was responded 
 ***Note:** You can look for the email that went to the email address assigned to the Cc collaborator you chose.
 
 
-
-
-
 Export Agent CSV
 ----------------
 
@@ -185,8 +251,6 @@ Links to Documentation:
 :doc:`Agent CSV Export <../Features/Agent CSV Export>`
 
 
-
-
 Department Access CSV
 ---------------------
 
@@ -197,9 +261,6 @@ Admins are now able to download a CSV export of which agents can access differen
 Links to Documentation:
 |br|
 :doc:`Department CSV Export <../Features/Department CSV Export>`
-
-
-
 
 
 Archive Help Topics/Departments
@@ -256,9 +317,6 @@ Help Topics:
    "As a User, reply to the ticket created before the Help Topic was disabled. |br| This ticket should still be in the Disabled Help Topic", "\1. Log into the Client Portal as the User assigned to the ticket |br| 2. Respond to the ticket |br| |br| OR |br| |br| 1. Respond to the ticket as the User by email", "\- The ticket should have an event that says 'Reopened by SYSTEM' |br| - The response should be threaded into the ticket"
 
 
-
-
-
 Task Revamp
 -----------
 
@@ -274,8 +332,6 @@ The Task Revamp improves upon the current functionality of tasks by adding the f
 Links to Documentation:
 |br|
 :doc:`Task Revamp <../Features/Task Revamp>`
-
-
 
 
 Release Assignment
@@ -295,9 +351,6 @@ Links to Documentation:
 :doc:`Release Assignment <../Features/Release Assignment>`
 
 
-
-
-
 Require Help Topic
 ------------------
 
@@ -310,9 +363,6 @@ Links to Documentation:
 :doc:`Require Help Topic <../Features/Require Help Topic>`
 
 
-
-
-
 Nested Knowledgebase Categories
 -------------------------------
 
@@ -323,9 +373,6 @@ Agents now have the ability to further organize their Knowledgebase by nesting c
 Links to Documentation:
 |br|
 :doc:`Nested Knowledgebase Categories <../Features/Nested Knowledgebase Categories>`
-
-
-
 
 
 Dashboard Statistics
@@ -355,9 +402,6 @@ Refers to the duration of time that begins at the opening of a ticket and ends w
 Shows an average of the number of hours between when a user posted a message on a ticket and when an agent responded/replied to the customer.
 
 
-
-
-
 Fix Most Redactor Issues
 ------------------------
 
@@ -376,9 +420,6 @@ Previously, the text editor buttons didn’t work properly, like the Bold, Itali
 
 .. image:: ../_static/images/111overview_redactor.png
   :alt: Redactor
-
-
-
 
 
 Fix Reset Button(s)
@@ -409,9 +450,6 @@ Previously the Reset buttons on Tickets never worked. If you clicked Reset nothi
   :alt: Reset After
 
 
-
-
-
 Fix New Ticket Cancel Button
 ----------------------------
 
@@ -436,9 +474,6 @@ Previously the Cancel button on New Ticket creation never worked. If you clicked
 
 .. image:: ../_static/images/111overview_cancel2.png
   :alt: Cancel After
-
-
-
 
 
 Fix %{ticket.last_update} Ticket Variable
@@ -476,9 +511,6 @@ Template: Response/Reply Template
 test
 
 
-
-
-
 Fix DatePicker (Client Side)
 ----------------------------
 
@@ -512,9 +544,6 @@ Previously, occasionally date picker fields on the Client Side would duplicate t
 
 .. image:: ../_static/images/111overview_cf3.png
   :alt: Custom Field 3
-
-
-
 
 
 Add Custom Forms to Ticket Filter Data
