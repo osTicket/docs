@@ -31,6 +31,8 @@ General Settings
 
 **ACL:** ACL (or Access Control List) is a feature allowing you to limit access to your entire helpdesk (or specific panels) to a list of IP addresses. See full documentation :doc:`here <../../Features/ACL (Access Control List)>`.
 
+**Allow iFrames:** This is a setting to allow specified domains to use your helpdesk in an iFrame. By default no one is allowed to use your helpdesk in an iFrame for security purposes. If however you'd like to use your helpdesk in an iFrame on your company website/forum/etc you can enter the site domain in the Allow iFrames textbox and the site will be able to use your helpdesk in an iFrame. This option accepts domain wildcards, HTTP/HTTPS URL scheme, and port numbers. For more information on these formats view the :code:`<host-source>` options in `this link <https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/frame-ancestors#Sources>`__. *Example:* :code:`https://domain.tld, sub.domain.tld:443, http://*.domain.tld`
+
 
 Date & Time Settings
 --------------------
