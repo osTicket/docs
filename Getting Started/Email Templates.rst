@@ -11,42 +11,51 @@ Variables
 =====================   ===============================
 %{ticket.id}            Ticket ID (internal ID)
 %{ticket.number}        Ticket number (external ID)
-%{ticket.email}         Email address
-%{ticket.name}          Full name
+%{ticket.email}         Email Address
+%{ticket.name}          Full Name
 %{ticket.subject}       Subject
-%{ticket.phone}         Phone number | ext
+%{ticket.phone}         Phone Number | ext
 %{ticket.status}        Status
 %{ticket.priority}      Priority
-%{ticket.assigned}      Assigned staff and/or team
-%{ticket.create_date}   Date created
-%{ticket.due_date}      Due date
-%{ticket.close_date}    Date closed
-%{ticket.auth_token}    Auth. token used for auto-login
-%{ticket.client_link}   Client's ticket view link
-%{ticket.staff_link}    Staff's ticket view link
+%{ticket.assigned}      Assigned Staff and/or Team
+%{ticket.create_date}   Date Created
+%{ticket.due_date}      Due Date
+%{ticket.close_date}    Date Closed
+%{ticket.auth_token}    Auth. Token used for auto-login
+%{ticket.client_link}   Client's Ticket View Link
+%{ticket.staff_link}    Staff's Ticket View Link
 =====================   ===============================
 
 **EXPANDABLE VARIABLES**
 
-=============== ======================
-%{ticket.topic} Help topic
-%{ticket.dept}  Department
-%{ticket.staff} Assigned/closing staff
-%{ticket.team}  Assigned/closing team
-=============== ======================
+================ ======================
+%{ticket.dept}   Department
+%{ticket.staff}  Assigned/Closing Staff
+%{ticket.team}   Assigned/Closing Team
+%{ticket.thread} Ticket Thread
+%{ticket.topic}  Help topic
+%{ticket.user}   Ticket Owner
+================ ======================
 
 **OTHER VARIABLES**
 
 ============    ================================
-%{message}      Incoming message
-%{response}     Outgoing response
-%{comments}     Assign/transfer comments
-%{note}         Internal note (expandable)
-%{assignee}     Assigned staff/team
-%{assigner}     Staff assigning the ticket
-%{signature}    Staff/Dept signature (selection)
-%{url}          osTicket's base url (FQDN)
+%{message}      Incoming Message
+%{response}     Outgoing Response
+%{comments}     Assign/Transfer Comments
+%{note}         Internal Note (expandable)
+%{assignee}     Assigned Staff/Team
+%{assigner}     Staff Assigning the Ticket
+%{signature}    Staff/Dept Signature (selection)
+%{url}          osTicket's Base URL (FQDN)
 ============    ================================
+
+**NEW VARIABLES**
+
+==================================   =======================================
+%{ticket.thread.complete}            Thread Correspondance
+%{ticket.thread.complete.reversed}   Thread Correspondance in reversed order
+==================================   =======================================
 
 Variable Contexts
 -----------------
