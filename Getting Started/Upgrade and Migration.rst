@@ -1,7 +1,7 @@
 Upgrade and Migration
 =====================
 
-Before embarking on an upgrade or a migration mission, it is extremely important that you backup your website's database and files. We also recommend that you take the system offline momentarily during the process. While we try to ensure that the upgrade process is straightforward and painless, we can't guarantee it will be the case for every user. For this reason it is crucial that users take precautions in case of any problems. If the thought of upgrading your installation gives you the shakes then feel free to `contact us for help <http://osticket.com/support/contact.php>`_.
+Before embarking on an upgrade or a migration mission, it is extremely important that you backup your website's database and files. We also recommend that you take the system offline momentarily during the process. While we try to ensure that the upgrade process is straightforward and painless, we can't guarantee it will be the case for every user. For this reason it is crucial that users take precautions in case of any problems. If the thought of upgrading your installation gives you the shakes then feel free to `contact us for help <https://osticket.com/contact-us/>`_.
 
 Upgrade
 -------
@@ -11,7 +11,7 @@ From time to time it will be necessary to upgrade your osTicket installation to 
 #. Only previous versions from version 1.6 RC1 can be upgraded to the current version.
 #. If your osTicket version is older than 1.6, you need to look into migration instead.
 
-Our objectives is to make upgrading from an earlier release as painless as possible going forward and support migration from discontinued versions. we are working with `osTicket community <http://osticket.com/forums/>`_ on the best way to upgrade or/and import data from previous versions including 3rd party helpdesk systems.
+Our objectives is to make upgrading from an earlier release as painless as possible going forward and support migration from discontinued versions. we are working with `osTicket community <https://forum.osticket.com/>`_ on the best way to upgrade or/and import data from previous versions including 3rd party helpdesk systems.
 
 Uploading Files
 ---------------
@@ -25,7 +25,7 @@ After you have successfully downloaded the osTicket package to your computer you
 #. Upload folder contains the osTicket files that need to be uploaded to your web server.
 #. Do not overwrite your ost-config.php file (in the include directory) or else you will lose your MySQL admin settings.
 #. Do not upload files in scripts folder. Only useful for remote piping
-#. For versions 1.6 RC1-RC2 Only: Once you've overwritten the files, rename config.php to ostconfig.php (config.php is found in root osTicket directory).  
+#. For versions 1.6 RC1-RC2 Only: Once you've overwritten the files, rename config.php to ostconfig.php (config.php is found in root osTicket directory).
 #. For newer versions the config.php or ostconfig.php file should be renamed to ost-config.php and moved to the /include folder.
 
 
@@ -54,4 +54,4 @@ Once the upgrade has completed, browse to the staff control panel (scp) and chec
 
 **Migration**
 
-We plan on supporting data migration from previous discontinued versions of osTicket as well as 3rd party help desks in the near future. Please check the `forums <http://osticket.com/forum/>`_ for up to date discussions on the subject.
+We plan on supporting data migration from previous discontinued versions of osTicket as well as 3rd party help desks in the near future. Please check the `forums <https://forum.osticket.com/>`_ for up to date discussions on the subject.

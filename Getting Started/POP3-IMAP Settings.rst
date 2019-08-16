@@ -38,7 +38,7 @@ If the User Agent string is not changed to the API key, the request will be deni
 
 If your host allows you to modify their schedulers User Agent string, then change that to the API key and add your webhost scheduler's IP to :code:`Settings => API => API Keys`.
 
-**EXTERNAL TRIGGERING USING :code:`WGET`**
+**EXTERNAL TRIGGERING USING WGET**
 
 First add an API key and IP to :code:`Settings => API => API Keys`.
 
@@ -49,7 +49,7 @@ First add an API key and IP to :code:`Settings => API => API Keys`.
 
 Then, setup a cron job to run wget :code:`*/5 * * * * nobody wget -q -O /dev/null --user-agent=<API key here> http://<host & path goes here>/api/cron.php`
 
-See `forum post <http://osticket.com/forums/showthread.php?t=3158>`_.
+See `forum post <https://forum.osticket.com/d/9214-calling-remote-mail-fetch-from-another-server-using-cron/2>`_.
 
 **AUTO CRON**
 

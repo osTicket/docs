@@ -43,7 +43,7 @@ These fields are included with the stock common client form. The :code:`name` fi
 
 Some fields have special formatting for inputs. For instance date fields must receive the date formatted in Unix epoch time. This processing is performed automatically for requests from the web interface. However, in the case of the API, the remote requester is required to perform the procecssing priori to submitting the request via the API. The sections below outline how to format data for custom fields for requests sent via the API.
 
-#. **Date Fields:** Date fields need to be formatted in a format recognizable to PHP's strtotime() function. The best formats are `Unix epoch time <https://github.com/osTicket/osTicket/blob/develop/setup/doc/api/wikipedia.org/wiki/Unix_time>`_, and [ISO 8601] (http://xkcd.com/1179/). If using timezone offset in the date specification, ensure that the *Timezone Aware* flag is set for the field.
+#. **Date Fields:** Date fields need to be formatted in a format recognizable to PHP's strtotime() function. The best formats are `Unix epoch time <https://en.wikipedia.org/wiki/Unix_time>`_, and [ISO 8601] (http://xkcd.com/1179/). If using timezone offset in the date specification, ensure that the *Timezone Aware* flag is set for the field.
 #. **Phone number Fields:** If the extension is provided with the phone number, include a capital 'X' between the phone number and phone extension parts of the field.
 #. **Choice and Selection Fields:** Use either the key specified with the choice field, or the name of the field. For selection fields, do not use anything from the :code:`extra` column of the list designer.
 
@@ -81,13 +81,13 @@ Notice that the phone extension can be sent as the :code:`@ext` attribute of the
       </attachments>
       <ip>123.211.233.122</ip>
   </ticket>
-      
+
 
 **JSON Payload Example**
 
 #. :code:`POST /api/tickets.json`
 
-Attachment data for the JSON content uses the `RFC 2397 <http://www.ietf.org/rfc/rfc2397.txt>`_ data URL format. As described above, the content-type and base64 encoding hints are optional. Furthermore, a character set can be optionally declared for each attachment and will be automatically converted to UTF-8 for database storage.
+Attachment data for the JSON content uses the `RFC 2397 <https://www.ietf.org/rfc/rfc2397.txt>`_ data URL format. As described above, the content-type and base64 encoding hints are optional. Furthermore, a character set can be optionally declared for each attachment and will be automatically converted to UTF-8 for database storage.
 
 Notice that the phone number extension can be embedded in the :code:`phone` value denoted with a capital :code:`X`
 
