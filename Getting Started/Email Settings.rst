@@ -80,9 +80,9 @@ If you are running some other firewall, make sure it is allowing outgoing connec
 
 Not related to SMTP, but make sure you enabled IMAP or POP3 from Settings -> Forwarding and POP/IMAP
 
-To enable `POP for your Gmail account <http://mail.google.com/support/bin/answer.py?hl=en&answer=13287>`_.
+To enable `POP for your Gmail account <https://support.google.com/mail/answer/7104828?hl=en>`_.
 
-To enable `IMAP for your Gmail account <https://support.google.com/mail/answer/78799?hl=en&ref_topic=2769074>`_.
+To enable `IMAP for your Gmail account <https://support.google.com/mail/answer/7126229?hl=en>`_.
 
 You may need to "allow less secure apps". From gmail, click your avatar at the top right of the page and click "My Account". In the left menu, under Sign-In & Security, click "Connected Apps and Sites". Scroll down to "Allow less secure apps" and turn it on and retest.
 
