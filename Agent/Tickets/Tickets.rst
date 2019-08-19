@@ -56,7 +56,13 @@ From the top of the ticket or the Ticket Header, Agents will see any data associ
 
 From the quick action buttons on the top right of the Ticket Header, Agents can perform a few different actions if granted these permissions in their assigned Group.
 
-**Print:** Allows agents to print either the Ticket Thread or the Ticket Thread including any internal notes.
+**Print:** Allows Agents to print a specific Ticket.
+
+  **Ticket Thread:** Prints the entire Ticket Thread (excluding Internal Notes and Thread Events).
+
+  **Thread + Internal Notes:** Prints the entire Ticket Thread including Internal Notes (excluding Thread Events).
+
+  **Thread + Internal Notes + Events:** Prints the entire Ticket Thread including Internal Notes and Thread Events.
 
 **Edit:** This action allows agents to edit the fields of the ticket- including any custom forms that are added to the ticket once it is created.
 
