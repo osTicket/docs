@@ -54,6 +54,12 @@ Check "Allow spoofing (No Overwrite)" in :code:`Settings => Email Settings`
 Gmail Configuration
 -------------------
 
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 2%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/xs1k_ocnfd8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
 In order to use Gmail, your host must support SSL, so osTicket can negotiate the secure connection, and you must enable IMAP or POP in your GMail or GApps account. Configure in osTicket (the easy part)
 
 Under Admin panel -> Emails -> Emails -> Sending email via SMTP For most people, enter either ssl://smtp.gmail.com with port 465 or tls://smtp.gmail.com with port 587.
