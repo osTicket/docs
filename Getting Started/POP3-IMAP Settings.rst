@@ -55,7 +55,7 @@ See `forum post <https://forum.osticket.com/d/9214-calling-remote-mail-fetch-fro
 
 This is internal task manager triggered by staff's activity, no external setup required! If enabled, emails are fetched based on activity of a logged in staff member at an interval set for each of the email accounts.
 
-#. Enable in :code:`Admin Panel => Settings => General Settings`
+#. Enable in :code:`Admin Panel => Emails => Settings` and ensure Email Fetching `Fetch on auto-cron` is enabled.
 #. Please note that nothing happens if no one is logged in.
 #. It might slow the page load a little in some instances.
 #. Maximum of one cron call every 3 minutes per staff
