@@ -13,6 +13,7 @@ osTicket is a widely-used open source support ticket system. It seamlessly integ
    :maxdepth: 1
    :caption: Getting Started
 
+   Tutorials <https://www.youtube.com/c/osTicket_tutorials>
    Getting Started/Installation
    Getting Started/Post-Installation
    Getting Started/Email Settings
