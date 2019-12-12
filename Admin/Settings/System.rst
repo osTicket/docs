@@ -17,6 +17,8 @@ General Settings
 
 **Default Department:** Choose a default Department for tickets that are not otherwise routed to a specific department. Tickets can be routed-based on help topics, incoming emails, and ticket filter settings.
 
+**Force HTTPS:** This setting allows Admins to configure wether or not they want to Force HTTPS system-wide. If enabled, any request that is using the HTTP protocol will be redirected to the HTTPS protocol. Note, this will only work if you have an SSL certificate installed and have HTTPS configured on the server.
+
 **Collision Avoidance Duration:** Enter the maximum length of time an Agent is allowed to hold a lock on a ticket or task without any activity. Enter 0 to disable the lockout feature.
 
 **Default Page Size:** Choose the number of items shown per page in the Ticket Queues of the Agent Panel. Each Agent can also customize this number for their own account under My Preferences.
@@ -29,10 +31,11 @@ General Settings
 
 **Enable HTML/Rich Text:** If enabled, this will permit the use of rich text formatting between Clients and Agents.
 
-**ACL:** ACL (or Access Control List) is a feature allowing you to limit access to your entire helpdesk (or specific panels) to a list of IP addresses. See full documentation :doc:`here <../../Features/ACL (Access Control List)>`.
-
 **Allow iFrames:** This is a setting to allow specified domains to use your helpdesk in an iFrame. By default no one is allowed to use your helpdesk in an iFrame for security purposes. If however you'd like to use your helpdesk in an iFrame on your company website/forum/etc you can enter the site domain in the Allow iFrames textbox and the site will be able to use your helpdesk in an iFrame. This option accepts domain wildcards, HTTP/HTTPS URL scheme, and port numbers. For more information on these formats view the :code:`<host-source>` options in `this link <https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/frame-ancestors#Sources>`__. *Example:* :code:`https://domain.tld, sub.domain.tld:443, http://*.domain.tld`
 
+**Embedded Domain Whitelilst:** Enter a comma separated list of domains to be whitelisted for iFrames used in the system. Do not input :code:`http(s)` or :code:`www` with the domain; only the domain name will be accepted. This is used when you would like to embed content in the system (eg. YouTube video) via Client Portal, Knowledgebase, etc. If you add an iFrame with a non-whitelisted domain, the system will remove the iFrame automatically. By default the system allows YouTube, Vimeo, DailyMotion, and Microsoft Stream. *Example:* :code:`domain.tld, sub.domain.tld`
+
+**ACL:** ACL (or Access Control List) is a feature allowing you to limit access to your entire helpdesk (or specific panels) to a list of IP addresses. See full documentation :doc:`here <../../Features/ACL (Access Control List)>`.
 
 Date & Time Settings
 --------------------
