@@ -18,6 +18,23 @@ Optionally, configurations such as the Department the ticket will be routed to a
 .. image:: ../../_static/images/admin_emails_emails_ticket_settings.png
   :alt: New Ticket Settings
 
+Next fill out the Login Information for the email address. The Username is utilized in the email authentication process. In most cases you will have only one username for an email address (which is the email address itself). In the case of shared mailboxes however, you specify the authenticating user address first then the shared user address separated by a backwards/forwards slash (eg. :code:`user@domain.tld\shared@domain.tld`). In some email setups you might need to specify a servername/hostname before the username (eg. :code:`Servername\user@domain.tld`). In rare cases you might need a combination of all (eg. :code:`Servername\user@domain.tld\shared@domain.tld`). We accept all the aforementioned formats; below are some examples:
+
++-------------------------------------------------+-------------------------------+-------------------------------+
+| String                                          | authname                      | username                      |
++=================================================+===============================+===============================+
+|``user@domain.tld``                              |                               |``user@domain.tld``            |
++-------------------------------------------------+-------------------------------+-------------------------------+
+|``user@domain.tld\shared@domain.tld``            |``user@domain.tld``            |``shared@domain.tld``          |
++-------------------------------------------------+-------------------------------+-------------------------------+
+|``Servername\user@domain.tld``                   |                               |``Servername\user@domain.tld`` |
++-------------------------------------------------+-------------------------------+-------------------------------+
+|``Servername\user@domain.tld\shared@domain.tld`` |``Servername\user@domain.tld`` |``shared@domain.tld``          |
++-------------------------------------------------+-------------------------------+-------------------------------+
+
+.. image:: ../../_static/images/admin_emails_emails_login_info.png
+  :alt: Login Infromation
+
 You can setup IMAP/POP by clicking **Enable** and filling in the information for the email address.
 
 .. image:: ../../_static/images/admin_emails_emails_imap.png
