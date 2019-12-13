@@ -3,6 +3,12 @@ Upgrade and Migration
 
 Before embarking on an upgrade or a migration mission, it is extremely important that you backup your website's database and files. We also recommend that you take the system offline momentarily during the process. While we try to ensure that the upgrade process is straightforward and painless, we can't guarantee it will be the case for every user. For this reason it is crucial that users take precautions in case of any problems. If the thought of upgrading your installation gives you the shakes then feel free to `contact us for help <https://osticket.com/contact-us/>`_.
 
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 2%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ImV820aLxAY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
 Upgrade
 -------
 
@@ -10,6 +16,12 @@ From time to time it will be necessary to upgrade your osTicket installation to 
 
 #. Only previous versions from version 1.6 RC1 can be upgraded to the current version.
 #. If your osTicket version is older than 1.6, you need to look into migration instead.
+
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 2%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Oah6vn9DaDk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
 
 Our objectives is to make upgrading from an earlier release as painless as possible going forward and support migration from discontinued versions. we are working with `osTicket community <https://forum.osticket.com/>`_ on the best way to upgrade or/and import data from previous versions including 3rd party helpdesk systems.
 
