@@ -7,6 +7,12 @@ Ticket Merge/Link
 
 This feature introduces 2 new capabilities in the system: merging and linking Tickets.
 
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 2%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/pG_LGBTiREg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
 The Ticket Merge feature allows you to combine two or more Tickets so that their threads will all be in one Ticket. We will call this the **Parent** Ticket.
 
 Linking allows you to group tickets together without actually manipulating any Tickets. It just gives you a quick way to access Tickets
