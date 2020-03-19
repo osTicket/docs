@@ -53,6 +53,7 @@ osTicket is a widely-used open source support ticket system. It seamlessly integ
    Features/Ticket Merge & Link
    Features/Task Revamp
    Features/Ticket Referral
+   Features/Visibility Permissions
 
 
 .. toctree::
