@@ -50,6 +50,7 @@ osTicket is a widely-used open source support ticket system. It seamlessly integ
    Features/Nested Knowledgebase Categories
    Features/Release Assignment
    Features/Require Help Topic
+   Features/Schedules
    Features/Ticket Merge & Link
    Features/Task Revamp
    Features/Ticket Referral
