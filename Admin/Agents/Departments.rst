@@ -18,11 +18,15 @@ Since tickets are routed through Departments in the help desk, there are many se
 
   **SLA:** Service Level Agreement for tickets routed to this Department. This the expected amount of time (in hours) that a ticket is expected to be closed once opened. If the ticket is not closed in the allotted amount of time, it will then be Overdue.
 
-  **Manager:** Electively, select a **Manager** for the departments of the help desk. Managers can be configured to receive special alerts and also have the right to un-assign tickets.
+  **Schedule:** Schedule is used by the Service Level Agreement when rendering tickets routed to this Department. This setting takes precedence over System and SLA schedule settings.
+
+  **Manager:** Electively, select a Manager for the departments of the help desk. Managers can be configured to receive special alerts.
 
   **Ticket Assignment:** Enable this to restrict ticket assignment to include only members of this Department. Department membership can be extended to based on Agent’s Department Access, if **Alerts & Notices Recipients** includes those with department access.
 
   **Claim on Response:** Check this to **disable** auto-claim on response/reply for this department. Agents can still manually claim unassigned tickets.
+
+  **Reopen Auto Assignment:** Check this to disable auto-assignment of reopened tickets for this department. Otherwise, the Ticket will be auto assigned to the last responding Agent.
 
 **Outgoing Email Settings:**
 
