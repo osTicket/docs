@@ -30,7 +30,7 @@ First, the Knowledge Base will need to be enabled for the client interface by go
 .. image:: ../../_static/images/agent_knowledgebase_knowledgebase_settings.png
   :alt: Knowledgebase Settings
 
-Once enabled, the Knowledge Base can be built by agents in the Agent Panel > Knowledge Base. To built the knowledge base, the agent will have to first, Add a Category and then add Frequently Asked Questions to the Category.
+Once enabled, the Knowledge Base can be built by agents in the Agent Panel > Knowledge Base. To built the knowledge base, the agent will have to first, Add a Category and then add Frequently Asked Questions to the Category. Within the Category you have the ability to nest Categories together. Nested Categories are listed together within the Knowledgebase. 
 
 To add FAQ's to the Category, the agent will need to click on the Category name on the FAQ tab:
 
