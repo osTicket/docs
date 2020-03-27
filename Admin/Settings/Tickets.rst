@@ -39,9 +39,13 @@ In this section, you can create standards and rules for each ticket that is crea
 
 **Human Verification:** Enable CAPTCHA on the Client Portal to verify an incoming ticket is the result of human activity. Requires GDLib library.
 
+**Collaborator Ticket Visibility:** If Enabled, Users will have visibility to ALL Tickets they participate in when signing into the Web Portal. If Disabled, Users will only be able to see their own Tickets when signing into the Web Portal.
+
 **Claim on Response:** Enable this to auto-assign unassigned tickets to the responding Agent. Reopened tickets are always assigned to the last respondent.
 
 **Collaborator Ticket Visibility:** If Enabled, Users will have visibility to ALL Tickets they participate in when signing into the Web Portal. If Disabled, Users will only be able to see their own Tickets when signing into the Web Portal.
+
+**Auto-refer on Close:** Enable this to auto-refer tickets to the assigned or closing Agent when a ticket is closed. This is necessary when you want to give agents with limited access continued access to assigned tickets after they're closed.
 
 **Require Help Topic:** If Enabled, a Ticket must have a Help Topic in order to be Closed by an Agent. This setting is useful if tickets are being created via email and you would like email tickets to have a Help Topic assigned to them.
 

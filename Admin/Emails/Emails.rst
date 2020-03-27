@@ -37,7 +37,7 @@ Next fill out the Login Information for the email address. The Username is utili
 
 You can setup IMAP/POP by clicking **Enable** and filling in the information for the email address.
 
-.. image:: ../../_static/images/admin_emails_emails_imap.png
+.. image:: ../../_static/images/email_fetching.png
   :alt: IMAP/POP Settings
 
 After you have configured the Mail Account Settings, be sure to enable fetching for the system at **Admin Panel > Emails > Settings**.
@@ -47,7 +47,7 @@ After you have configured the Mail Account Settings, be sure to enable fetching 
 
 Next, you will need to setup the SMTP configurations for the email address in the last section. Click **Enable** and fill in the information for the email address.
 
-.. image:: ../../_static/images/admin_emails_emails_smtp.png
+.. image:: ../../_static/images/email_smtp.png
   :alt: SMTP Settings
 
 Once you have the email's SMTP setup, you will need to make it your System Default Outgoing email address by going to **Admin Panel > Emails > Settings** and changing the second to last box to the email address you just configured SMTP for.
