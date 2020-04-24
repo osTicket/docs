@@ -18,5 +18,7 @@ Previously Released
    Features/Nested Knowledgebase Categories
    Features/Release Assignment
    Features/Require Help Topic
+   Features/Schedules
    Features/Task Revamp
+   Features/Ticket Merge & Link
    Features/Ticket Referral
