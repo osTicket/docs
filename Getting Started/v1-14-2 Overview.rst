@@ -20,7 +20,7 @@ http://osticket.com/download
 Configurable Agents As Collaborators
 ------------------------------------
 
-This feature adds a new setting called "Disable Agent Collaborators" that allows Admins to globally configure whether or not to allow Agents to be added as Collaborators via any communication on Tickets.
+This feature adds a new setting called "Disable Agent Collaborators" that allows Admins to globally configure whether or not to allow Agents to be added as Collaborators via Users.
 In some use cases Agents do not want to be added as Collaborators on Tickets to avoid an overload of emails/alerts, etc.
 This adds a new checkbox labeled Disable Agent Collaborators to:
 
@@ -29,9 +29,8 @@ Admin Panel > Settings > Agents
 .. image:: ../_static/images/1142-Overview1.png
   :alt: Configurable Agents
 
-If this box is Enabled/Checked, Agents that are added as Collaborators will automatically be disabled.
-This disables the participant alerts for the Agents whilst giving other Agents/Admins the ability to enable them at a later date instead of having to manually add them back.
-If an Agent tries adding another Agent as a Collaborator via the Manage Collaborators modal it will also Disable the Agent Collaborator.
+If this box is Enabled/Checked, Agents that are added as Collaborators by Users will automatically be disabled.
+This disables the participant alerts for the Agents whilst giving other Agents/Admins the ability to enable them at a later date.
 
 Force HTTPS
 -----------
