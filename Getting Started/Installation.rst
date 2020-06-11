@@ -18,6 +18,11 @@ osTicket comes with its own web-based installer to help guide you through the in
     <div style="position: relative; padding-bottom: 2%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/K7T_JjvEamg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
+    
+**Cloudron:**
+
+osTicket is available as a one-click in the `Cloudron App Library <https://cloudron.io/store/com.osticket.cloudronapp.html>`_. 
+The app is kept automatically up-to-date with upstream releases.
 
 Prerequisites
 -------------
