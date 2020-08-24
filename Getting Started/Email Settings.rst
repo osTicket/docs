@@ -52,7 +52,7 @@ A blocked connection will result in a message similar to the following:
 Check "Allow spoofing (No Overwrite)" in :code:`Settings => Email Settings`
 
 Outlook Configuration
--------------------
+---------------------
 
 .. raw:: html
 
