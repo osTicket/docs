@@ -21,7 +21,7 @@ osTicket is a widely-used open source support ticket system. It seamlessly integ
    Getting Started/POP3-IMAP Settings
    Getting Started/Email Piping
    Getting Started/Upgrade and Migration
-   Getting Started/v1-14-2 Overview
+   Getting Started/v1-15 Overview
 
 
 .. toctree::
@@ -37,6 +37,7 @@ osTicket is a widely-used open source support ticket system. It seamlessly integ
    :maxdepth: 1
    :caption: Features
 
+   Features/Multifactor Authentication
    Features
 
 
@@ -45,6 +46,8 @@ osTicket is a widely-used open source support ticket system. It seamlessly integ
    :caption: Plugins
 
    Plugins/Audits
+   Plugins/Google Two Factor Authentication
+   Plugins/Password Management Policies
 
 
 .. toctree::
