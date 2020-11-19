@@ -77,7 +77,7 @@ Field Types and their possible configurations include:
 
     **Require Entry:** Optionally, this field can prevent closing a thread until it has valid data.
 
-**Long Answer:**  Allows users to include a large amount of text in a form. You can configure to limit as necessary.
+**Long Answer:**  Allows users to include a large amount of text in a form. You can configure to limit as necessary. If there is HTML content in a Long Answer field we will show only the plain-text content in the ticket header and to view the full HTML content you can click the field in the header to view it.
 
   **Config box:**
 
