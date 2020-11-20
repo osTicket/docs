@@ -9,6 +9,12 @@ Multifactor Authentication, sometimes referred to as Two Factor Authentication, 
 |br|
 when they log into the helpdesk. Once they correctly submit their username and password, they will be required to submit a token to finish logging into the helpdesk.
 
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 2%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/NGIWEt7U7x0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
 Agents can configure their Default 2FA settings by going to their profile.
 
 .. image:: ../_static/images/mfa1.png
