@@ -56,3 +56,4 @@ osTicket is a widely-used open source support ticket system. It seamlessly integ
 
    Changelog <https://github.com/osTicket/osTicket/releases>
    Developer Documentation/API Docs
+   Developer Documentation/Database ERDs
