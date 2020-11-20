@@ -38,6 +38,7 @@ osTicket is a widely-used open source support ticket system. It seamlessly integ
    :caption: Features
 
    Features/Multifactor Authentication
+   Features/Visibility Permissions
    Features
 
 
