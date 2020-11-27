@@ -6,7 +6,12 @@ Password Management Policies
 ============================
 
 The Password Management Policies plugin allows helpdesk Administrators to enforce custom requirements for Agents' and Users' passwords in the helpdesk.
-|br|
+
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 2%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/JlOs7qdsHXA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
 Once installed and enabled, Administrators can configure Password Management Policies by going to:
 
 Admin Panel | Manage | Plugins | Password Management Policies
