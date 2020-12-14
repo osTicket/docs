@@ -49,6 +49,7 @@ osTicket is a widely-used open source support ticket system. It seamlessly integ
    Plugins/Audits
    Plugins/Google Two Factor Authentication
    Plugins/Password Management Policies
+   Plugins/Attachments on the Filesystem
 
 
 .. toctree::
