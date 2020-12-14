@@ -7,6 +7,12 @@ Visibility Permissions
 
 New Permissions have been added to limit the visibility of Departments, Agents, and Help Topics based on an Agent's Department access.
 
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 2%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/oM-djMZQEvI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
 These permissions can be found by going to:
 
 Admin Panel | Agents | Select an Agent | Permissions Tab | Miscellaneous
