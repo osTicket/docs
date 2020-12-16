@@ -98,4 +98,4 @@ Change this to:
 
 Then errors should be displayed either in your web browser or in your server's :code:`error.log` file.
 
-Moreover, don't forget to check your osTicket Dashboard page and your mail server log.
+Moreover, don't forget to check your osTicket Make sure that there are no errors listed in your mail server log and in the `Admin » Dashboard » Information page <https://docs.osticket.com/en/latest/Admin/Dashboard/Information.html>`_ of your newly installed osTicket instance.
