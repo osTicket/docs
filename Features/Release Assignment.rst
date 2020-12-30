@@ -3,6 +3,12 @@ Release Assignment
 
 The Release Assignment feature allows Agents to release ticket assignment from other Agents and/or Teams. Agents may only access this feature if they have the new Release Role Permission assigned to them. An important thing to note is Department Managers do not need the Role Permission in order to release assignment of tickets within their Department.
 
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 2%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/5Yxfe85KZGk?start=260&end=341" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
 Release Role Permission
 -----------------------
 

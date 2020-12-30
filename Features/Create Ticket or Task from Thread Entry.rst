@@ -7,6 +7,12 @@ Create Ticket or Task from Thread Entry
 
 Agents now have the ability to create a Ticket or Task from a Ticket’s thread entry or from a Tasks thread entry.
 
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 2%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/5Yxfe85KZGk?start=123&end=260" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
 Ticket From Ticket Thread Entry
 -------------------------------
 
