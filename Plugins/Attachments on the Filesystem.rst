@@ -8,6 +8,12 @@ Attachments on the Filesystem
 The Attachments on the Filesystem plugin allows you to store attachments in a folder on the filesystem instead of the database.
 This can be a good option to use for helpdesks that have a heavy load of attachments that are taking up a lot of storage in the database.
 
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 2%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/7MV1WV1gF3w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
 Once the plugin has been installed and enabled, it can be configured by going to:
 
 Admin Panel | Manage | Plugins | Attachments on the filesystem
