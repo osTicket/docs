@@ -56,13 +56,17 @@ From the top of the ticket or the Ticket Header, Agents will see any data associ
 
 From the quick action buttons on the top right of the Ticket Header, Agents can perform a few different actions if granted these permissions in their assigned Group.
 
-**Print:** Allows Agents to print a specific Ticket.
+  **Print:** Allows Agents to print a specific Ticket or download it as a PDF. PDF Files will have File Icons and ZIP Archives will have Folder Icons. 
 
   **Ticket Thread:** Prints the entire Ticket Thread (excluding Internal Notes and Thread Events).
 
   **Thread + Internal Notes:** Prints the entire Ticket Thread including Internal Notes (excluding Thread Events).
 
   **Thread + Internal Notes + Events:** Prints the entire Ticket Thread including Internal Notes and Thread Events.
+
+  **Thread + Internal Notes + Attachments:** Prints the entire Ticket Thread including Internal Notes and Attachments.
+
+  **Thread + Internal Notes + Attachments + Tasks:** Prints the entire Ticket Thread including Internal Notes, Attachments and Tasks.
 
 **Edit:** This action allows agents to edit the fields of the ticket- including any custom forms that are added to the ticket once it is created.
 
@@ -74,6 +78,13 @@ From the quick action buttons on the top right of the Ticket Header, Agents can 
   :alt: More Options
 
 **Change Owner:** this allows the Agent to change the owner of the ticket. If the owner is changed, the previous owner will no longer have access to the ticket.
+
+:doc:`Merge Tickets: <../../Features/Ticket Merge & Link>` Merging allows you to combine two or more Tickets so that their threads will all be in one Ticket; We will call this the Parent Ticket.
+
+:doc:`Link Tickets: <../../Features/Ticket Merge & Link>` Linking allows you to group tickets together without actually manipulating any Tickets; It gives you a quick way to access Tickets that may be related in some way.
+
+**Release (unassign) Ticket:** Release allows Agents to release ticket assignments from other Agents and/or Teams. Agents may only access this feature if they have the new Release Role Permission assigned to them. *Note: Department Managers do not need the Role Permission in order to release assignment of tickets within their Department.*
+
 
 **Mark as Answered/Unanswered:** This allows the Agent to mark the ticket as Answered or Unanswered (depending on it's current state). The Agent has to have the Post Reply permission for the Ticket's Department in order to utilize this feature. When marking a ticket as Answered/Unanswered the Agent gets a popup to optionally put a reason why they marked it as such. If a reason is provided it will be added as an Internal Note with the title :code:`Ticket Marked (Un)Answered` (depending on what it was marked as). Regardless of if they put a reason or not the system will always put a SYSTEM Note saying the ticket was flagged as (Un)Answered by the Agent along with a timestamp.
 
