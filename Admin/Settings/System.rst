@@ -17,8 +17,6 @@ General Settings
 
 **Default Department:** Choose a default Department for tickets that are not otherwise routed to a specific department. Tickets can be routed-based on help topics, incoming emails, and ticket filter settings.
 
-**Force HTTPS:** This setting allows Admins to configure wether or not they want to Force HTTPS system-wide. If enabled, any request that is using the HTTP protocol will be redirected to the HTTPS protocol. Note, this will only work if you have an SSL certificate installed and have HTTPS configured on the server.
-
 **Collision Avoidance Duration:** Enter the maximum length of time an Agent is allowed to hold a lock on a ticket or task without any activity. Enter 0 to disable the lockout feature.
 
 **Default Page Size:** Choose the number of items shown per page in the Ticket Queues of the Agent Panel. Each Agent can also customize this number for their own account under My Preferences.
