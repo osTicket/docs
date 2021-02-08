@@ -17,6 +17,8 @@ Set system configurations for the Agents of the help desk including the Password
 
 **Avatar Source:** Choice of where you want your Avatars to come from.
 
+**Configurable Agents As Collaborators:** This allows Admins to globally configure the ability for Agents to be added as Collaborators via any communication on tickets. In some use cases Agents do not want to be added as Collaborators on tickets to avoid an overload of emails/alerts, etc. This adds a new checkbox labeled `Disable Agent Collaborators` to Admin Panel > Settings > Agents that if Enabled/Checked will automatically Disable Agents that are added as Collaborators. This disables the participant alerts for the Agents whilst giving other Agents/Admins the ability to enable them at a later date instead of having to manually add them back. If an Agent tries adding another Agent as a Collaborator via the Manage Collaborators modal it will also Disable the Agent Collaborator.
+
 **Password Expiration Policy:** Choose how often Agents will be required to change their password. If disabled, passwords will not expire.
 
 **Allow Password Resets:** If enabled, displays the Forgot My Password link on the Staff Log-In Page after a failed log in attempt.
