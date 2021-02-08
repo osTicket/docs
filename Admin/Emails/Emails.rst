@@ -59,3 +59,5 @@ If you would like this same address used for each department, you will need to a
 
 .. image:: ../../_static/images/admin_emails_emails_autoresponse_email.png
   :alt: Set Department’s Autoresponse Email
+
+**Separate SMTP Credentials:** This feature adds the ability to separate the IMAP/POP and SMTP credentials for a System Email. This adds a checkbox next to the Authentication Required setting where, if Enabled, will show two additional inputs for the SMTP Username and Password. If Authentication Required is set to No the SMTP Username and Password inputs will disappear as they are not needed. If the checkbox is Disabled the system will use the IMAP/POP credentials for SMTP.
