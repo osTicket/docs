@@ -23,6 +23,12 @@ osTicket is a widely-used open source support ticket system. It seamlessly integ
    Getting Started/Upgrade and Migration
    Getting Started/v1-15 Overview
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Guides
+
+   Guides/Alerts Guide
+
 
 .. toctree::
    :maxdepth: 2
