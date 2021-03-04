@@ -36,6 +36,7 @@ Manage Tab
    Admin/Manage/Help Topic
    Admin/Manage/Ticket Filters
    Admin/Manage/SLA Plans
+   Admin/Manage/Schedules
    Admin/Manage/API Keys
    Admin/Manage/Pages
    Admin/Manage/Forms
