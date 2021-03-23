@@ -34,12 +34,12 @@ With email two factor authentication, Agents are sent an email with a code they 
 Google 2FA Plugin
 -----------------
 
-The Google Two Factor Authentication plugin allows Agents to use the Google Authenticator App on their phone for 2FA. If configured, Agents will need to use the code displayed in the app to log into the helpdesk.
+The Google Two Factor Authentication plugin allows Agents to use the Google Authenticator App on their phone for 2FA. If configured, Agents will need to use the code displayed in the app to log into the helpdesk. See :doc:`here <../Plugins/Google Two Factor Authentication>` for additional documentation on this feature.
 
 Password Policies Plugin
 ------------------------
 
-The Password Policy plugin allows an Admin to require certain rules for Agents and Users when setting their password like length, different types of characters, or password strength.
+The Password Policy plugin allows an Admin to require certain rules for Agents and Users when setting their password like length, different types of characters, or password strength. See :doc:`here <../Plugins/Password Management Policies>` for additional documentation on this feature.
 
 Visibility Permissions
 ----------------------
