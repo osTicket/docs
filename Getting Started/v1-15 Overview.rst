@@ -14,35 +14,36 @@ Upgrade Overview (v1.15)
 Features Outlined in this Document
 ----------------------------------
 
-* Email 2FA
-* Google 2FA Plugin
-* Password Policies Plugin
-* Visibility Permissions
-* Allow external images
-* Long Answer Field inline edit
-* SLA Plan Search Field
+- `Email Two Factor Authentication <Email Two Factor Authentication_>`_
+- `Two Factor Authentication Plugin <Two Factor Authentication Plugin_>`_
+- `Password Policies Plugin <Password Policies Plugin_>`_
+- `Visibility Permissions <Visibility Permissions_>`_
+- `Allow external images <Allow external images_>`_
+- `Long Answer Field inline edit <Long Answer Field inline edit_>`_
+- `SLA Plan Search Field <SLA Plan Search Field_>`_
 
 We are very excited to share the latest version of osTicket with you! It's packed with awesome new features and plugins to improve how you use your helpdesk. You can download the latest version of osTicket and
 osTicket plugins `here <https://osticket.com/download>`_.
 
 
-Email Two Factor Authentication
--------------------------------
+:doc:`Email Two Factor Authentication <../../Features/Multifactor Authentication>`
+----------------------------------------------------------------------------------
 
 With email two factor authentication, Agents are sent an email with a code they must use to successfully log into the helpdesk. Admins also have the option to require staff to set up 2FA in order to use the helpdesk.
 
-Google 2FA Plugin
------------------
+:doc:`Two Factor Authentication Plugin <../../Plugins/Two Factor Authentication>`
+---------------------------------------------------------------------------------
 
-The Google Two Factor Authentication plugin allows Agents to use the Google Authenticator App on their phone for 2FA. If configured, Agents will need to use the code displayed in the app to log into the helpdesk.
+The Two Factor Authentication plugin allows Agents to use an Authenticator App on their phone for 2FA. If configured, Agents will need to use the code displayed in the app to log into the helpdesk.
 
-Password Policies Plugin
-------------------------
+:doc:`Password Policies Plugin <../../Plugins/Password Management Policies>`
+----------------------------------------------------------------------------
 
 The Password Policy plugin allows an Admin to require certain rules for Agents and Users when setting their password like length, different types of characters, or password strength.
 
-Visibility Permissions
-----------------------
+
+:doc:`Visibility Permissions <../../Features/Visibility Permissions>`
+---------------------------------------------------------------------
 
 New visibility permissions have been added to limit the visibility of Departments, Agents, and Help Topics based on an Agent’s Department access. When unchecked, Agents will not be able to see anything in the helpdesk related to Departments they do not have access to.
 
