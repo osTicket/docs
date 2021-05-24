@@ -107,3 +107,25 @@ There are messages which can be enabled to alert agents of the events in a Ticke
   **Overdue Ticket Alert:** Alert sent out to Agents when a ticket becomes overdue based on SLA or Due Date.
 
   **System Alerts:** Significant system events that are sent out to the Administrator. Depending on the configured Log Level, the events are also made available in the System Logs
+
+Queues
+------
+
+A **Custom Queue** is a view of tickets based on a custom criteria that you specify. It allows you to create your own personal views of tickets and specify what information you would like to see.
+
+A **Custom Column** is an additional field that is not displayed initially when viewing the ticket tab. Using custom columns allows you to include these fields in the ticket list.
+
+.. image:: ../../_static/images/before-after-columns-queues.png
+  :alt: before and after custom columns and queues
+
+Create **Custom Sort** options from the ‘Sort’ Tab:
+
+.. image:: ../../_static/images/custom_sort.png
+  :alt: custom Sort
+
+**Conditional Styling** can be applied to your queues to change the look of the queue based on the ticket’s criteria.
+
+.. image:: ../../_static/images/conditional_styling.png
+  :alt: custom queues conditional styling
+
+See :doc:`here <../../Features/Custom Columns & Custom Queues (Admin)>` for full details on customizing your global columns and queues.
