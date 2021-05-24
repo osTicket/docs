@@ -40,6 +40,7 @@ Tickets Tab
 
    Agent/Tickets/Advanced Search
    Agent/Tickets/Tickets
+   Agent/Tickets/Personal Queues
 
 
 Knowledgebase Tab
