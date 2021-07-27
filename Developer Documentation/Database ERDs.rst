@@ -9,11 +9,11 @@ An Entity Relationsip Diagram, or ERD, shows how tables in a database relate to 
 
 Below, you will find documents that split up the osTicket database in the most sensible way to understand our database structure.
 
+`Attachments <../_static/images/erd_Files.pdf>`_
+|br|
 `Emails <../_static/images/erd_Emails.pdf>`_
 |br|
 `FAQs <../_static/images/erd_FAQs.pdf>`_
-|br|
-`Files <../_static/images/erd_Files.pdf>`_
 |br|
 `Filters <../_static/images/erd_Filters.pdf>`_
 |br|
