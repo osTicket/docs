@@ -22,13 +22,13 @@ osTicket comes with its own web-based installer to help guide you through the in
 Prerequisites
 -------------
 
-To install osTicket, your web server must have PHP 5.6 (or better) and MySQL 5.0 (or better) installed. If you are unsure whether your server meets these requirements, please check with your host or webmaster before proceeding with the installation.
+To install osTicket, your web server must have PHP 7.2 (or better) and MySQL 5.0 (or better) installed. If you are unsure whether your server meets these requirements, please check with your host or webmaster before proceeding with the installation.
 
 You will need one MySQL database with valid user, password and hostname handy during installation. MySQL user must have FULL privileges on the database. If you are unsure whether you have these details or if the user has sufficient permissions, please consult your host or database admin before proceeding.
 
 **WINDOWS RECOMMENDED LINKS**
 
-#. PHP 5.6 for Windows Server `64-bit <http://windows.php.net/download#php-5.6-nts-VC11-x64>`__ | `32-bit <http://windows.php.net/download#php-5.6-nts-VC11-x86>`__
+#. PHP 7.4 for Windows Server `64-bit <https://windows.php.net/downloads/releases/php-7.4.20-nts-Win32-vc15-x64.zip>`__ | `32-bit <https://windows.php.net/downloads/releases/php-7.4.20-nts-Win32-vc15-x86.zip>`__
 #. MariaDB 5.5 for Windows Server `64-bit <https://downloads.mariadb.com/MariaDB/mariadb-5.5.65/winx64-packages/mariadb-5.5.65-winx64.msi>`__ | `32-bit <https://downloads.mariadb.com/MariaDB/mariadb-5.5.65/win32-packages/mariadb-5.5.65-win32.msi>`__
 #. PHP Manager for IIS (makes managing PHP on IIS much easier) `here <http://phpmanager.codeplex.com/>`_
 
