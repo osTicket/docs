@@ -46,6 +46,7 @@ osTicket is a widely-used open source support ticket system. It seamlessly integ
    :maxdepth: 1
    :caption: Plugins
 
+   Plugins/Attachments in S3
    Plugins/Audits
    Plugins/Two Factor Authentication
    Plugins/Password Management Policies
