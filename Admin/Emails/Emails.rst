@@ -45,6 +45,9 @@ After you have configured the Mail Account Settings, be sure to enable fetching 
 .. image:: ../../_static/images/admin_emails_emails_enable_fetching.png
   :alt: Enable Fetching
 
+**Fetch From Mail Folder:** This feature adds a textbox in the Email configurations that allows you to configure a specific Folder to fetch from. If no folder is provided the system will fetch from the INBOX as usual.
+
+
 Next, you will need to setup the SMTP configurations for the email address in the last section. Click **Enable** and fill in the information for the email address.
 
 .. image:: ../../_static/images/email_smtp.png
