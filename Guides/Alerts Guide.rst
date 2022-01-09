@@ -29,7 +29,7 @@ Alerts and Notices are messages which can be enabled to alert agents of the even
 
 **New Ticket Alert:** Alert sent out to Agents when a new ticket is created. This Alert is sent to all members enabled; Duplicate alerts are not sent out.
 
-.. image:: ../../_static/images/alerts-guide-1.png
+.. image:: ../_static/images/alerts-guide-1.png
   :alt: New Ticket
 
 New Ticket Alert for **Admin Email** is sent to the listed email for each ticket created in the help desk, regardless of the department it is routed to. This template is not accessible nor editable and can only be globally enabled or disabled. The Admin Email can be set in the Admin Panel > Emails > Settings tab.
@@ -42,7 +42,7 @@ New Ticket Alert for **Organization Account Manager** is sent to the agent or te
 
 **New Message Alert:** Alert sent out to Agents when a new message from the User is appended to an existing ticket. This Alert is sent to all members enabled; Duplicate alerts are not sent out.
 
-.. image:: ../../_static/images/alerts-guide-2.png
+.. image:: ../_static/images/alerts-guide-2.png
   :alt: New Message
 
 New Message Alert for **Last Respondent** is sent to the last responding agent when a new message from the end user is appended to the ticket; Regardless of ticket assignment.
@@ -55,7 +55,7 @@ New Message Alert for **Organization Manager** is sent to the Agent or Team of a
 
 **New Internal Activity Alert:** Alert sent out to Agents when internal activity such as an internal note or an agent reply is appended to a ticket.This Alert is sent to all members enabled; Duplicate alerts are not sent out.
 
-.. image:: ../../_static/images/alerts-guide-3.png
+.. image:: ../_static/images/alerts-guide-3.png
   :alt: New Activity
 
 Internal Activity Alert for the **Last Respondent** is sent to the last responding agent for activity on a ticket such as an internal note or another agent’s response to a ticket.
@@ -67,7 +67,7 @@ Internal Activity Alert for the **Department Manager** is sent to the Department
 **Ticket Assignment Alert:** Alert sent out to Agents on ticket assignment.
 	This Alert is sent to all members enabled; Duplicate alerts are not sent out.
 
-.. image:: ../../_static/images/alerts-guide-4.png
+.. image:: ../_static/images/alerts-guide-4.png
   :alt: New Assignment
 
 Ticket Assignment Alert for **Assigned Agent** is sent only to the agent the ticket is being assigned to.
@@ -80,7 +80,7 @@ Ticket Assignment Alert for **Team Members** is sent to all team members when a 
 **Ticket Transfer Alert:** Alert sent out to Agents on ticket transfer between Departments.
  This Alert is sent to all Agents with Primary + Extended Department Access (if enabled at Department level) Duplicate alerts are not sent out.
 
-.. image:: ../../_static/images/alerts-guide-5.png
+.. image:: ../_static/images/alerts-guide-5.png
   :alt: New Transfer
 
 Ticket Transfer Alert for **Assigned Agent/Team** is sent to the current Assigned Agent/Team of agents of the ticket when the ticket is transferred to a new department.
@@ -91,7 +91,7 @@ Ticket Transfer for **Department Members** is sent to all Agents with access (Pr
 
 **Overdue Ticket Alert:** Alert sent out to Agents when a ticket becomes overdue based on SLA or Due Date. This Alert is sent to all members enabled; Duplicate alerts are not sent out.
 
-.. image:: ../../_static/images/alerts-guide-6.png
+.. image:: ../_static/images/alerts-guide-6.png
   :alt: Overdue Ticket
 
 Overdue Ticket Alert for **Assigned Agent/Team** is sent to the current Assigned Agent/Team of agents of the ticket when the ticket becomes overdue (by passing the ticket’s SLA).
@@ -102,7 +102,7 @@ Overdue Ticket Alert for **Department Members** is sent to all Agents with acces
 
 **System Alerts:** Significant system events that are sent out to the Administrator. Depending on the configured Log Level, the events are also made available in the System Logs
 
-.. image:: ../../_static/images/alerts-guide-1.png
+.. image:: ../_static/images/alerts-guide-1.png
   :alt: System Alert
 
 **Parent/Child Department affect on Alerts/Notices**
@@ -119,17 +119,17 @@ There are messages which can be enabled to alert agents of the events in a Task�
 
 **New Task Alert:** Alert sent out to Agents when a new task is created. This Alert is sent to all members enabled; Duplicate alerts are not sent out.
 
-.. image:: ../../_static/images/alerts-guide-8.png
+.. image:: ../_static/images/alerts-guide-8.png
   :alt: Task Alert
 
 **New Activity Alert:** Alert sent out to Agents when a new message is appended to an existing task. This Alert is sent to all members enabled; Duplicate alerts are not sent out.
 
-.. image:: ../../_static/images/alerts-guide-9.png
+.. image:: ../_static/images/alerts-guide-9.png
   :alt: Activity Alert
 
 **Task Assignment Alert:** Alert sent out to Agents on task assignment. This Alert is sent to all members enabled; Duplicate alerts are not sent out.
 
-.. image:: ../../_static/images/alerts-guide-10.png
+.. image:: ../_static/images/alerts-guide-10.png
   :alt: Assignment Alert
 
 Disabling Alerts
@@ -143,7 +143,7 @@ You can manually disable Autoresponder Alerts at the Email level, Help Topic lev
 
 You can disable Autoresponders for certain email addresses by going to Admin Panel > Emails > Select an Email Address > locate ‘Auto-Response’ > check the box to disable auto-responses and save changes.
 
-.. image:: ../../_static/images/alerts-guide-11.png
+.. image:: ../_static/images/alerts-guide-11.png
   :alt: Disable Autoresponder
 
 **Help Topics**
@@ -152,7 +152,7 @@ Help Topics help streamline your end-user’s help desk experience to ensure pro
 
 *See here for additional details on Help Topics.*
 
-.. image:: ../../_static/images/alerts-guide-12.png
+.. image:: ../_static/images/alerts-guide-12.png
   :alt: Disable Help Topic Autoresponder
 
 **Departments**
@@ -163,7 +163,7 @@ New Message: Check the box to disable the Auto-Response sent to the User to conf
 
 *See here for additional details on Departments.*
 
-.. image:: ../../_static/images/alerts-guide-13.png
+.. image:: ../_static/images/alerts-guide-13.png
   :alt: Disable Departments Autoresponder
 
 **Ticket Filters**
@@ -172,7 +172,7 @@ Ticket Filters are a set of “If ____, Then____'' rules that create auto action
 
 *See here for additional details on Ticket Filters.*
 
-.. image:: ../../_static/images/alerts-guide-14.png
+.. image:: ../_static/images/alerts-guide-14.png
   :alt: Disable Ticket Filter Autoresponder
 
 **Alerts and Notices:**
@@ -185,7 +185,7 @@ You can manually disable Alerts and Notices at the Department level and Agent le
 
 You can configure the recipients of Alerts and Notices at the Department level by locating the ‘Alerts and Notices’ section:
 
-.. image:: ../../_static/images/alerts-guide-15.png
+.. image:: ../_static/images/alerts-guide-15.png
   :alt: Department Alerts and Notices
 
 **Department and Extended Access Members**
@@ -209,28 +209,28 @@ Disable Alerts and Notices for all Agents in this Department.
 
 You can disable Alerts at the Agent level for any Extended Access Departments by selecting an Agent, then selecting the Access Tab. Locate the Extended Access Departments and un-check the box for Alerts to disable Alerts for a Department, then save changes.
 
-.. image:: ../../_static/images/alerts-guide-16.png
+.. image:: ../_static/images/alerts-guide-16.png
   :alt: Disable Alerts and Notices
 
 **Primary Departments**
 
 You can not disable Alerts specifically for an Agent’s Primary Department. If you want to disable all Alerts for a certain Agent(s), you can create a new Department and disable Alerts for the entire Department (Admin Panel > Agents Tab > Departments.)
 
-.. image:: ../../_static/images/alerts-guide-17.png
+.. image:: ../_static/images/alerts-guide-17.png
   :alt: Disable Primary Department Alerts One
 
 
-.. image:: ../../_static/images/alerts-guide-18.png
+.. image:: ../_static/images/alerts-guide-18.png
     :alt: Disable Primary Department Alerts Two
 
 Next, you will set this department as the Agent’s Primary Department (Admin Panel > Agents Tab > Agent).
 
-.. image:: ../../_static/images/alerts-guide-19.png
+.. image:: ../_static/images/alerts-guide-19.png
   :alt: Disable Primary Department Alerts Three
 
 Once complete, be sure to add the Agent’s original Primary Department to the Extended access section so that they maintain access to the Department; Also uncheck the box for Alerts to this Department and save changes.)
 
-.. image:: ../../_static/images/alerts-guide-20.png
+.. image:: ../_static/images/alerts-guide-20.png
   :alt: Disable Primary Department Alerts Four
 
 **Assignment alert for teams**
@@ -239,7 +239,7 @@ Once complete, be sure to add the Agent’s original Primary Department to the E
 
 You can disable the Assignment alert at the Team level by selecting a Team and locating the Assignment Alert; Check the box to disable alerts for this Team and save changes.
 
-.. image:: ../../_static/images/alerts-guide-21.png
+.. image:: ../_static/images/alerts-guide-21.png
   :alt: Disable Assignment Alert
 
 Editing Template Messages
@@ -251,21 +251,21 @@ Autoresponder template messages are located at Admin Panel > Emails Tab > Templa
 
 Start editing them by selecting a template message that you would like to edit. Once selecting a message, you can edit the entire template message, including the subject line.
 
-.. image:: ../../_static/images/alerts-guide-22.png
+.. image:: ../_static/images/alerts-guide-22.png
   :alt: Edit Template Autoresponder
 
 **Alerts and Notices Messages**
 
 Alerts and Notices template messages are located at the same place, Admin Panel > Emails Tab > Templates; Select a Template Set to start editing. The ‘Ticket Agent Email Templates’ are the templates associated with Alerts and Notices messages sent to Agents.
 
-.. image:: ../../_static/images/alerts-guide-23.png
+.. image:: ../_static/images/alerts-guide-23.png
   :alt: Edit Template Alerts and Notices
 
 **Task Alerts**
 
 Task Alert template messages are located at the same place, Admin Panel > Emails Tab > Templates; Select a Template Set to start editing. The ‘Task Email Templates’ are the templates associated with Task messages sent to Agents.
 
-.. image:: ../../_static/images/alerts-guide-24.png
+.. image:: ../_static/images/alerts-guide-24.png
   :alt: Edit Template Task Alerts
 
 *Note: The entire set of email templates can be cloned for use and assigned to a specific Department of the Help Desk. This is especially useful if the messages need to be different for tickets assigned to the Department.*
@@ -274,43 +274,43 @@ Task Alert template messages are located at the same place, Admin Panel > Emails
 
 There are additional User Template Messages located Admin Panel > Settings > Users > Templates Tab. These template messages are specific to the Authentication and Registration of Users.
 
-.. image:: ../../_static/images/alerts-guide-25.png
+.. image:: ../_static/images/alerts-guide-25.png
   :alt: User Account Templates
 
 **Agent Account Message Templates**
 
 There are additional Agent Template Messages located Admin Panel > Settings > Agents > Templates Tab. These template messages are specific to the Authentication and Registration of Agents.
 
-.. image:: ../../_static/images/alerts-guide-26.png
+.. image:: ../_static/images/alerts-guide-26.png
   :alt: Agent Account Templates
 
 **Variables within Templates**
 
 You will notice variables in Template Messages:
 
-.. image:: ../../_static/images/alerts-guide-27.png
+.. image:: ../_static/images/alerts-guide-27.png
   :alt: Variables in Templates One
 
 Variables automatically pull information (if available) from a submitted ticket. You can use the built-in Variables available, as well as create your own custom variables, specific to your custom fields (on Forms).
 
 Variables are added to a template message by typing %{
 
-.. image:: ../../_static/images/alerts-guide-28.png
+.. image:: ../_static/images/alerts-guide-28.png
   :alt: Variables in Templates Two
 
 From there variables are displayed to choose from, or you can manually enter a custom variable set within your Forms.
 
-.. image:: ../../_static/images/alerts-guide-29.png
+.. image:: ../_static/images/alerts-guide-29.png
   :alt: Variables in Templates Three
 
-  .. image:: ../../_static/images/alerts-guide-30.png
-    :alt: Variables in Templates Four
+.. image:: ../_static/images/alerts-guide-30.png
+  :alt: Variables in Templates Four
 
 **Built-In Variables**
 
 Within each email template there is a Supported Variables option in the upper right corner that will provide a partial list of built-in variables available. As the forms are built out to contain additional fields there will be more variables available to be used in the email templates and canned responses.
 
-.. image:: ../../_static/images/alerts-guide-31.png
+.. image:: ../_static/images/alerts-guide-31.png
   :alt: Built In Variables
 
 **Creating Custom Variables**
@@ -319,15 +319,15 @@ You can create your own custom variables, specific to custom fields on your Form
 
 Forms are located at Admin Panel > Manage Tab > Forms. Start by selecting the Form that you would like to edit:
 
-.. image:: ../../_static/images/alerts-guide-32.png
+.. image:: ../_static/images/alerts-guide-32.png
   :alt: Custom Variables One
 
 Next, you will either add a new custom field, or locate one that’s already been added by you previously. In the Variable column of the field you will add a custom name for the variable. You can use both letters and numbers in variables, and variables should have no spacing between words. This variable can later be included in Email Templates or Canned Responses by typing %{ticket.customvariablename}.
 
-.. image:: ../../_static/images/alerts-guide-33.png
+.. image:: ../_static/images/alerts-guide-33.png
   :alt: Custom Variables Two
 
-.. image:: ../../_static/images/alerts-guide-34.png
+.. image:: ../_static/images/alerts-guide-34.png
   :alt: Custom Variables Three
 
 If you add a variable to a template and receive the above error message, please note this does not mean the variable is incorrect. This message is alerting the variable may not be value for all instances when the template message is sent out.
