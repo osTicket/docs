@@ -60,7 +60,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'osTicket'
-copyright = u'2021, Enhancesoft'
+copyright = u'2022, Enhancesoft'
 author = u'Enhancesoft'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -367,7 +367,7 @@ texinfo_documents = [
 epub_title = 'osTicket Docs'
 epub_author = 'JediKev'
 epub_publisher = 'Enhancesoft'
-epub_copyright = '2021, Enhancesoft'
+epub_copyright = '2022, Enhancesoft'
 
 # The basename for the epub file. It defaults to the project name.
 # epub_basename = project
