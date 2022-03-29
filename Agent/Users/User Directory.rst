@@ -82,3 +82,8 @@ A pop up box will appear; click on the Manage Access tab to configure these feat
 
 .. image:: ../../_static/images/agent_users_userDir_manageAccess.png
   :alt: Manage Access Tab
+
+Reset a User’s password
+-----------------------
+  
+If necessary, administrators can manually reset a User’s password by going to their User Profile in the User Directory, then selecting the Manage Access Tab. Once manually set, an Agent will need to communicate the new password to the User allowing them to log-in; the User can be forced to reset the password upon logging in by keeping the box checked at the bottom left of the pop-up.
