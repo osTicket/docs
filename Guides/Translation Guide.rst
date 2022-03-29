@@ -1,3 +1,6 @@
+Translation Guide
+=================
+
 Translating Editable Text
 -------------------------
 
