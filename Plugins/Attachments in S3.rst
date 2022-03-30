@@ -56,8 +56,8 @@ Now, when an Attachment is added in the helpdesk, it will be saved in S3.
   :alt: Ticket With Attachment
 
 
-If you have access to the database, you'll notice that attachments stored in the filesystem can be found in the ost_file table, where ost_ is your table prefix.
-If the attachment is successfully stored in the filesystem, there will be an '3' in the 'bk' column. Files stored in the database have a 'D' in the 'bk column'.
+If you have access to the database, you'll notice that attachments stored in the filesystem can be found in the :code:`ost_file` table, where :code:`ost_` is your table prefix.
+If the attachment is successfully stored in the filesystem, there will be an :code:`3` in the :code:`bk` column. Files stored in the database have a :code:`D` in the :code:`bk` column.
 
 .. image:: ../_static/images/as39.png
   :alt: Attachment in Database
@@ -73,13 +73,13 @@ You can migrate the files from the database to the filesystem by running the fol
 
 :code:`php manage.php file migrate --backend D --to 3`
 
-Where 'backend' refers to the 'bk' column in the database, 'D' stands for the current backend being used, Database in this case, and '3' stands for the backend you want to switch to
+Where :code:`backend` refers to the :code:`bk` column in the database, :code:`D` stands for the current backend being used, Database in this case, and :code:`3` stands for the backend you want to switch to
 which is S3 in this example.
 
 .. image:: ../_static/images/as310.png
   :alt: Command in Terminal
 
-Once the command has been run, you can look back in the database and you will notice the the bk field now shows '3' for all of the attachments since they have been migrated.
+Once the command has been run, you can look back in the database and you will notice the the :code:`bk` field now shows :code:`3` for all of the attachments since they have been migrated.
 
 .. image:: ../_static/images/as311.png
   :alt: Command in Terminal
