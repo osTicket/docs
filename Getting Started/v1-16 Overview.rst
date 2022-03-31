@@ -2,14 +2,19 @@
 
     <br>
 
-Upgrade Overview (v1.15)
-============================
+Upgrade Overview (v1.16)
+========================
 
 .. raw:: html
 
     <div style="position: relative; padding-bottom: 2%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/22dGWsXz-mA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
+
+PHP Requirements
+----------------
+
+Starting with version v1.16 we now require PHP 8.0 to install and upgrade osTicket. If you are not hosting your own server please check with your provider to ensure PHP 8.0 and all extensions are available before installing/upgrading.
 
 Features Outlined in this Document
 ----------------------------------
