@@ -1,0 +1,4 @@
+Microsoft Authorization Guide
+=============================
+
+[contents]
