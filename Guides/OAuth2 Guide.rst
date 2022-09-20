@@ -1,12 +1,16 @@
+.. |br| raw:: html
+
+    <br>
+
 OAuth2 Guide
 ============
 
-[description of OAuth2]
+OAuth Authentication allows Agents/Users the ability to use Single Sign-on to log into the helpdesk through the provider you set up. The most commonly used providers are Microsoft and Google.
 
 Authentication
 --------------
 
-[description of Authentication]
+OAuth Authentication allows Agents/Users the ability to use Single Sign-on to log into the helpdesk through the provider you set up. The most commonly used providers are Microsoft and Google.
 
 **Guides:**
 
@@ -24,3 +28,37 @@ OAuth2 Authorization allows emails the ability to authenticate against a mail se
 :doc:`Microsoft Authorization Guide <../OAuth2/Microsoft Authorization Guide>`
 
 :doc:`Google Authorization Guide <../OAuth2/Google Authorization Guide>`
+
+Setting Up The Plugin
+---------------------
+
+First you will need to download the plugin from our `website <https://osticket.com/download>`_. Make sure you have selected v1.17 or higher and select the 'Authentication :: Oauth2' plugin. Once the file is downloaded, copy the plugin file into the include/plugins folder and add the plugin:
+
+Admin Panel | Manage | Plugins
+
+.. image:: ../_static/images/oauth-authentication/oauth7_add_plugin.png
+  :alt: Add Plugin
+
+|br|
+
+.. image:: ../_static/images/oauth-authentication/oauth8_install_plugin.png
+  :alt: Install Plugin
+
+|br|
+
+.. image:: ../_static/images/oauth-authentication/oauth9_installed.png
+  :alt: Installed
+
+|br|
+
+Change the Status from 'Disabled' to 'Active' and click 'Save Changes'
+
+.. image:: ../_static/images/oauth-authentication/oauth10_plugin_active.png
+  :alt: oauth10_plugin_active
+
+|br|
+
+Go to the Instances tab and click 'Add New Instance' to see the options for which OAuth provider you want to set up.
+
+.. image:: ../_static/images/oauth-authentication/oauth11_add_instance.png
+  :alt: oauth11_add_instance
