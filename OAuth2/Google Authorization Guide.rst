@@ -93,9 +93,18 @@ Once finished click **Create** and you will be presented with your **Client ID**
 .. image:: ../_static/images/g_oauth2_autho_17.png
   :alt: OAuth client created
 
-Copy your **Client ID** and let's go back to the helpdesk to input this information. In the popup paste the **Client ID** in the **Client ID** field. Go back to Google Cloud Console, copy the **Client Secret**, go back to the helpdesk, and paste that in the **Client Secret** field. Now you can click **Submit** and you should be redirected to Google to authorize the connection.
 
-Here it is **very important** to login to the email you are trying to configure in the helpdesk.
+Copy your **Client ID** and let's go back to the helpdesk to input this information. In the popup paste the **Client ID** in the **Client ID** field.
+
+.. image:: ../_static/images/g_oauth2_autho_21.png
+  :alt: osTicket Client ID field
+
+Go back to Google Cloud Console, copy the **Client Secret**, go back to the helpdesk, and paste that in the **Client Secret** field.
+
+.. image:: ../_static/images/g_oauth2_autho_22.png
+  :alt: osTicket Client Secret field
+
+Now you can click **Submit** and you should be redirected to Google to authorize the connection. Here it is **very important** to login to the email you are trying to configure in the helpdesk.
 
 .. image:: ../_static/images/g_oauth2_autho_18.png
   :alt: Sign in with Google

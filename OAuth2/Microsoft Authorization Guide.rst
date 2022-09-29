@@ -28,10 +28,12 @@ Next, click the **App Registrations** tab and then click **+ New registration** 
 .. image:: ../_static/images/ms_oauth2_autho_4.png
   :alt: App registrations tab
 
+|
+
 .. image:: ../_static/images/ms_oauth2_autho_5.png
   :alt: App registrations - New registration
 
-This will give you a new blade view to input some basic application information such as the **Name**, **Support account types**, and **Redirect URI**. For **Supported account types** you can select whatever you prefer, for the sake of this guide we will be selecting the third option (Accounts in any org directory and personal accounts). For **Redirect URI** select **Web** and paste the **Callback Endpoint** you copied earlier.
+This will give you a new blade view to input some basic application information such as the **Name**, **Support account types**, and **Redirect URI**. For **Supported account types** you can select whatever you prefer, for the sake of this guide we will be using the default selection which is the first option (**Accounts in this organizational directory only**). For **Redirect URI** select **Web** and paste the **Callback Endpoint** you copied earlier.
 
 .. image:: ../_static/images/ms_oauth2_autho_6.png
   :alt: Register an application form
@@ -45,6 +47,8 @@ Here you will select the **Microsoft Graph** option and select **Delegated Permi
 
 .. image:: ../_static/images/ms_oauth2_autho_8.png
   :alt: Request API permissions
+
+|
 
 .. image:: ../_static/images/ms_oauth2_autho_9.png
   :alt: Delegated permissions
@@ -71,13 +75,32 @@ Now you can click **Add Permissions** and wait for the page to refresh. If succe
 .. image:: ../_static/images/ms_oauth2_autho_15.png
   :alt: Add Permissions button
 
+|
+
 .. image:: ../_static/images/ms_oauth2_autho_16.png
   :alt: Permissions table
 
-Once you confirm the permissions are correct click the **Authentication** tab and scroll to the **Implicit grant and hybrid flows** section. Here you will enable both **Access Tokens** and **ID Tokens** and click **Save** to save the changes.
+Now you will need to grant Admin Consent to the scopes by clicking the **Grant admin consent for** button and clicking **Yes** in the consent popup.
+
+.. image:: ../_static/images/ms_oauth2_autho_22.png
+  :alt: Grant admin consent for button
+
+|
+
+.. image:: ../_static/images/ms_oauth2_autho_23.png
+  :alt: Confirm admin consent popup
+
+To confirm Admin Consent was granted for the permissions, review the permissions table and confirm it looks like the below image.
+
+.. image:: ../_static/images/ms_oauth2_autho_24.png
+  :alt: Permissions table consented
+
+Once you confirm the permissions are correct and they have Admin Consent, click the **Authentication** tab and scroll to the **Implicit grant and hybrid flows** section. Here you will enable both **Access Tokens** and **ID Tokens** and click **Save** to save the changes.
 
 .. image:: ../_static/images/ms_oauth2_autho_17.png
   :alt: Authentication tab
+
+|
 
 .. image:: ../_static/images/ms_oauth2_autho_18.png
   :alt: Access/ID Tokens
@@ -92,13 +115,57 @@ Once you click **+ New client secret** input a **Description** for the secret, s
 .. image:: ../_static/images/ms_oauth2_autho_20.png
   :alt: Add a client secret form
 
-Now you can copy the secret **Value** and head back over to your helpdesk. Once in your helpdesk paste the **Value** in the **Client Secret** field. Next go back to Azure Portal, click the **Overview** tab, and copy the **Application (client) ID**. Go to your helpdesk and paste this in the **Client ID** field. Now for the Authorization/Token Endpoints you will need to go back to the Azure Portal, click **Overview** tab, and click the **Endpoints** tab at the top. Here you will copy the **OAuth 2.0 authorization endpoint (v2)** value and paste it in the **Authorization Endpoint** field. Next you will copy the **OAuth 2.0 token endpoint (v2)** value and paste it in the **Token Endpoint** field.
+Now it's very important that you copy the secret **Value** by clicking the clipboard icon and save it somewhere for safe keeping. Microsoft only shows you this Client Secret once and will not display or allow you to copy it after this one time.
 
-Now you can click **Submit** and you should be redirected to Microsoft to authorize the connection.
+
+.. image:: ../_static/images/ms_oauth2_autho_25.png
+  :alt: Clipboard icon to copy Secret Value
+
+Once you've copied the Secret **Value** let's head back over to your helpdesk. Once in your helpdesk paste the **Value** in the **Client Secret** field.
+
+.. image:: ../_static/images/ms_oauth2_autho_26.png
+  :alt: osTicket Client Secret field
+
+Now we can grab the Client ID by going to the Azure Portal, click the **Overview** tab, copy the **Application (client) ID**, go back to the helpdesk, and paste it in the **Client ID** field.
+
+.. image:: ../_static/images/ms_oauth2_autho_27.png
+  :alt: osTicket Client ID field
+
+|
+
+.. image:: ../_static/images/ms_oauth2_autho_28.png
+  :alt: osTicket Client ID field
+
+Now for the Authorization/Token Endpoints you will need to go back to the Azure Portal, make sure you are still on the **Overview** tab, and click the **Endpoints** tab at the top.
+
+.. image:: ../_static/images/ms_oauth2_autho_29.png
+  :alt: Endpoints button
+
+Here you will copy the **OAuth 2.0 authorization endpoint (v2)** value and paste it in the **Authorization Endpoint** field.
+
+.. image:: ../_static/images/ms_oauth2_autho_30.png
+  :alt: OAuth 2.0 authorization endpoint (v2)
+
+|
+
+.. image:: ../_static/images/ms_oauth2_autho_31.png
+  :alt: osTicket Authorization Endpoint field
+
+Next you will copy the **OAuth 2.0 token endpoint (v2)** value in the Azure Portal and paste it in the **Token Endpoint** field.
+
+.. image:: ../_static/images/ms_oauth2_autho_32.png
+  :alt: OAuth 2.0 token endpoint (v2)
+
+|
+
+.. image:: ../_static/images/ms_oauth2_autho_33.png
+  :alt: osTicket Token Endpoint field
+
+Now with all the information filled in you can click **Submit** and you should be redirected to Microsoft to authorize the connection.
 
 Here it is **very important** to login to the email you are trying to configure in the helpdesk. Once logged in as the system email you are trying to configure, you can opt to Consent on behalf of your organization, and then click **Accept**.
 
-.. image:: ../_static/images/ms_oauth2_autho_20.png
+.. image:: ../_static/images/ms_oauth2_autho_21.png
   :alt: Add a client secret form
 
 After this you will be redirected back to the helpdesk and should see a green success banner. To confirm the connection was successful and that you received a token you can click **Config** again and you should see a new tab called **Token** that displays your token information. Now OAuth2 is configured for the email and you can move on to configure the rest of the :doc:`IMAP/POP3 and SMTP information <../Admin/Emails/Emails>`.
