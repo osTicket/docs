@@ -30,7 +30,6 @@ osTicket is a widely-used open source support ticket system. It seamlessly integ
    Guides/Alerts Guide
    Guides/Translation Guide
    Guides/OAuth2 Guide
-   Guides/SSO Guide
 
 
 .. toctree::
