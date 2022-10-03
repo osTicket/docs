@@ -8,7 +8,7 @@ Configure Authorization
 
 **Admin Panel > Emails > Emails > click a System Email**
 
-First we will need to click on a System Email and go to the **Remote Mailbox** tab. Here you will select the **Authentication** method of **OAuth2 - Google**.
+First we will need to click on a System Email and go to the **Remote Mailbox** tab. Here you will select the **Authentication** method of **OAuth2 - Microsoft**.
 
 .. image:: ../_static/images/ms_oauth2_autho_1.png
   :alt: Remote Mailbox Tab
