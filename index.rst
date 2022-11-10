@@ -21,7 +21,6 @@ osTicket is a widely-used open source support ticket system. It seamlessly integ
    Getting Started/POP3-IMAP Settings
    Getting Started/Email Piping
    Getting Started/Upgrade and Migration
-   Getting Started/v1-16 Overview
 
 .. toctree::
    :maxdepth: 2
