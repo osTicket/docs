@@ -28,10 +28,10 @@ You will need one MySQL database with valid user, password and hostname handy du
 
 **WINDOWS RECOMMENDED LINKS**
 
-#. PHP 8.1 for Windows Server `64-bit <https://windows.php.net/downloads/releases/php-8.1.10-nts-Win32-vs16-x64.zip>`__ | `32-bit <https://windows.php.net/downloads/releases/php-8.1.10-nts-Win32-vs16-x86.zip>`__
-#. PHP 8.0 for Windows Server `64-bit <https://windows.php.net/downloads/releases/php-8.0.23-nts-Win32-vs16-x64.zip>`__ | `32-bit <https://windows.php.net/downloads/releases/php-8.0.23-nts-Win32-vs16-x86.zip>`__
+#. PHP 8.2 for Windows Server `64-bit <https://windows.php.net/download/#php-8.2-nts-vs16-x64>`__ | `32-bit <https://windows.php.net/download/#php-8.2-nts-vs16-x86>`__
+#. PHP 8.1 for Windows Server `64-bit <https://windows.php.net/download/#php-8.1-nts-vs16-x64>`__ | `32-bit <https://windows.php.net/download/#php-8.1-nts-vs16-x86>`__
 #. MySQL 8.0 for Windows Server `64-bit <https://cdn.mysql.com//Downloads/MySQLInstaller/mysql-installer-web-community-8.0.30.0.msi>`__
-#. MariaDB 10.9 for Windows Server `64-bit <https://downloads.mariadb.com/MariaDB/mariadb-10.9.2/winx64-packages/mariadb-10.9.2-winx64.msi>`__
+#. MariaDB 10.11 for Windows Server `64-bit <https://mariadb.org/download/?t=mariadb&p=mariadb&r=10.11.2&os=windows&cpu=x86_64&pkg=msi&m=aliyun>`__
 #. PHP Manager for IIS (makes managing PHP on IIS much easier) `here <http://phpmanager.codeplex.com/>`_
 
 Getting Started
