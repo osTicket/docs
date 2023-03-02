@@ -90,10 +90,6 @@ Modify your aliases file by adding :code:`support: root, |/path/to/api/pipe.php`
      |/path/to/api/pipe.php
 
 
-**SETTING UP ALIASES IN PLESK (POSTFIX)**
-
-See this `blog post from Dave <http://blog.absolutedisaster.co.uk/osticket-plesk-9-postfix-pipe-mail-to-a-progr/>`_.
-
 **Remote Piping**
 
 Remote piping is useful when osTicket installation and the mail server are on two separate machines. To maintain logic in one place remote piping is done over HTTP post to osTicket's API. osTicket ships with two scripts to help you accomplish this task; :code:`automail.php` and :code:`automail.pl`. Both accomplish the same task by posting to http://www.yourdomain.com/osticket/api/tickets.email (replace osticket with the folder name where you installed osticket)
