@@ -10,13 +10,15 @@ OAuth Authentication allows Agents/Users the ability to use Single Sign-on to lo
 Authentication
 --------------
 
-OAuth Authentication allows Agents/Users the ability to use Single Sign-on to log into the helpdesk through the provider you set up. The most commonly used providers are Microsoft and Google.
+OAuth Authentication allows Agents/Users the ability to use Single Sign-on to log into the helpdesk through the provider you set up. The most commonly used providers are Microsoft, Google, and Okta.
 
 **Guides:**
 
 :doc:`Microsoft Authentication (SSO) Guide <../OAuth2/Microsoft Authentication (SSO) Guide>`
 
 :doc:`Google Authentication (SSO) Guide<../OAuth2/Google Authentication (SSO) Guide>`
+
+:doc:`Okta Authentication (SSO) Guide<../OAuth2/Okta Authentication (SSO) Guide>`
 
 Authorization
 -------------
