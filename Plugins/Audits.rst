@@ -15,42 +15,58 @@ This plugin has many capabilities that will be covered below.
         <iframe width="560" height="315" src="https://www.youtube.com/embed/w5Apzfho7NM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
-
 Plugin Setup
 ------------
 
-Configuring the plugin is simple. Just download the plugin from our `website <https://osticket.com/download>`_,
-|br|
-copy the plugin file into the include/plugins folder, add the plugin, and enable the plugin:
-
-Admin Panel | Manage | Plugins | Help Desk Audit
+First, you must download the plugin from `our website <https://osticket.com/download>`_. Please make sure you select the appropriate version of osTicket before proceeding to the plugin selection. Once downloaded, upload the plugin to your server and place it in the :code:`include/plugins/` folder. Make sure the plugin has appropriate file permissions and ownership so the webserver can read and execute.
 
 Add New Plugin
 --------------
 
-.. image:: ../_static/images/audit1.png
+Now you can install the plugin by logging into your helpdesk and navigating to **Admin Panel > Manage > Plugins**. Click **Add New Plugin** and click **Install** next to the desired plugin.
+
+.. image:: ../_static/images/plugins_add_new.png
   :alt: Add New Plugin
 
-|
+|br|
 
 .. image:: ../_static/images/audit2.png
-  :alt: Install New Plugin
+  :alt: Install Plugin
 
 Enable Plugin
 -------------
 
-.. image:: ../_static/images/audit3.png
+To enable the plugin click on the name of the plugin in the list of installed plugins, set **Status** to **Active**, and **Save Changes**.
+
+.. image:: ../_static/images/audit_plugin_enable.png
   :alt: Enable Plugin
 
 Configure Plugin
 ----------------
 
-When clicking on the plugin name, the Agent can choose whether or not they want to show the audit logs for Tickets being viewed or not.
+Once the plugin has been installed and enabled, it can be configured by going to:
+
+Admin Panel | Manage | Plugins | Help Desk Audit | Instances
+
+.. image:: ../_static/images/audit_plugin_instances.png
+  :alt: All Plugins
+
 |br|
-By default, the logs for viewing Tickets will be displayed.
+
+.. image:: ../_static/images/audit_plugin_new_instance.png
+  :alt: Help Desk Audit Instances
+
+To add a new instance simply click **Add New Instance**. Give the new instance any **Name** you want, set the **Status** to **Active**, and click the **Config** tab to start configuring the instance.
+
+.. image:: ../_static/images/audit_plugin_instance.png
+  :alt: Add New Help Desk Audit Instance
+
+|br|
 
 .. image:: ../_static/images/audit4.png
-  :alt: Configure Plugin
+  :alt: Help Desk Audit Configuration
+
+**Show View Audits** determines if the system will show the audit logs for Tickets being viewed. By default, the logs for viewing Tickets will be displayed.
 
 Viewing Audits
 --------------
