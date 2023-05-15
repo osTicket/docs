@@ -6,12 +6,13 @@ osTicket comes with its own web-based installer to help guide you through the in
 Prerequisites
 -------------
 
-To install osTicket, your server must have Apache/LiteSpeed/IIS webserver (with the URL Rewrite module installed/enabled), PHP 8.0 - 8.1 (8.1 recommended), and MySQL 5.0 (or better) installed. If you are unsure whether your server meets these requirements, please check with your host or webmaster before proceeding with the installation.
+To install osTicket, your server must have Apache/LiteSpeed/IIS webserver (with the URL Rewrite module installed/enabled), PHP 8.0 - 8.2 (8.2 recommended), and MySQL 5.0 (or better) installed. If you are unsure whether your server meets these requirements, please check with your host or webmaster before proceeding with the installation.
 
 You will need one MySQL database with valid user, password and hostname handy during installation. MySQL user must have FULL privileges on the database. If you are unsure whether you have these details or if the user has sufficient permissions, please consult your host or database admin before proceeding.
 
 **WINDOWS RECOMMENDED LINKS**
 
+#. PHP 8.2 for Windows Server `64-bit <https://windows.php.net/downloads/releases/php-8.2.6-nts-Win32-vs16-x64.zip>`__ | `32-bit <https://windows.php.net/downloads/releases/php-8.2.6-nts-Win32-vs16-x86.zip>`__
 #. PHP 8.1 for Windows Server `64-bit <https://windows.php.net/downloads/releases/php-8.1.16-nts-Win32-vs16-x64.zip>`__ | `32-bit <https://windows.php.net/downloads/releases/php-8.1.16-nts-Win32-vs16-x86.zip>`__
 #. PHP 8.0 for Windows Server `64-bit <https://windows.php.net/downloads/releases/php-8.0.28-nts-Win32-vs16-x64.zip>`__ | `32-bit <https://windows.php.net/downloads/releases/php-8.0.28-nts-Win32-vs16-x86.zip>`__
 #. MySQL 8.0 for Windows Server `64-bit <https://cdn.mysql.com/Downloads/MySQLInstaller/mysql-installer-web-community-8.0.32.0.msi>`__
