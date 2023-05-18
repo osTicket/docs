@@ -46,7 +46,7 @@ Admin Panel | Manage | Plugins | Attachments on the filesystem | Instances
 To add a new instance simply click **Add New Instance**. Give the new instance any **Name** you want, set the **Status** to **Active**, and click the **Config** tab to start configuring the instance.
 
 .. image:: ../_static/images/fs_plugin_instance.png
-  :alt: Attachments on the filesystem Instances
+  :alt: Add New Attachments on the filesystem Instance
 
 |br|
 

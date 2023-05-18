@@ -40,7 +40,7 @@ Admin Panel | Manage | Plugins | Attachments hosted in Amazon S3 | Instances
 To add a new instance simply click **Add New Instance**. Give the new instance any **Name** you want, set the **Status** to **Active**, and click the **Config** tab to start configuring the instance.
 
 .. image:: ../_static/images/s3_plugin_instance.png
-  :alt: Attachments in S3 Instances
+  :alt: Add New Attachments in S3 Instance
 
 |br|
 

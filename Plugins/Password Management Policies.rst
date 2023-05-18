@@ -45,7 +45,7 @@ Admin Panel | Manage | Plugins | Password Management Policies | Instances
 To add a new instance simply click **Add New Instance**. Give the new instance any **Name** you want, set the **Status** to **Active**, and click the **Config** tab to start configuring the instance.
 
 .. image:: ../_static/images/pwmgt_plugin_instance.png
-  :alt: Password Management Policies Instances
+  :alt: Add New Password Management Policies Instance
 
 |br|
 
