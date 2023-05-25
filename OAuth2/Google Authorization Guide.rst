@@ -48,7 +48,7 @@ Click the **Gmail API** result and click the **Enable** button to enable Gmail A
 .. image:: ../_static/images/g_oauth2_autho_8.png
   :alt: Gmail API Enable
 
-Now we can configure the OAuth consent screen by clicking the **OAuth consent screen** tab. Here you can choose the **User Type** of **Internal** or **External**. If you use a personal Gmail account you will be limited to **External** only. Once you select your User Type click **Create**.
+Now we can configure the OAuth consent screen by clicking the **OAuth consent screen** tab. Here you can choose the **User Type** of **Internal** (*preferred*) or **External**. If you do not have a Google Workspace account you will be limited to **External** only. Once you select your User Type click **Create**.
 
 .. image:: ../_static/images/g_oauth2_autho_9.png
   :alt: OAuth2 consent screen

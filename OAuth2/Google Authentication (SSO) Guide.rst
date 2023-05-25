@@ -72,7 +72,7 @@ Click 'OAuth consent screen'
 
 |br|
 
-Choose your target users and click 'Create'
+Here you will select a **User Type** of **Internal** or **External**. If you do not have a Google Workspace account you will be limited to **External** only. Please note, if you select **Internal** only users within your Organization will be able to authenticate. If you select **External** anyone with a Google account can authenticate, however, the Project will initially be in "Testing Mode". Once you select your User Type click **Create**.
 
 .. image:: ../_static/images/oauth-authentication/oauth52_audience.png
   :alt: oauth52_audience
