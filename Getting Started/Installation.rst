@@ -12,7 +12,7 @@ You will need one MySQL database with valid user, password and hostname handy du
 
 **WINDOWS RECOMMENDED LINKS**
 
-#. PHP 8.1 for Windows Server `64-bit <https://windows.php.net/downloads/releases/php-8.1.16-nts-Win32-vs16-x64.zip>`__ | `32-bit <https://windows.php.net/downloads/releases/php-8.1.16-nts-Win32-vs16-x86.zip>`__
+#. PHP 8.1 for Windows Server `64-bit <https://windows.php.net/downloads/releases/php-8.1.19-nts-Win32-vs16-x64.zip>`__ | `32-bit <https://windows.php.net/downloads/releases/php-8.1.19-nts-Win32-vs16-x86.zip>`__
 #. PHP 8.0 for Windows Server `64-bit <https://windows.php.net/downloads/releases/php-8.0.28-nts-Win32-vs16-x64.zip>`__ | `32-bit <https://windows.php.net/downloads/releases/php-8.0.28-nts-Win32-vs16-x86.zip>`__
 #. MySQL 8.0 for Windows Server `64-bit <https://cdn.mysql.com/Downloads/MySQLInstaller/mysql-installer-web-community-8.0.32.0.msi>`__
 #. MariaDB 10.11 for Windows Server `64-bit <https://dlm.mariadb.com/2873464/MariaDB/mariadb-10.11.2/winx64-packages/mariadb-10.11.2-winx64.msi>`__
