@@ -14,17 +14,44 @@ This can be a good option to use for helpdesks that have a heavy load of attachm
         <iframe width="560" height="315" src="https://www.youtube.com/embed/7MV1WV1gF3w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
+First, you must download the plugin from `our website <https://osticket.com/download>`_. Please make sure you select the appropriate version of osTicket before proceeding to the plugin selection. Once downloaded, upload the plugin to your server and place it in the :code:`include/plugins/` folder. Make sure the plugin has appropriate file permissions and ownership so the webserver can read and execute.
+
+Now you can install the plugin by logging into your helpdesk and navigating to **Admin Panel > Manage > Plugins**. Click **Add New Plugin** and click **Install** next to the desired plugin.
+
+.. image:: ../_static/images/plugins_add_new.png
+  :alt: Add New Plugin
+
+|br|
+
+.. image:: ../_static/images/fs_plugin_install.png
+  :alt: Install Plugin
+
+To enable the plugin click on the name of the plugin in the list of installed plugins, set **Status** to **Active**, and **Save Changes**.
+
+.. image:: ../_static/images/fs_plugin_enable.png
+  :alt: Enable Plugin
+
 Once the plugin has been installed and enabled, it can be configured by going to:
 
-Admin Panel | Manage | Plugins | Attachments on the filesystem
+Admin Panel | Manage | Plugins | Attachments on the filesystem | Instances
 
 .. image:: ../_static/images/afs1.png
   :alt: All Plugins
 
 |br|
 
+.. image:: ../_static/images/fs_plugin_new_instance.png
+  :alt: Attachments on the filesystem Instances
+
+To add a new instance simply click **Add New Instance**. Give the new instance any **Name** you want, set the **Status** to **Active**, and click the **Config** tab to start configuring the instance.
+
+.. image:: ../_static/images/fs_plugin_instance.png
+  :alt: Add New Attachments on the filesystem Instance
+
+|br|
+
 .. image:: ../_static/images/afs2.png
-  :alt: Attachments on the Filesystem Configuration
+  :alt: Attachments on the filesystem Configuration
 
 You will need to provide a folder where the attachments can be stored. You will also need to ensure that the folder can be written to.
 

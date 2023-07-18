@@ -5,8 +5,7 @@
 Two Factor Authentication
 =========================
 
-The Two Factor Authentication plugin allows allows Agents to use an Authenticator application
-of their choice on their phone for 2FA.
+The Two Factor Authentication plugin allows allows Agents to use an Authenticator application of their choice on their mobile device for 2FA.
 
 .. raw:: html
 
@@ -14,45 +13,62 @@ of their choice on their phone for 2FA.
         <iframe width="560" height="315" src="https://www.youtube.com/embed/E6O8axLZq8o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
-If configured, the Agent must scan a QR code from the app, and when they go to log into
-the helpdesk, they will be prompted to enter a
-|br|
-6-digit code displayed in the app to finish logging in.
+If configured, the Agent must scan a QR code from the app, and when they log into the helpdesk, they will be prompted to enter a 6-digit code displayed in the app to finish logging in.
 
-This plugin requires downloading an Authenticator app on your phone. There are many different Authenticator apps to choose from for both Apple and Android phones. As long as the app has the ability to
-use the phone's camera to scan a QR code, it should work. Popular options include:
+This plugin requires downloading an Authenticator app on your mobile device. There are many different Authenticator apps to choose from for both Apple and Android devices. As long as the app has the ability to use the device's camera to scan a QR code, it should work. Popular options include:
 
 Google Authenticator:
 |br|
-`Android <https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiF0Laq4qzrAhVFLK0KHWOsAfUQFjAAegQIAxAB&url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.google.android.apps.authenticator2%26hl%3Den_US&usg=AOvVaw0uNewdEdn3o8Rdb2Ksudwu>`_
+`Apple <https://apps.apple.com/app/google-authenticator/id388497605>`_
 |br|
-`Apple <https://apps.apple.com/us/app/google-authenticator/id388497605>`_
+`Android <https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2>`_
 
-`Microsoft Authenticator <https://www.microsoft.com/en-us/account/authenticator>`_
+Microsoft Authenticator:
+|br|
+`Apple <https://go.microsoft.com/fwlink/p/?LinkID=2168643&clcid=0x409&culture=en-us&country=US>`_
+|br|
+`Android <https://go.microsoft.com/fwlink/p/?LinkID=2168850&clcid=0x409&culture=en-us&country=US>`_
 
-Once the app has been installed on your smart phone, you will need to add and enable the plugin in osTicket.
+Once the app has been installed on your mobile device, you will need to install and enable the plugin in osTicket.
 
-Go to:
+First, you must download the plugin from `our website <https://osticket.com/download>`_. Please make sure you select the appropriate version of osTicket before proceeding to the plugin selection. Once downloaded, upload the plugin to your server and place it in the :code:`include/plugins/` folder. Make sure the plugin has appropriate file permissions and ownership so the webserver can read and execute.
 
-Admin Panel | Manage | Plugins | Add New Plugin
+Now you can install the plugin by logging into your helpdesk and navigating to **Admin Panel > Manage > Plugins**. Click **Add New Plugin** and click **Install** next to the desired plugin.
 
-.. image:: ../_static/images/2fa1.png
-  :alt: Add Plugin
+.. image:: ../_static/images/plugins_add_new.png
+  :alt: Add New Plugin
 
 |br|
 
-.. image:: ../_static/images/2fa2.png
+.. image:: ../_static/images/2fa_plugin_install.png
   :alt: Install Plugin
 
-|br|
+To enable the plugin click on the name of the plugin in the list of installed plugins, set **Status** to **Active**, and **Save Changes**.
+
+.. image:: ../_static/images/2fa_plugin_enable.png
+  :alt: Enable Plugin
+
+Once the plugin has been installed and enabled, it can be configured by going to:
+
+Admin Panel | Manage | Plugins | Two Factor Authenticator | Instances
 
 .. image:: ../_static/images/2fa3.png
-  :alt: Enable Plugin
+  :alt: All Plugins
+
+|br|
+
+.. image:: ../_static/images/2fa_plugin_new_instance.png
+  :alt: Two Factor Authentication Instances
+
+To add a new instance simply click **Add New Instance**. Give the new instance any **Name** you want, set the **Status** to **Active**, and click the **Config** tab to start configuring the instance.
+
+.. image:: ../_static/images/2fa_plugin_instance.png
+  :alt: Add New Two Factor Authenticator Instance
 
 |br|
 
 .. image:: ../_static/images/g2fa4.png
-  :alt: Confirm Enable
+  :alt: Two Factor Authenticator Configuration
 
 Once the plugin is enabled, Agents can configure Authenticator as their Default 2FA method by going to their profile.
 
@@ -76,7 +92,7 @@ Authenticator will be greyed out in the list until it has been configured.
 .. image:: ../_static/images/2fa7.png
   :alt: 2FA QR Code
 
-Once you see the QR code, you will need to scan the code using an Authenticator app on your phone.
+Once you see the QR code, you will need to scan the code using an Authenticator app on your mobile device.
 
 .. image:: ../_static/images/g2fa8.png
   :alt: Add QR Code
