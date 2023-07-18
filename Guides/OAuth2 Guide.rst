@@ -58,9 +58,3 @@ Change the Status from 'Disabled' to 'Active' and click 'Save Changes'
 .. image:: ../_static/images/oauth-authentication/oauth10_plugin_active.png
   :alt: oauth10_plugin_active
 
-|br|
-
-Go to the Instances tab and click 'Add New Instance' to see the options for which OAuth provider you want to set up.
-
-.. image:: ../_static/images/oauth-authentication/oauth11_add_instance.png
-  :alt: oauth11_add_instance
