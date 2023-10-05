@@ -15,14 +15,14 @@ HTTP Access
 
 Access to the HTTP API is restricted to valid API keys. An :code:`X-API-Key` HTTP header must be sent to indicate which API key is to be used with the request. The API key must match the remote IP of the connected HTTP client. The remote IP is checked as usual. If the osTicket server is sitting behind a reverse proxy, the original IP of the client will be retrieved from the :code:`X-Forwarded-For` header, if provided by your proxy.
 
-Example:
+**Example:**
 
 .. code-block:: bash
 
   X-API-Key: BA00B76BAA30F62E1940B46CC1C3C73C
 
 
-Commandline Example with Curl:
+**Command Line example with Curl:**
 
 .. code-block:: bash
 
