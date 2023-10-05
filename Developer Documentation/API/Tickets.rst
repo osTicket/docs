@@ -107,7 +107,7 @@ Do also note that the JSON format forbids a comma after the last element in an o
       "message": "data:text/html,MESSAGE <b>HERE</b>",
       "attachments": [
           {"file.txt": "data:text/plain;charset=utf-8,content"},
-          {"image.png": "data:image/png;base64,R0lGODdhMAA..."},
+          {"image.png": "data:image/png;base64,R0lGODdhMAA..."}
       ]
   }
 
