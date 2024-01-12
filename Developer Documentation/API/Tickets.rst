@@ -167,16 +167,21 @@ Local piping can utilize :code:`api/pipe.php` without the neeed to setup an API 
 
 **Response**
 
-If successful, the server will send :code:`HTTP/201 Created`. Otherwise, it will send an appropriate HTTP status with the content being the error description. Most likely offenders are
+If *successful*, the server will send :code:`HTTP/201 Created`. 
+
+Upon success, the content of the response will be the external ticket id of the newly-created ticket.
+
+.. code-block:: bash
+  
+  Status: 201 Created
+  123456
+  
+Where 123456 is the number of new ticket.
+
+Otherwise, it will send an appropriate HTTP status with the content being the error description. Most likely offenders are
 
 #. Required field not included
 #. Data type mismatch (text send for numeric field)
 #. Incorrectly encoded base64 data
 #. Unsupported field sent
 #. Incorrectly formatted content (bad JSON or XML)
-#. Upon success, the content of the response will be the external ticket id of the newly-created ticket.
-
-.. code-block:: bash
-  
-  Status: 201 Created
-  123456
