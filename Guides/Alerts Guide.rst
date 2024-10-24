@@ -60,7 +60,7 @@ New Message Alert for **Organization Manager** is sent to the Agent or Team of a
 
 Internal Activity Alert for the **Last Respondent** is sent to the last responding agent for activity on a ticket such as an internal note or another agent’s response to a ticket.
 
-Internal Activity Alert for the **Assigned Agent/Team** is sent to the assigned agent or team if there is no response from another agent posted on the ticket or the alert for last respondent is not enabled.
+Internal Activity Alert for the **Assigned Agent/Team** is sent to the assigned agent and team if there is no response from another agent posted on the ticket or the alert for last respondent is not enabled.
 
 Internal Activity Alert for the **Department Manager** is sent to the Department Manager, if set, for the Department, and the Last Respondent and Assigned Agent/Team is not listed or the alerts are not enabled.
 
