@@ -1,7 +1,16 @@
 Microsoft Authorization Guide
 =============================
 
-This guide will walk you through how to configure Modern Authentication (OAuth2) for a Microsoft email. Please note, you must have the OAuth2 Plugin installed and enabled beforehand.
+This guide will walk you through how to configure Modern Authentication (OAuth2) for a Microsoft email. Please note, you must have the OAuth2 Plugin `installed and enabled beforehand <../Guides/OAuth2%20Guide.html#setting-up-the-plugin>`_.
+
+.. attention::
+  Microsoft has started deprecating certain Outlook endpoints used in Modern Authentication (OAuth2) for Emails. Note, this does **not** affect user/agent authentication. These deprecations started causing errors similar to :code:`The API version v2 has been depreciated` when the system attempted to retrieve a new set of Tokens. This prevented new Tokens from being generated which caused authentication failures. We have now made changes to the OAuth2 plugin to support the latest Microsoft deprecations.
+
+  To address this issue, anyone using a Microsoft email as a system email is encouraged to download and install the `latest build of the OAuth2 plugin <https://osticket.com/download>`_ specific to their version of osTicket core. Once downloaded, simply replace your existing OAuth2 PHAR file with the new one. You may want to restart the webserver (and PHP-FPM if you're running it) to clear any server-side file caching. Once complete you can follow the steps below to update your email configurations:
+
+  :doc:`Licensed/Personal Emails <../OAuth2/Microsoft Deprecations 2024/Licensed Personal Emails>`
+
+  :doc:`Shared Mailboxes/Resource Emails/Aliases <../OAuth2/Microsoft Deprecations 2024/Shared Mailboxes Resource Emails Aliases>`
 
 Configure Authorization
 -----------------------

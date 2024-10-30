@@ -5,7 +5,7 @@
 Microsoft Authentication (SSO) Guide
 ====================================
 
-Microsoft OAuth allows Agents and Users to sign into the helpdesk with their Microsoft account.
+Microsoft OAuth allows Agents and Users to sign into the helpdesk with their Microsoft account. Please note, you must have the OAuth2 Plugin `installed and enabled beforehand <../Guides/OAuth2%20Guide.html#setting-up-the-plugin>`_.
 
 Configuration
 -------------

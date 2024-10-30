@@ -5,7 +5,7 @@
 Google Authentication (SSO) Guide
 =================================
 
-Google OAuth allows Agents and Users to sign into the helpdesk with their Google account.
+Google OAuth allows Agents and Users to sign into the helpdesk with their Google account. Please note, you must have the OAuth2 Plugin `installed and enabled beforehand <../Guides/OAuth2%20Guide.html#setting-up-the-plugin>`_.
 
 Configuration
 -------------

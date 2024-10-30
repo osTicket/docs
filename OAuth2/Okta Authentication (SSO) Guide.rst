@@ -5,7 +5,7 @@
 Okta Authentication (SSO) Guide
 ===============================
 
-Okta OAuth2 allows Agents and Users to sign into the helpdesk with their Okta account.
+Okta OAuth2 allows Agents and Users to sign into the helpdesk with their Okta account. Please note, you must have the OAuth2 Plugin `installed and enabled beforehand <../Guides/OAuth2%20Guide.html#setting-up-the-plugin>`_.
 
 Configuration
 -------------
