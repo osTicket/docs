@@ -5,8 +5,6 @@
 OAuth2 Guide
 ============
 
-OAuth Authentication allows Agents/Users the ability to use Single Sign-on to log into the helpdesk through the provider you set up. The most commonly used providers are Microsoft and Google.
-
 Authentication
 --------------
 
@@ -22,6 +20,11 @@ OAuth Authentication allows Agents/Users the ability to use Single Sign-on to lo
 
 Authorization
 -------------
+
+.. attention::
+  Microsoft has started deprecating certain Outlook endpoints used in Modern Authentication (OAuth2) for Emails. Note, this does **not** affect user/agent authentication. These deprecations started causing errors similar to :code:`The API version v2 has been depreciated` when the system attempted to retrieve a new set of Tokens. This prevented new Tokens from being generated which caused authentication failures. We have now made changes to the OAuth2 plugin to support the latest Microsoft deprecations.
+
+  Please :doc:`follow the steps listed here <../OAuth2/Microsoft Authorization Guide>` to address the issue.
 
 OAuth2 Authorization allows emails the ability to authenticate against a mail server using the OAuth2 protocol. This eliminates the need to store the password locally and instead redirects you directly to the provider to login. Most provider's are phasing out Basic Authentication (username + password) for Modern Authentication (OAuth2) but if you host your own mailserver you may not have OAuth2 available. The most commonly used providers are Microsoft and Google.
 

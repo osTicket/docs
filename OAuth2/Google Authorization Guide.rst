@@ -1,7 +1,7 @@
 Google Authorization Guide
 ==========================
 
-This guide will walk you through how to configure Modern Authentication (OAuth2) for a Google email. Please note, you must have the OAuth2 Plugin installed and enabled beforehand.
+This guide will walk you through how to configure Modern Authentication (OAuth2) for a Google email. Please note, you must have the OAuth2 Plugin `installed and enabled beforehand <../Guides/OAuth2%20Guide.html#setting-up-the-plugin>`_.
 
 Configure Authorization
 -----------------------
