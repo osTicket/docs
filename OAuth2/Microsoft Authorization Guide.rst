@@ -22,15 +22,15 @@ First we will need to click on a System Email and go to the **Remote Mailbox** t
 .. image:: ../_static/images/ms_oauth2_autho_1.png
   :alt: Remote Mailbox Tab
 
-Once the option is selected you can click the **Config** button. Once the popup appears click the **IdP Config** tab to start configuring OAuth2. Here you will be presented with a form to input information from your provider (Microsoft). Most of the information is prefilled and does not need to be changed. The important thing at this stage is to copy the **Callback Endpoint** (at the top of the popup) to your clipboard for a later step in this guide.
+Once the option is selected you can click the **Config** button. Once the popup appears click the **IdP Config** tab to start configuring OAuth2. Here you will be presented with a form to input information from your provider (Microsoft). Some of the information is prefilled and does not need to be changed. The important thing at this stage is to copy the **Callback Endpoint** (at the top of the popup) to your clipboard for a later step in this guide.
 
 .. image:: ../_static/images/ms_oauth2_autho_2.png
   :alt: Configure OAuth2 Form
 
-Once you've copied the **Callback Endpoint** let's head on over to **Azure Portal** (*preferably in a new tab*) to register a new application. In the Azure Portal let's click the **Azure Active Directory** service. If you cannot find it on the homepage click **More Services** and search for it.
+Once you've copied the **Callback Endpoint** let's head on over to `Azure Portal <https://portal.azure.com>`__ (*preferably in a new tab*) to register a new application. In the Azure Portal let's click the **Microsoft Entra ID** service. If you cannot find it on the homepage click **More Services** and search for it.
 
 .. image:: ../_static/images/ms_oauth2_autho_3.png
-  :alt: Azure Portal - Azure Active Directory
+  :alt: Azure Portal - Mircrosoft Entra ID
 
 Next, click the **App Registrations** tab and then click **+ New registration** to create a new application.
 
@@ -103,16 +103,6 @@ To confirm Admin Consent was granted for the permissions, review the permissions
 
 .. image:: ../_static/images/ms_oauth2_autho_24.png
   :alt: Permissions table consented
-
-Once you confirm the permissions are correct and they have Admin Consent, click the **Authentication** tab and scroll to the **Implicit grant and hybrid flows** section. Here you will enable both **Access Tokens** and **ID Tokens** and click **Save** to save the changes.
-
-.. image:: ../_static/images/ms_oauth2_autho_17.png
-  :alt: Authentication tab
-
-|
-
-.. image:: ../_static/images/ms_oauth2_autho_18.png
-  :alt: Access/ID Tokens
 
 Now we can create the Client Secret by clicking the **Certificates & secrets** tab and clicking the **+ New client secret** button.
 
