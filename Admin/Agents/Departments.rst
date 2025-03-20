@@ -50,3 +50,12 @@ Since tickets are routed through Departments in the help desk, there are many se
   **New Message:** If checked, this will disable the Auto-Response sent to the User to confirm a newly-posted message for tickets in this Department.
 
   **Auto-Response Email:** Select an email address from which Auto-Responses are sent for this Department; this email would send only auto-response messages, not Agent responses.
+
+**Alerts and Notices:** Select the recipients of configured Alerts & Notices.
+
+* No One (Disable Alerts)
+* Admin Email Only
+* Department Members Only
+* Department and Extended Access Members
+
+*Tip: Set Alerts and Notices to ‘Department and Extended Access Members’ if you want everyone  with access to the Department to receive alerts (not only primary members).*
