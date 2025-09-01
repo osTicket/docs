@@ -4,6 +4,8 @@
 
 OAuth2 Guide
 ============
+.. attention::
+  if https://localhost/api/auth/oauth2 returns error 404, makes sure you have the rewrite engine turned on in your webserver
 
 Authentication
 --------------
