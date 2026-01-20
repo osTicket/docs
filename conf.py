@@ -181,8 +181,8 @@ html_static_path = ['_static']
 
 def setup(app):
    #app.add_javascript("custom.js")
-   app.add_stylesheet("css/main.css")
-   app.add_stylesheet("css/pdf/ospdf.style")
+   app.add_css_file("css/main.css")
+   app.add_css_file("css/pdf/ospdf.style")
 
 # Add any extra paths that contain custom files (such as robots.txt or
 # .htaccess) here, relative to this directory. These files are copied
